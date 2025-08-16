@@ -1,0 +1,4135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arvand Panel\n"
+"POT-Creation-Date: 2023-09-01 17:17+0330\n"
+"PO-Revision-Date: 2023-09-01 17:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: arvand-panel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/classes/WPAPMenu.php:146
+msgid "Back"
+msgstr "بازگشت"
+
+#: includes/classes/WPAPPanel.php:79 templates/admin/parts/dash-box.php:22
+#: templates/admin/settings/forms/dash-boxes.php:46
+msgid "Box icon"
+msgstr "آیکن باکس"
+
+#: includes/classes/WPAPPanel.php:84 templates/admin/parts/dash-box.php:27
+#: templates/admin/settings/forms/dash-boxes.php:52
+msgid "Box icon color"
+msgstr "رنگ آیکن"
+
+#: includes/classes/WPAPPanel.php:89 templates/admin/parts/dash-box.php:32
+#: templates/admin/settings/forms/dash-boxes.php:58
+msgid "Box icon background color"
+msgstr "رنگ پسزمینه آیکن"
+
+#: includes/classes/WPAPPanel.php:94 includes/classes/WPAPPanel.php:95
+#: templates/admin/parts/dash-box.php:5 templates/admin/parts/dash-box.php:37
+#: templates/admin/parts/dash-box.php:39
+#: templates/admin/settings/forms/dash-boxes.php:64
+msgid "Box title"
+msgstr "عنوان باکس"
+
+#: includes/classes/WPAPPanel.php:99 includes/classes/WPAPPanel.php:100
+#: templates/admin/parts/dash-box.php:6 templates/admin/parts/dash-box.php:50
+msgid "Box content"
+msgstr "محتوای باکس"
+
+#: includes/classes/WPAPPluginActivation.php:46
+msgid "User Panel - Arvand Panel"
+msgstr "پنل کاربری - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:65
+msgid "Register - Arvand Panel"
+msgstr "ثبت نام - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:80
+msgid "Login - Arvand Panel"
+msgstr "ورود - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:97
+msgid "SMS Register or login - Arvand Panel"
+msgstr "ورود یا ثبت نام با موبایل - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:113
+msgid "Lost Password - Arvand Panel"
+msgstr "فراموشی رمز عبور - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:128
+msgid "Reset Password - Arvand Panel"
+msgstr "رمز عبور جدید - اروند پنل"
+
+#: includes/classes/WPAPPluginActivation.php:164
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:53
+#: templates/admin/settings/index.php:84
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: includes/classes/WPAPPluginActivation.php:165
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: includes/classes/WPAPPluginActivation.php:166
+#: templates/user/panel/dash.php:32
+msgid "Edit Profile"
+msgstr "مشخصات"
+
+#: includes/classes/WPAPPluginActivation.php:167
+msgid "Add / Change Email"
+msgstr "ثبت / تغییر ایمیل"
+
+#: includes/classes/WPAPPluginActivation.php:168
+#: templates/user/panel/change-password.php:26
+msgid "Change Password"
+msgstr "تغییر رمز"
+
+#: includes/classes/WPAPPluginActivation.php:169
+msgid "ََAdd / Change mobile"
+msgstr "ثبت / تغییر موبایل"
+
+#: includes/classes/WPAPPluginActivation.php:170
+#: includes/classes/WPAPPostType.php:20 includes/classes/WPAPPostType.php:22
+#: includes/classes/WPAPPostType.php:29
+#: includes/classes/admin/WPAPAdminMenu.php:33
+#: includes/classes/admin/WPAPAdminMenu.php:34 includes/options.php:108
+msgid "Notifications"
+msgstr "اطلاعیه ها"
+
+#: includes/classes/WPAPPluginActivation.php:171 includes/options.php:124
+msgid "Comments"
+msgstr "نظرات"
+
+#: includes/classes/WPAPPluginActivation.php:172 includes/options.php:309
+#: templates/admin/ticket/ticket-list.php:64
+#: templates/admin/ticket/users.php:57
+#: templates/user/panel/single-ticket.php:39
+#: templates/user/panel/tickets.php:67
+msgid "New Ticket"
+msgstr "ارسال تیکت"
+
+#: includes/classes/WPAPPluginActivation.php:173
+#: includes/classes/WPAPPostType.php:65
+#: includes/classes/admin/WPAPAdminMenu.php:42
+#: includes/classes/admin/WPAPAdminMenu.php:43
+msgid "Tickets"
+msgstr "تیکت ها"
+
+#: includes/classes/WPAPPluginActivation.php:174
+#: includes/classes/admin/WPAPAdminMenu.php:71
+#: includes/classes/admin/WPAPAdminMenu.php:72 includes/options.php:140
+#: templates/user/parts/header-notice.php:76
+msgid "Private Message"
+msgstr "پیام شخصی"
+
+#: includes/classes/WPAPPluginActivation.php:175
+msgid "Orders"
+msgstr "سفارشات"
+
+#: includes/classes/WPAPPluginActivation.php:176
+#: templates/user/woocommerce/order/order-downloads.php:23
+msgid "Downloads"
+msgstr "دانلودها"
+
+#: includes/classes/WPAPPluginActivation.php:177
+msgid "Addresses"
+msgstr "آدرس ها"
+
+#: includes/classes/WPAPPluginActivation.php:178
+#: templates/user/account-menu.php:102
+msgid "Logout"
+msgstr "خروج"
+
+#: includes/classes/WPAPPostType.php:21 includes/classes/WPAPPostType.php:23
+msgid "Notice"
+msgstr "اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:24 includes/classes/WPAPPostType.php:67
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: includes/classes/WPAPPostType.php:25
+msgid "Add Notice New"
+msgstr "افزودن اطلاعیه جدید"
+
+#: includes/classes/WPAPPostType.php:26
+msgid "New Notice"
+msgstr "اطلاعیه جدید"
+
+#: includes/classes/WPAPPostType.php:27
+msgid "Edit Notice"
+msgstr "ویرایش اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:28
+msgid "Display Notice"
+msgstr "نمایش اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:30
+msgid "Search Notifications"
+msgstr "جستجوی اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:31
+msgid "Parent Notifications:"
+msgstr "اطلاعیه های والد:"
+
+#: includes/classes/WPAPPostType.php:32
+msgid "Not found notice."
+msgstr "اطلاعیه ای یافت نشد."
+
+#: includes/classes/WPAPPostType.php:33
+msgid "Not found notice in trash."
+msgstr "اطلاعیه ای در زباله یافت نشد."
+
+#: includes/classes/WPAPPostType.php:34
+msgid "Notice image"
+msgstr "تصویر اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:35
+msgid "Adjust notice image"
+msgstr "تنظیم تصویر اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:36
+msgid "Delete notice image"
+msgstr "حرف تصویر اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:37
+msgid "Use as notice image"
+msgstr "استفاده به عنوان تصویر اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:38
+msgid "Notifications archives"
+msgstr "آرشیو اطلاعیه ها"
+
+#: includes/classes/WPAPPostType.php:39
+msgid "Insert into Notice"
+msgstr "درج در اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:40
+msgid "Upload into notice"
+msgstr "آپلود در اطلاعیه"
+
+#: includes/classes/WPAPPostType.php:41
+msgid "Filter Notifications list"
+msgstr "فیلتر لیست اطلاعیه ها"
+
+#: includes/classes/WPAPPostType.php:42
+msgid "Notifications list navigation"
+msgstr "لیست ناوبری اطلاعیه ها"
+
+#: includes/classes/WPAPPostType.php:43
+msgid "Notifications List"
+msgstr "لیست اطلاعیه ها"
+
+#: includes/classes/WPAPPostType.php:64 templates/admin/settings/index.php:101
+msgid "Ticket"
+msgstr "تیکت"
+
+#: includes/classes/WPAPShortCode.php:46
+msgid "Registration is disabled."
+msgstr "ثبت نام غیرفعال می باشد."
+
+#: includes/classes/WPAPShortCode.php:49
+msgid "The registration form is not ready."
+msgstr "فرم ثبت نام آماده نیست."
+
+#: includes/classes/WPAPShortCode.php:54 includes/classes/WPAPShortCode.php:73
+#: includes/classes/WPAPShortCode.php:106
+#: includes/classes/WPAPShortCode.php:194
+#: includes/classes/WPAPShortCode.php:260
+msgid "You are logged in to your account."
+msgstr "کاربر محترم شما وارد حساب خود شده اید."
+
+#: includes/classes/WPAPShortCode.php:99
+msgid "Login and register with sms disabled."
+msgstr "ورود با ثبت نام با شماره همراه غیر فعال است."
+
+#: includes/classes/WPAPShortCode.php:127
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:95
+#: templates/admin/form-builder.php:61
+#: templates/admin/private-message/messages.php:41
+#: templates/admin/settings/index.php:147 templates/admin/ticket/users.php:37
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/classes/WPAPShortCode.php:131
+msgid "Recovery Password"
+msgstr "بازیابی رمز عبور"
+
+#: includes/classes/WPAPShortCode.php:144
+msgid "Mobile Number"
+msgstr "شماره همراه"
+
+#: includes/classes/WPAPShortCode.php:148 templates/user/auth/sms-send.php:14
+#: templates/user/panel/change-email.php:12
+msgid "Send Code"
+msgstr "ارسال کد"
+
+#: includes/classes/WPAPShortCode.php:158
+msgid "Verification Code"
+msgstr "کد اعتبارسنجی"
+
+#: includes/classes/WPAPShortCode.php:163
+#: includes/classes/WPAPShortCode.php:220
+#: templates/user/panel/change-password.php:13
+msgid "New Password"
+msgstr "رمز عبور جدید"
+
+#: includes/classes/WPAPShortCode.php:170
+#: includes/classes/WPAPShortCode.php:225
+#: templates/user/panel/change-password.php:16
+#, php-format
+msgid ""
+"At least %d letters. For more security, use a combination of letters and "
+"numbers."
+msgstr "حداقل %d حرف. برای امنیت بیشتر ترکیبی از حروف و اعداد باشد."
+
+#: includes/classes/WPAPShortCode.php:178
+#: includes/classes/WPAPShortCode.php:235
+msgid "Reset Password"
+msgstr "بازیابی رمز عبور"
+
+#: includes/classes/WPAPShortCode.php:186
+msgid "Reset password by mobile"
+msgstr "بازیابی توسط موبایل"
+
+#: includes/classes/WPAPShortCode.php:212
+msgid "Enter your new password."
+msgstr "رمز عبور جدید را وارد کنید."
+
+#: includes/classes/WPAPShortCode.php:231
+#: templates/user/panel/change-password.php:22
+msgid "Confirm Password"
+msgstr "تکرار رمز عبور"
+
+#: includes/classes/WPAPShortCode.php:247 templates/admin/settings/index.php:61
+#: templates/user/account-menu.php:22 templates/user/auth/login-form.php:87
+#: templates/user/auth/sms-login.php:30
+msgid "Login"
+msgstr "ورود"
+
+#: includes/classes/WPAPShortCode.php:251 templates/admin/settings/index.php:67
+#: templates/user/account-menu.php:28 templates/user/auth/login.php:23
+#: templates/user/auth/sms-register.php:55
+#: templates/user/parts/form-links.php:17
+msgid "Register"
+msgstr "ثبت نام"
+
+#: includes/classes/WPAPShortCode.php:257 includes/classes/WPAPUser.php:330
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:77
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:162
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:166
+#: includes/classes/handlers/user/WPAPFormHandler.php:17
+#: includes/classes/handlers/user/WPAPFormHandler.php:101
+#: includes/classes/handlers/user/WPAPFormHandler.php:105
+#: includes/classes/handlers/user/WPAPFormHandler.php:120
+#: includes/classes/handlers/user/WPAPFormHandler.php:155
+#: includes/classes/handlers/user/WPAPFormHandler.php:163
+#: includes/classes/handlers/user/WPAPFormHandler.php:169
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:25
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:139
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:238
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:260
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:266
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:270
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:274
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:370
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:374
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:380
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:15
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:232
+#: templates/user/auth/login-form.php:27
+msgid "Invalid Request."
+msgstr "درخواست نا معتبر است."
+
+#: includes/classes/WPAPShortCode.php:297
+msgid "Invalid order."
+msgstr "سفارش نا معتبر است."
+
+#: includes/classes/WPAPShortCode.php:309
+#: includes/classes/WPAPShortCode.php:322
+#: includes/classes/WPAPShortCode.php:331
+msgid "Woocommerce plugin is not active."
+msgstr "افزونه ووکامرس فعال نیست."
+
+#: includes/classes/WPAPShortCode.php:342
+#, fuzzy
+msgctxt "edit-address-slug"
+msgid "billing"
+msgstr "آدرس صورت حساب"
+
+#: includes/classes/WPAPShortCode.php:343
+#, fuzzy
+msgctxt "edit-address-slug"
+msgid "shipping"
+msgstr "آدرس حمل و نقل"
+
+#: includes/classes/WPAPTicket.php:205
+#: templates/admin/ticket/single-ticket.php:58
+#: templates/admin/ticket/single-ticket.php:109
+#: templates/admin/ticket/ticket-list.php:79
+#: templates/admin/ticket/ticket-list.php:115
+#: templates/admin/ticket/ticket-list.php:214
+#: templates/user/panel/single-ticket.php:85
+#: templates/user/panel/single-ticket.php:252
+#: templates/user/panel/tickets.php:84 templates/user/panel/tickets.php:123
+#: templates/user/panel/tickets.php:216
+#: templates/user/parts/dash/dash-tickets.php:23
+msgid "Open"
+msgstr "باز"
+
+#: includes/classes/WPAPTicket.php:210
+#: templates/admin/ticket/single-ticket.php:54
+#: templates/admin/ticket/single-ticket.php:105
+#: templates/admin/ticket/ticket-list.php:95
+#: templates/admin/ticket/ticket-list.php:139
+#: templates/admin/ticket/ticket-list.php:210
+#: templates/user/panel/single-ticket.php:81
+#: templates/user/panel/single-ticket.php:270
+#: templates/user/panel/tickets.php:100 templates/user/panel/tickets.php:154
+#: templates/user/panel/tickets.php:212
+#: templates/user/parts/dash/dash-tickets.php:88
+msgid "Closed"
+msgstr "بسته"
+
+#: includes/classes/WPAPTicket.php:215
+#: templates/admin/ticket/single-ticket.php:62
+#: templates/admin/ticket/single-ticket.php:107
+#: templates/admin/ticket/ticket-list.php:91
+#: templates/admin/ticket/ticket-list.php:99
+#: templates/admin/ticket/ticket-list.php:132
+#: templates/admin/ticket/ticket-list.php:212
+#: templates/user/panel/single-ticket.php:62
+#: templates/user/panel/single-ticket.php:83
+#: templates/user/panel/single-ticket.php:266
+#: templates/user/panel/tickets.php:96 templates/user/panel/tickets.php:104
+#: templates/user/panel/tickets.php:145 templates/user/panel/tickets.php:214
+#: templates/user/parts/dash/dash-tickets.php:71
+msgid "Solved"
+msgstr "حل شده"
+
+#: includes/classes/WPAPTicket.php:246
+#: templates/admin/ticket/single-ticket.php:147
+#, php-format
+msgid "%s department"
+msgstr "بخش %s"
+
+#: includes/classes/WPAPUser.php:29
+msgid "Activate user panel"
+msgstr "فعالسازی پنل کاربری"
+
+#: includes/classes/WPAPUser.php:39
+msgid ""
+"If you enable this option, an account confirmation notification email will "
+"be sent to the user's email."
+msgstr ""
+"در صورت فعالسازی این گزینه، ایمیل اطلاع رسانی تایید حساب کاربری به آدرس "
+"ایمیل کاربر ارسال میشود."
+
+#: includes/classes/WPAPUser.php:111
+msgid "Agree to terms"
+msgstr "پذیرش قوانین"
+
+#: includes/classes/WPAPUser.php:297
+msgid "Image format is not allowed."
+msgstr "پسوند تصویر مجاز نیست."
+
+#: includes/classes/WPAPUser.php:301
+#, php-format
+msgid "Maximum avatar image size is %d KB."
+msgstr "حداکثر حجم تصویر اواتار %d کیلوبایت می باشد."
+
+#: includes/classes/WPAPUser.php:311
+msgid "There is a problem uploading avatar."
+msgstr "در آپلود تصویر آواتار مشکلی بوجود آمده."
+
+#: includes/classes/WPAPUser.php:326
+msgid "کاربر دمو قادر به حذف تصویر نیست."
+msgstr ""
+
+#: includes/classes/WPAPUser.php:339
+msgid "Profile image deleted."
+msgstr "تصویر پروفایل حذف شد."
+
+#: includes/classes/WPAPUser.php:342
+msgid "An error occurred in deleting profile image."
+msgstr "مشکلی درحذف تصویر پروفایل ایجاد شده."
+
+#. Plugin Name of the plugin/theme
+#: includes/classes/admin/WPAPAdminMenu.php:14
+#: includes/classes/admin/WPAPAdminMenu.php:15
+#: templates/admin/settings/index.php:40 templates/admin/settings/index.php:43
+msgid "Arvand Panel"
+msgstr "اروند پنل"
+
+#: includes/classes/admin/WPAPAdminMenu.php:24
+#: includes/classes/admin/WPAPAdminMenu.php:25 includes/functions.php:6
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/classes/admin/WPAPAdminMenu.php:51
+#: includes/classes/admin/WPAPAdminMenu.php:52
+#: templates/admin/form-builder.php:13
+msgid "Register Fields"
+msgstr "فیلدهای ثبت نام"
+
+#: includes/classes/admin/WPAPAdminMenu.php:60
+#: includes/classes/admin/WPAPAdminMenu.php:61
+msgid "Panel menus"
+msgstr "منوهای پنل"
+
+#: includes/classes/admin/WPAPAdminMenu.php:80
+#: includes/classes/admin/WPAPAdminMenu.php:81
+msgid "Plugin Info"
+msgstr "راهنما"
+
+#: includes/classes/admin/WPAPAdminNotice.php:16
+msgid "Please select the arvand panel \"user panel\" page."
+msgstr "لطفاً برگه پنل کاربری افزونه اروند پنل را انتخاب کنید."
+
+#: includes/classes/admin/WPAPAdminNotice.php:21
+msgid "Select the user panel page."
+msgstr "انتخاب برگۀ پنل کاربری."
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:16
+msgid "Important Notice"
+msgstr "اطلاعیه مهم"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:31
+msgid "Important notice can be displayed in dashboard or all panel pages."
+msgstr "اطلاعیه مهم میتواند در داشبورد یا همه صفحات پنل نمایش داده شود."
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:39
+msgid "Important notice?"
+msgstr "انتخاب به عنوان اطلاعیه مهم؟"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:45
+msgid "Where to show it?"
+msgstr "محل نمایش؟"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:57
+msgid "All panel pages"
+msgstr "همه صفحه ها"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:64
+msgid "Notice type"
+msgstr "نوع اطلاعیه"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:71
+msgid "Info"
+msgstr "اطلاعاتی"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:75
+msgid "Error"
+msgstr "خطا"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:79
+msgid "Success"
+msgstr "موفقیت آمیز"
+
+#: includes/classes/admin/meta-boxes/WPAPNotificationMetaBoxes.php:83
+msgid "Warning"
+msgstr "هشدار"
+
+#: includes/classes/asset/WPAPAdminAsset.php:54
+#: templates/admin/settings/forms/ticket.php:23
+#: templates/admin/settings/forms/ticket.php:43
+msgid "Enter status name."
+msgstr "نام وضعیت را وارد کنید."
+
+#: includes/classes/asset/WPAPAdminAsset.php:55
+#: templates/admin/settings/forms/ticket-department.php:29
+msgid "Enter department name."
+msgstr "نام بخش را وارد کنید."
+
+#: includes/classes/asset/WPAPAdminAsset.php:56
+#: templates/admin/settings/forms/panel.php:62
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/classes/asset/WPAPAdminAsset.php:64
+#: templates/admin/settings/forms/supporters.php:67
+msgid "There is no supporter."
+msgstr "پشتیبانی وجود ندارد."
+
+#: includes/classes/asset/WPAPAdminAsset.php:65
+msgid "Are you sure to delete this ticket?"
+msgstr "آیا از حذف این تیکت مطمئنید؟"
+
+#: includes/classes/asset/WPAPAdminAsset.php:66
+msgid "Are you sure to reset all styles?"
+msgstr "آیا از اعمال استایل های پیشفرض مطمئنید؟"
+
+#: includes/classes/asset/WPAPAdminAsset.php:67
+msgid ""
+"Are you sure to delete? new role for users who had the role deleted is: "
+msgstr ""
+"آیا از حذف این نقش کاربری مطمئنید؟ نقش جدید برای کاربرانی که این نقش را "
+"داشتند عبارت است از: "
+
+#: includes/classes/asset/WPAPAdminAsset.php:68
+msgid "Please select another new role. this role will be deleted."
+msgstr "لطفاً نقش جدید دیگری را انتخاب کنید. این نقش حذف خواهد شد."
+
+#: includes/classes/asset/WPAPAdminAsset.php:69
+msgid " role is set for users who had previously deleted roles."
+msgstr " به عنوان نقش جدید برای کاربرانی که نقش حذف شده را داشتند اعمال شد."
+
+#: includes/classes/asset/WPAPAdminAsset.php:70
+#: templates/admin/settings/forms/roles.php:53
+msgid "There is no role."
+msgstr "نقش کاربری وجود ندارد."
+
+#: includes/classes/asset/WPAPAdminAsset.php:71
+msgid "Aru you sure to delete?"
+msgstr "آیا از حذف مطمئنید؟"
+
+#: includes/classes/asset/WPAPAdminAsset.php:81
+msgid "This field already exist"
+msgstr "این فیلد از قبل موجود است"
+
+#: includes/classes/asset/WPAPAdminAsset.php:82
+msgid "Are you sure to delete this field?"
+msgstr "آیا از حذف این ورودی مطمئن هستید؟"
+
+#: includes/classes/asset/WPAPAdminAsset.php:91
+msgid "eg: https://google.com"
+msgstr "https://google.com"
+
+#: includes/classes/asset/WPAPAdminAsset.php:92
+#: templates/admin/parts/menu-item.php:68
+#: templates/admin/parts/menu-item.php:77
+#: templates/admin/parts/menu-setting-fields.php:73
+#: templates/admin/parts/menu-setting-fields.php:96
+#: templates/admin/settings/forms/dash-boxes.php:118
+#: templates/admin/settings/index.php:141
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: includes/classes/asset/WPAPAdminAsset.php:93
+msgid "Are you sure to completely delete this menu?"
+msgstr "آیا از حذف کامل این منو مطمئنید؟"
+
+#: includes/classes/asset/WPAPUserAsset.php:42
+msgid "Change Avatar"
+msgstr "تغییر آواتار"
+
+#: includes/classes/asset/WPAPUserAsset.php:58
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:75
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:26
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:141
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:210
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:286
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:312
+msgid "Invalid mobile number."
+msgstr "شماره همراه  نا معتبر است."
+
+#: includes/classes/asset/WPAPUserAsset.php:59
+msgid "Mobile number must not be empty"
+msgstr "شماره همراه نباید خالی باشد"
+
+#: includes/classes/asset/WPAPUserAsset.php:60
+msgid "Verification code must not be empty"
+msgstr "کد اعتبارسنجی نباید خالی باشد"
+
+#: includes/classes/asset/WPAPUserAsset.php:61
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:121
+msgid "You must agree to the terms."
+msgstr "موافقت با قوانین الزامی است."
+
+#: includes/classes/asset/WPAPUserAsset.php:62
+msgid "Send Again"
+msgstr "ارسال مجدد"
+
+#: includes/classes/asset/WPAPUserAsset.php:63
+#: includes/classes/handlers/user/WPAPFormHandler.php:25
+#: includes/classes/handlers/user/WPAPFormHandler.php:124
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:29
+msgid "Password must not be empty."
+msgstr "رمز عبور نباید خالی باشد."
+
+#: includes/classes/asset/WPAPUserAsset.php:65
+#: includes/classes/handlers/user/WPAPFormHandler.php:134
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:39
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:81
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:247
+#, php-format
+msgid "Minimum password letters must be %d"
+msgstr "حداقل حروف رمز عبور %d می باشد"
+
+#: includes/classes/asset/WPAPUserAsset.php:66
+#: includes/classes/handlers/user/WPAPFormHandler.php:128
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:33
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:68
+msgid "Two passwords do not match."
+msgstr "دو رمز عبور باهم مطابقت ندارند."
+
+#: includes/classes/asset/WPAPUserAsset.php:74
+#: templates/admin/settings/forms/supporters.php:59
+msgid "Close"
+msgstr "بستن"
+
+#: includes/classes/auth/WPAPResetPass.php:21
+msgid "Hello!"
+msgstr "سلام!"
+
+#: includes/classes/auth/WPAPResetPass.php:22
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the user name %s."
+msgstr ""
+"شما از ما درخواست بازیابی رمز عبور برای حساب کاربری با نام کاربری %s کرده "
+"اید."
+
+#: includes/classes/auth/WPAPResetPass.php:23
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr "اگر همچین درخواستی نداده اید، این ایمیل را نادیده بگیرید."
+
+#: includes/classes/auth/WPAPResetPass.php:24
+msgid "To reset your password, visit the following address:"
+msgstr "برای بازیابی رمز عبور به آدرسی زیر بروید:"
+
+#: includes/classes/auth/WPAPResetPass.php:35
+msgid "Thanks!"
+msgstr "تشکر از شما!"
+
+#: includes/classes/auth/register-field/WPAPFieldHtml.php:16
+msgid ""
+"Number registered with Arvand Panel. To change or add, mobile number must be "
+"valid and not already registered."
+msgstr ""
+"شماره ثبت شده با اروند پنل. برای تغییر یا ثبت، شماره همراه باید معتبر باشد و "
+"از قبل ثبت نشده باشد."
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:11
+msgid "First Name"
+msgstr "نام"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:32
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:53
+#: templates/admin/form-builder.php:51
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:74
+#: templates/admin/form-builder.php:56
+#: templates/admin/private-message/messages.php:40
+#: templates/admin/settings/forms/supporters.php:34
+#: templates/admin/ticket/users.php:36
+msgid "Username"
+msgstr "نام کاربری"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:114
+#: templates/admin/form-builder.php:66 templates/user/auth/login-form.php:67
+#: templates/user/auth/sms-register.php:30
+msgid "Password"
+msgstr "رمز عبور"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:126
+msgid "Confirm password"
+msgstr "تکرار رمز عبور"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:137
+#: templates/admin/form-builder.php:71
+msgid "Website"
+msgstr "وب سایت"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:156
+msgid "Phone"
+msgstr "شماره همراه"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:177
+#: templates/admin/form-builder.php:76
+msgid "Text Field"
+msgstr "فیلد متنی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:199
+msgid "Radio button"
+msgstr "دکمه رادیویی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:219
+#: templates/admin/form-builder.php:86
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:239
+msgid "--select--"
+msgstr "--انتخاب--"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:240
+#: templates/admin/form-builder.php:91
+msgid "Dropdown"
+msgstr "فیلد کرکره ای"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:259
+#: templates/admin/form-builder.php:96
+msgid "Number Field"
+msgstr "فیلد عددی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettings.php:279
+msgid "Textarea"
+msgstr "ناحیه متنی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:82
+#: templates/admin/parts/dash-box.php:86 templates/admin/parts/menu-item.php:99
+#: templates/admin/parts/menu-setting-fields.php:140
+#: templates/admin/settings/forms/dash-boxes.php:139
+msgid "Done"
+msgstr "انجام شد"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:101
+msgid "required"
+msgstr "الزامی"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:151
+#: templates/admin/parts/dash-box.php:77
+msgid "Display"
+msgstr "نمایش"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:155
+msgid "Register and user edit form"
+msgstr "فرم ثبت نام و ویرایش پروفایل"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:159
+msgid "Register form"
+msgstr "ثبت نام"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:163
+msgid "User edit form"
+msgstr "ویرایش پروفایل"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:173
+msgid "Label"
+msgstr "برچسب"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:182
+msgid "Placeholder"
+msgstr "متن نگهدارنده"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:192
+msgid "Confirm password label"
+msgstr "برچسب تکرار رمز عبور"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:199
+msgid "Confirm password placeholder"
+msgstr "متن نگهدارنده تکرار رمز عبور"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:206
+msgid "Confirm password description"
+msgstr "توضیحات  نگهدارنده تکرار رمز عبور"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:215
+msgid "Select text"
+msgstr "متن انتخاب"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:225
+msgid "Options"
+msgstr "تنظیمات"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:238
+#: templates/admin/settings/forms/add-supporter.php:27
+#: templates/admin/settings/forms/ticket-department.php:37
+#: templates/admin/settings/forms/ticket.php:66
+#: templates/user/woocommerce/myaccount/my-address.php:70
+msgid "Add"
+msgstr "افزودن"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:248
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:261
+msgid "Required?"
+msgstr "الزامی؟"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:270
+msgid "Min length"
+msgstr "حداقل کارکتر"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:286
+msgid "Max length"
+msgstr "حداکثر کارکتر"
+
+#: includes/classes/auth/register-field/WPAPFieldSettingsHtml.php:303
+msgid "Meta Key"
+msgstr "کلید متا"
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:73
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:375
+msgid "User not exists."
+msgstr "این کاربر وجود ندارد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:81
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:143
+msgid "Title must not be empty."
+msgstr "عنوان نباید خالی باشد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:85
+msgid "Ticket content must not be empty."
+msgstr "محتوای تیکت  نباید خالی باشد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:94
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:173
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:386
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:156
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:247
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:390
+#: templates/admin/private-message/single-message.php:12
+msgid "Attachment file format is not allowed."
+msgstr "پسوند ضمیمه مجاز نیست."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:98
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:177
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:392
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:396
+#: templates/admin/private-message/single-message.php:14
+#, php-format
+msgid "Maximum attachment size is %d KB."
+msgstr "حداکثر حجم ضمیمه %d کیلوبایت می باشد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:124
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:187
+msgid "An error occurred in creating ticket."
+msgstr "مشکلی در ایجاد تیکت بوجود  آمده."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:149
+msgid "Ticket created."
+msgstr "تیکت ایجاد شد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:182
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:256
+msgid "Reply must not be empty."
+msgstr "پاسخ نباید خالی باشد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:242
+msgid "Reply sent."
+msgstr "پاسخ ارسال شد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:371
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:60
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:103
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:107
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:22
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:60
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:106
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:135
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:149
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:176
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:187
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:204
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:233
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:239
+#: templates/admin/private-message/single-message.php:10
+msgid "Invalid request."
+msgstr "درخواست نا معتبر است."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:381
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:147
+msgid "Message must not be empty."
+msgstr "پیام نباید خالی باشد."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:407
+msgid "An error occurred in sending message."
+msgstr "مشکلی در ارسال پیام  بوجود آمده."
+
+#: includes/classes/handlers/admin/WPAPAdminFormHandler.php:414
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:415
+#: templates/admin/private-message/single-message.php:31
+msgid "Message sent."
+msgstr "پیام ارسال شد."
+
+#: includes/classes/handlers/admin/WPAPSettingsFormHandler.php:159
+msgid "Custom box"
+msgstr "باکس سفارشی"
+
+#: includes/classes/handlers/admin/WPAPSettingsFormHandler.php:215
+#: includes/options.php:173
+#: templates/admin/settings/forms/ticket-department.php:15
+#: templates/admin/ticket/ticket-list.php:189
+#: templates/admin/ticket/ticket-list.php:192
+msgid "Admin"
+msgstr "مدیریت"
+
+#: includes/classes/handlers/admin/WPAPSettingsFormHandler.php:252
+#: includes/classes/handlers/user/WPAPFormHandler.php:21
+msgid "Username must not be empty."
+msgstr "نام کاربری نباید خالی باشد."
+
+#: includes/classes/handlers/admin/WPAPSettingsFormHandler.php:256
+msgid "This user does not exist."
+msgstr "این کاربر وجود ندارد."
+
+#: includes/classes/handlers/admin/WPAPSettingsFormHandler.php:262
+msgid "Choose at least one department."
+msgstr "حداقال یک دپارتمان انتخاب کنید."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:32
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:126
+msgid "Recaptcha verification failed, please try again."
+msgstr "خطا در اعتبارسنجی ریکپچا. لطفاً مجدداً تلاش کنید."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:47
+msgid "Your account has not yet been approved by admin."
+msgstr "حساب کاربری شما هنوز توسط مدیر تایید نشده."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:55
+msgid "Your account is not active."
+msgstr "حساب کاربری شما فعال نیست."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:61
+msgid "Please enter and verify your phone number."
+msgstr "لطفاً شماره همراه خود را وارد و تایید کنید."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:79
+msgid "Please enter login information correctly."
+msgstr "لطفاً اطلاعات ورود را بدرستی وارد کنید."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:95
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:198
+msgid "Signing in ..."
+msgstr "در حال ورود ..."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:114
+msgid ""
+"A password recovery link has been sent to your email. Please check your "
+"email."
+msgstr ""
+"لینک بازیابی رمز عبور با موفقیت به ایمیل شما ارسال شد. لطفا ایمیل خود را "
+"بررسی کنید."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:149
+msgid "Password changed successfully."
+msgstr "رمز عبور با موفقیت تغییر کرد."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:159
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:64
+msgid "Invalid email."
+msgstr "ایمیل معتبر نیست."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:173
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:85
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:63
+msgid "Email already exist."
+msgstr "ایمیل از قبل موجود است."
+
+#: includes/classes/handlers/user/WPAPFormHandler.php:184
+msgid "An email verification link sent to your email."
+msgstr "لینک اعتبارسنجی  به ایمیل شما ارسال گردید."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:21
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:56
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:99
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:135
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:234
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:366
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:228
+msgid "کاربر دمو قادر به ذخیره سازی نیست."
+msgstr ""
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:48
+msgid "Password changed."
+msgstr "رمز عبور تغییر کرد."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:69
+msgid "Email Verification Code"
+msgstr "کد اعتبارسنجی ایمیل"
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:70
+msgid "Your email verification code is:"
+msgstr "کد اعتبارسنجی شما عبارت است از:"
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:81
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:90
+msgid "Change Email"
+msgstr "تغییر ایمیل"
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:82
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:91
+msgid "Email verification code sent again to your email."
+msgstr "کد اعتبارسنجی ایمیل مجدداً به ایمیل شما ارسال شد."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:111
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:322
+#: templates/user/auth/login-form.php:36
+msgid "Invalid code."
+msgstr "کد اعتبارسنجی نا معتبر است."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:118
+msgid "An error occurred in email verification."
+msgstr "مشکلی در اعتبارسنجی ایمیل بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:127
+msgid "Your email successfully verified."
+msgstr "ایمیل شما با موفقیت تایید شد."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:160
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:251
+#, php-format
+msgid "Maximum ticket attachment size size is %d KB."
+msgstr "حداکثر حجم ضمیمه %d کیلوبایت می باشد."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:226
+msgid "Ticket created. To view the ticket, go to the \"Tickets\" section."
+msgstr "تیکت ایجاد شد. برای دیدن وضعیت تیکت به قسمت \"تیکت ها\" مراجعه کنید."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:293
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:408
+msgid "An error occurred in sending reply."
+msgstr "مشکلی در ارسال پاسخ بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:358
+msgid "Reply Sent."
+msgstr "پاسخ ارسال شد."
+
+#: includes/classes/handlers/user/WPAPPanelFormHandler.php:384
+#: templates/admin/private-message/single-message.php:16
+msgid "Message content must not be empty."
+msgstr "محتوای پیام نباید خالی باشد."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:19
+msgid "Username is required."
+msgstr "نام کاربری الزامی است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:23
+msgid "Email is required."
+msgstr "ایمیل الزامی است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:27
+msgid "Password is required."
+msgstr "رمز عبور الزامی است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:45
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:269
+#, php-format
+msgid "%s must not be empty."
+msgstr "%s نباید خالی باشد."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:49
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:273
+#, php-format
+msgid "Minimum %s letters must be %d"
+msgstr "حداقل حروف %s باید %d باشد"
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:55
+msgid "Username already exist."
+msgstr "نام کاربری از قبل موجود است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:61
+msgid "Invalid Email"
+msgstr "ایمیل معتبر نیست"
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:77
+msgid "This mobile number already exist."
+msgstr "این شماره از قبل موجود است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:83
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:89
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:279
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:285
+#, php-format
+msgid "%s is required."
+msgstr "%s الزامی است."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:91
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:97
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:287
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:293
+#, php-format
+msgid "%s field is not selected correctly."
+msgstr "فیلد %s بدرستی انتخاب نشده."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:145
+msgid "There is a problem with registration."
+msgstr "مشکلی در ثبت نام بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:181
+msgid ""
+"Registration completed successfully. An account activation link was sent to "
+"your email."
+msgstr ""
+"ثبت نام شما با موفقیت انجام شد. لینک فعالسازی حساب کاربری به ایمیل شما ارسال "
+"گردید."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:185
+msgid ""
+"Registration completed successfully. Your account awaiting admin approval."
+msgstr ""
+"ثبت نام شما با موفقیت انجام شد. حساب کاربری شما در انتظار تایید مدیر می باشد."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:191
+msgid "Registration completed successfully"
+msgstr "ثبت نام شما با موفقیت انجام شد"
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:213
+msgid "activation link"
+msgstr "لینک فعالسازی حساب کاربری"
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:312
+msgid "There is a problem editing the profile."
+msgstr "مشکلی در ویرایش مشخصات ایجاد شده."
+
+#: includes/classes/handlers/user/WPAPRegisterFieldsHandler.php:336
+msgid "Changes applied successfully."
+msgstr "تغییرات با موفقیت اعمال شد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:38
+msgid "Your account has not yet been activated by admin."
+msgstr "حساب کاربری شما هنوز توسط مدیر تایید نشده."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:43
+msgid "Enter the code that was sent to your mobile number."
+msgstr "کدی که به شماره همراه شما ارسال شد را وارد کنید."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:46
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:54
+msgid "There is error in sending verification code."
+msgstr "مشکلی در ارسال کد اعتبارسنجی بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:51
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:169
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:298
+msgid "Verification code has been sent to your mobile number."
+msgstr "یک کد اعتبارسنجی به شماره همراه شما ارسال شد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:66
+msgid "Invalid phone number."
+msgstr "شماره همراه  نامعتبر است."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:70
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:113
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:183
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:255
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:261
+msgid "Invalid verification code."
+msgstr "کد اعتبارسنجی نا معتبر است."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:97
+msgid "You have successfully registered. Signing in ..."
+msgstr "ثبت نام شما با موفقیت انجام شد. در حال ورود ..."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:100
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:129
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:270
+msgid "There is error in verify mobile number."
+msgstr "مشکلی در اعتبارسنجی شماره همراه بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:126
+msgid "You have successfully logged in."
+msgstr "با موفقیت وارد شدید."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:145
+msgid "This phone number does not belong to your account."
+msgstr "این شماره متعلق به حساب کاربری شما نیست."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:153
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:191
+msgid "User not found."
+msgstr "کاربری یافت نشد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:161
+msgid ""
+"Your number verified but your account has not yet been activated by admin."
+msgstr "شماره شما تایید شده ولی حساب کاربری در انتظار تایید مدیر سایت می باشد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:216
+msgid "The mobile number or user does not exist."
+msgstr "این شماره یا کاربر وجود ندارد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:224
+msgid "Verification code sent to your mobile number."
+msgstr "کد اعتبارسنجی به شماره همراه شما ارسال شد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:227
+msgid "There is error in sending code."
+msgstr "مشکلی در ارسال کد بوجود آمده."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:267
+msgid "Your password successfully changed. Go to login."
+msgstr "رمز عبور شما با موفقیت تغییر کرد. به فرم ورود مراجعه و وارد شوید."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:276
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:306
+msgid "کاربر دمو قادر به ثبت شماره همراه نیست."
+msgstr ""
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:280
+msgid "Mobile number must not be empty."
+msgstr "شماره همراه نباید خالی باشد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:293
+msgid "This mobile number already exists."
+msgstr "این شماره از قبل موجود است."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:316
+msgid "Verification code must not be empty."
+msgstr "کد اعتبارسنجی نباید خالی باشد."
+
+#: includes/classes/handlers/user/WPAPSMSFormHandler.php:330
+msgid "Your mobile number successfully verified."
+msgstr "شماره همراه شما با موفقیت تایید شد."
+
+#: includes/classes/sms/WPAPSMS.php:9
+msgid "ملی پیامک"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:10
+msgid "فراپیامک"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:11
+msgid "sms.ir"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:12
+msgid "فراز اس ام اس"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:13
+msgid "کاوه نگار"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:14
+msgid "مدیر پیامک"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:15
+msgid "پارس گرین"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:16
+msgid "رایگان اس ام اس"
+msgstr ""
+
+#: includes/classes/sms/WPAPSMS.php:17
+msgid "وب وان اس ام اس"
+msgstr ""
+
+#: includes/functions.php:52
+msgid "Panel (Arvand Panel)"
+msgstr "پنل (اروند پنل)"
+
+#: includes/options.php:30
+msgid "I agree to terms"
+msgstr "با قوانین موافقم"
+
+#: includes/options.php:30
+msgid "terms"
+msgstr "شرایط و قوانین"
+
+#: includes/options.php:63
+msgid "My Account"
+msgstr "ناحیه کاربری"
+
+#: includes/options.php:110 includes/options.php:114 includes/options.php:126
+#: includes/options.php:142
+msgid "Default content"
+msgstr "محتوای پیشفرض"
+
+#: includes/options.php:163 includes/options.php:308
+msgid "A ticket reply was sent to you on [site_name]."
+msgstr "یک پاسخ تیکت در [site_name] دریافت کردید."
+
+#: includes/options.php:164 includes/options.php:310
+msgid "New ticket was sent to you on [site_name]."
+msgstr "تیکت جدید در [site_name] برای شما ارسال شد."
+
+#: includes/options.php:290
+msgid "New user with this email:"
+msgstr "کاربر جدید با این ایمیل:"
+
+#: includes/options.php:292
+msgid "registered on your site."
+msgstr "در سایت شما ثبت نام کرد."
+
+#: includes/options.php:294
+msgid "Click on the account activation link below."
+msgstr "بروی لینک فعالسازی حساب کاربری در زیر کلیک کنید."
+
+#: includes/options.php:296
+msgid "Your user account has been approved by admin."
+msgstr "کاربر گرامی، حساب کاربری شما توسط مدیر تایید شد."
+
+#: includes/options.php:300
+msgid "New user registration"
+msgstr "ثبت نام کاربر جدید"
+
+#: includes/options.php:302
+msgid "Account Activation"
+msgstr "فعالسازی حساب کاربری"
+
+#: includes/options.php:304
+msgid "Account Approval"
+msgstr "فعالسازی حساب کاربری"
+
+#: includes/options.php:307
+msgid "Ticket Reply"
+msgstr "پاسخ تیکت"
+
+#: templates/admin/form-builder.php:30
+msgid "The three fields of username, email and password are required."
+msgstr ""
+"سه فیلد نام کاربری، ایمیل، و رمز عبور الزامی می باشند. لطفا آنها را اضافه "
+"کنید."
+
+#: templates/admin/form-builder.php:41
+msgid "Firstname"
+msgstr "نام"
+
+#: templates/admin/form-builder.php:46
+msgid "Lastname"
+msgstr "نام خانوادگی"
+
+#: templates/admin/form-builder.php:81
+msgid "Radio Button"
+msgstr "دکمه رادیویی"
+
+#: templates/admin/form-builder.php:101
+msgid "Mobile Field"
+msgstr "فیلد شماره همراه"
+
+#: templates/admin/form-builder.php:106
+msgid "Textarea Field"
+msgstr "فیلد ناحیه متنی"
+
+#: templates/admin/form-builder.php:115 templates/admin/menus.php:55
+#: templates/admin/parts/button.php:5
+msgid "Save Settings"
+msgstr "ذخیره تغییرات"
+
+#: templates/admin/form-builder.php:120 templates/admin/parts/button.php:10
+msgid "Changed"
+msgstr "ذخیره شد"
+
+#: templates/admin/form-builder.php:129
+msgid "Are you sure to reset all settings?"
+msgstr "آیا از بازگشت به تنظیمات  پیشفرض مطمئن هستید؟"
+
+#: templates/admin/form-builder.php:131
+msgid "Reset Settings"
+msgstr "تنظیمات پیشفرض"
+
+#: templates/admin/info.php:4
+msgid "Plugin Information"
+msgstr "راهنما"
+
+#: templates/admin/info.php:7
+msgid "Plugin Shortcodes"
+msgstr "کدهای کوتاه افزونه"
+
+#: templates/admin/info.php:13
+msgid "User Panel Shortcode"
+msgstr "کد کوتاه ناحیه کاربری"
+
+#: templates/admin/info.php:21
+msgid "Login Form Shortcode"
+msgstr "کد کوتاه فرم ورود"
+
+#: templates/admin/info.php:29
+msgid "Register Form Shortcode"
+msgstr "کد کوتاه فرم ثبت نام"
+
+#: templates/admin/info.php:37 templates/user/auth/login.php:29
+#: templates/user/auth/register.php:23
+msgid "Login or register with sms"
+msgstr "ورود یا ثبت نام با شماره همراه"
+
+#: templates/admin/info.php:45
+msgid "Lost Password Form Shortcode"
+msgstr "کد کوتاه فرم فراموشی رمز عبور"
+
+#: templates/admin/info.php:53
+msgid "Reset Password Form Shortcode"
+msgstr "کد کوتاه فرم رمز عبور جدید"
+
+#: templates/admin/info.php:61
+msgid "Profile menu"
+msgstr "منو پروفایل کاربر"
+
+#: templates/admin/info.php:69
+msgid "Woocommerce user orders"
+msgstr "سفارشات کاربر ووکامرس"
+
+#: templates/admin/info.php:77
+msgid "Woocommerce user download products"
+msgstr "سفارشات دانلودی کاربر ووکامرس"
+
+#: templates/admin/info.php:85
+msgid "Woocommerce addresses"
+msgstr "آدرس های ووکامرس"
+
+#: templates/admin/menus.php:16 templates/admin/parts/menu-item.php:25
+msgid "Menu Title"
+msgstr "عنوان منو"
+
+#: templates/admin/menus.php:32
+msgid "Panel Menus"
+msgstr "منوهای پنل"
+
+#: templates/admin/menus.php:36
+msgid "Error in saving."
+msgstr "مشکل در ذخیره سازی."
+
+#: templates/admin/menus.php:42
+msgid "Settings Changed."
+msgstr "تغییرات ذخیره شد."
+
+#: templates/admin/menus.php:51
+msgid "Add Menu"
+msgstr "افزودن منو"
+
+#: templates/admin/menus.php:66
+msgid "Add menu icon"
+msgstr "قرار دادن آیکن در منوها"
+
+#: templates/admin/menus.php:70
+msgid "You can use boxicons classes as menu icon in "
+msgstr "شما می توانید از کلاس های boxicons  در "
+
+#: templates/admin/menus.php:74
+msgid "this address "
+msgstr "این آدرس "
+
+#: templates/admin/menus.php:78
+msgid ""
+"(eg: bx bx-support) Also, if your theme uses font awesome icons, you can use "
+"fontawesome css classes (eg: far fa-user)"
+msgstr ""
+"استفاده کنید. برای مثال:  bx bx-support همچنین اگر قالب شما از font awesome "
+"پشتیبانی می کند، میتوانید از کلاسهای آن و هر نوع فونت آیکنی که کلاس css "
+"ارائه میکند استفاده کنید. برای مثال: far fa-user"
+
+#: templates/admin/menus.php:83
+msgid "Crate submenu"
+msgstr "ایجاد زیرمنو"
+
+#: templates/admin/menus.php:87
+msgid ""
+"To create a menu with submenu, add a custom menu and first change it to "
+"\"Parent\" via the \"Menu Type\" option and then save it. After saving you "
+"can add submenu to this perent menu. Submenus must first be saved to become "
+"a submenu via \"Menu Parent\" option."
+msgstr ""
+"برای ایجاد زیرمنو، یک منوی سفارشی اضافه کنید و این منو را از طریق گزینه "
+"\"نوع منو\" به \"والد\" تغییر دهید و ابتدا این منو را ذخیره کنید. همچنین "
+"زیرمنوها هم برای زیرمنو شدن از طریق گزینه \"منوی والد\"، ابتدا باید ذخیره "
+"شده باشند."
+
+#: templates/admin/parts/dash-box.php:17
+#: templates/admin/settings/forms/dash-boxes.php:40
+msgid "Box background color"
+msgstr "رنگ پس زمینه باکس"
+
+#: templates/admin/parts/dash-box.php:43
+#: templates/admin/settings/forms/dash-boxes.php:70
+msgid "Box title color"
+msgstr "رنگ عنوان باکس"
+
+#: templates/admin/parts/dash-box.php:48
+#: templates/admin/settings/forms/dash-boxes.php:79
+msgid "Box content (shortcode or text)"
+msgstr "محتوای باکس (متن یا کد کوتاه)"
+
+#: templates/admin/parts/dash-box.php:54
+#: templates/admin/settings/forms/dash-boxes.php:86
+msgid "Box content text color"
+msgstr "رنگ متن محتوای باکس"
+
+#: templates/admin/parts/dash-box.php:59
+#: templates/admin/settings/forms/dash-boxes.php:97
+msgid "Box link"
+msgstr "لینک باکس"
+
+#: templates/admin/parts/dash-box.php:60
+#: templates/admin/settings/forms/dash-boxes.php:93
+#: templates/admin/settings/forms/dash-boxes.php:99
+msgid "eg: google.con"
+msgstr "https://google.com"
+
+#: templates/admin/parts/dash-box.php:67
+#: templates/admin/settings/forms/dash-boxes.php:110
+msgid "Content type"
+msgstr "نوع محتوای باکس"
+
+#: templates/admin/parts/dash-box.php:70
+msgid "text"
+msgstr "متن"
+
+#: templates/admin/parts/dash-box.php:71
+msgid "shortcode"
+msgstr "کد کوتاه"
+
+#: templates/admin/parts/dash-box.php:72
+msgid "link"
+msgstr "پیوند"
+
+#: templates/admin/parts/dash-box.php:80
+#: templates/admin/settings/forms/dash-boxes.php:129
+#: templates/admin/settings/forms/dashboard.php:18
+#: templates/admin/settings/forms/dashboard.php:34
+#: templates/admin/settings/forms/dashboard.php:50
+msgid "Show"
+msgstr "نمایش"
+
+#: templates/admin/parts/dash-box.php:81
+#: templates/admin/settings/forms/dash-boxes.php:133
+#: templates/admin/settings/forms/dashboard.php:22
+#: templates/admin/settings/forms/dashboard.php:38
+#: templates/admin/settings/forms/dashboard.php:54
+msgid "Hide"
+msgstr "مخفی"
+
+#: templates/admin/parts/menu-item.php:7 templates/admin/parts/menu-item.php:26
+msgid "Custom Menu"
+msgstr "منو سفارشی"
+
+#: templates/admin/parts/menu-item.php:23
+#: templates/admin/parts/menu-setting-fields.php:16
+#: templates/admin/private-message/new-message.php:25
+#: templates/admin/private-message/user-messages.php:39
+#: templates/admin/ticket/new-ticket.php:15
+#: templates/admin/ticket/ticket-list.php:154
+#: templates/user/panel/private-msg.php:29
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/admin/parts/menu-item.php:30
+#: templates/admin/parts/menu-setting-fields.php:23
+msgid "Icon Classes"
+msgstr "کلاس های ایکن"
+
+#: templates/admin/parts/menu-item.php:35
+#: templates/admin/parts/menu-setting-fields.php:29
+msgid "Access for users"
+msgstr "دسترسی برای کاربران"
+
+#: templates/admin/parts/menu-item.php:49
+#: templates/admin/parts/menu-setting-fields.php:46
+msgid "Display Menu"
+msgstr "نمایش منو"
+
+#: templates/admin/parts/menu-item.php:53
+#: templates/admin/parts/menu-setting-fields.php:50
+msgid "Show in panel"
+msgstr "نمایش در پنل"
+
+#: templates/admin/parts/menu-item.php:57
+#: templates/admin/parts/menu-setting-fields.php:54
+msgid "Hide in panel"
+msgstr "مخفی سازی در پنل"
+
+#: templates/admin/parts/menu-item.php:63
+#: templates/admin/parts/menu-item.php:66
+#: templates/admin/parts/menu-setting-fields.php:63
+msgid "Menu Type"
+msgstr "نوع منو"
+
+#: templates/admin/parts/menu-item.php:67
+#: templates/admin/parts/menu-setting-fields.php:69
+msgid "Link to other page"
+msgstr "پیوند به صفحه ای دیگر"
+
+#: templates/admin/parts/menu-item.php:69
+#: templates/admin/parts/menu-setting-fields.php:77
+msgid "Page"
+msgstr "برگه"
+
+#: templates/admin/parts/menu-item.php:70
+#: templates/admin/parts/menu-setting-fields.php:82
+msgid "Parent"
+msgstr "والد"
+
+#: templates/admin/parts/menu-item.php:75
+#: templates/admin/parts/menu-setting-fields.php:90
+msgid "Menu Content"
+msgstr "محتوای منو"
+
+#: templates/admin/parts/menu-item.php:81
+#: templates/admin/parts/menu-setting-fields.php:104
+msgid "Menu Page"
+msgstr "برگه منو"
+
+#: templates/admin/parts/menu-item.php:85
+#: templates/admin/parts/menu-setting-fields.php:108
+msgid "Select Page"
+msgstr "انتخاب برگه"
+
+#: templates/admin/parts/menu-setting-fields.php:18
+msgid "Title Menu"
+msgstr "عنوان منو"
+
+#: templates/admin/parts/menu-setting-fields.php:66
+msgid "Select type"
+msgstr "انتخاب نوع"
+
+#: templates/admin/parts/menu-setting-fields.php:123
+msgid "Menu Parent"
+msgstr "منوی والد"
+
+#: templates/admin/parts/menu-setting-fields.php:128
+msgid "ّFirst level"
+msgstr "سطح اول"
+
+#: templates/admin/private-message/messages.php:17
+msgid "Pravate Massage"
+msgstr "پیام شخصی"
+
+#: templates/admin/private-message/messages.php:21
+msgid "username or email"
+msgstr "نام کاربری یا ایمیل"
+
+#: templates/admin/private-message/messages.php:24
+#: templates/admin/ticket/users.php:28
+msgid "Search"
+msgstr "جستجو"
+
+#: templates/admin/private-message/messages.php:30
+msgid "Are you sure to delete all your messages?"
+msgstr "آیا از پاک کردن تمامی پیام های خود مطمئنید؟"
+
+#: templates/admin/private-message/messages.php:32
+msgid "Delete All Messages"
+msgstr "حذف همه پیام ها"
+
+#: templates/admin/private-message/messages.php:39
+#: templates/admin/ticket/users.php:35
+msgid "Profile Image"
+msgstr "تصویر کاربر"
+
+#: templates/admin/private-message/messages.php:42
+msgid "Messages Count"
+msgstr "تعداد پیام"
+
+#: templates/admin/private-message/messages.php:43
+#: templates/admin/private-message/user-messages.php:42
+#: templates/admin/ticket/ticket-list.php:160
+#: templates/admin/ticket/users.php:38
+msgid "Actions"
+msgstr "عملیات"
+
+#: templates/admin/private-message/messages.php:86
+#: templates/admin/private-message/user-messages.php:84
+#: templates/user/panel/private-msg.php:66
+#, php-format
+msgid "%d unread"
+msgstr "%d خوانده نشده"
+
+#: templates/admin/private-message/messages.php:94
+#: templates/admin/private-message/new-message.php:71
+#: templates/admin/private-message/single-message.php:190
+#: templates/user/panel/new-ticket.php:74
+#: templates/user/panel/single-msg.php:195
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: templates/admin/private-message/messages.php:101
+msgid "Messages"
+msgstr "پیام ها"
+
+#: templates/admin/private-message/messages.php:109
+#: templates/admin/private-message/user-messages.php:97
+msgid "Are you sure to delete?"
+msgstr "آیا از حذف مطمئنید؟"
+
+#: templates/admin/private-message/messages.php:110
+msgid "Delete All"
+msgstr "حذف همه"
+
+#: templates/admin/private-message/messages.php:119
+#: templates/admin/ticket/users.php:64
+msgid "Not fount user."
+msgstr "کاربری یافت نشد."
+
+#: templates/admin/private-message/new-message.php:30
+#: templates/admin/private-message/user-messages.php:40
+#: templates/admin/ticket/new-ticket.php:42
+msgid "Message"
+msgstr "پیام"
+
+#: templates/admin/private-message/new-message.php:49
+#: templates/admin/private-message/new-message.php:56
+#: templates/admin/private-message/single-message.php:179
+#: templates/admin/ticket/new-ticket.php:62
+#: templates/admin/ticket/new-ticket.php:69
+#: templates/admin/ticket/single-ticket.php:259
+#: templates/user/panel/new-ticket.php:62
+#: templates/user/panel/single-msg.php:183
+#: templates/user/panel/single-ticket.php:321
+msgid "Upload Attachment"
+msgstr "آپلود ضمیمه"
+
+#: templates/admin/private-message/new-message.php:62
+#: templates/admin/private-message/single-message.php:183
+#: templates/admin/ticket/new-ticket.php:75
+#: templates/admin/ticket/single-ticket.php:263
+#, php-format
+msgid "Maximum size is %d and allowed extensions: jpg - jpeg - png - pdf - zip"
+msgstr "حداکثر حجم %d می باشد. پسوند های مجاز: zip - pdf - png - jpeg - jpg"
+
+#: templates/admin/private-message/new-message.php:72
+msgid "Message sent"
+msgstr "پیام ارسال شد"
+
+#: templates/admin/private-message/single-message.php:78
+#: templates/admin/private-message/single-message.php:86
+#: templates/admin/private-message/single-message.php:138
+#: templates/admin/private-message/single-message.php:147
+#: templates/admin/ticket/single-ticket.php:172
+#: templates/admin/ticket/single-ticket.php:180
+#: templates/admin/ticket/single-ticket.php:218
+#: templates/admin/ticket/single-ticket.php:227
+msgid "Attachment"
+msgstr "ضمیمه"
+
+#: templates/admin/private-message/user-messages.php:33
+msgid "Message list"
+msgstr "لیست پیام ها"
+
+#: templates/admin/private-message/user-messages.php:38
+#: templates/user/panel/private-msg.php:28
+msgid "Sender"
+msgstr "ارسال کننده"
+
+#: templates/admin/private-message/user-messages.php:41
+msgid "Replies"
+msgstr "پاسخ ها"
+
+#: templates/admin/private-message/user-messages.php:104
+#: templates/user/panel/private-msg.php:84
+#: templates/user/parts/dash/dash-info-boxes.php:58
+msgid "There is no message."
+msgstr "پیامی وجود ندارد."
+
+#: templates/admin/settings/forms/account-menu.php:13
+msgid "Non logged in user btn type"
+msgstr "نوع دکمه برای کاربر وارد نشده"
+
+#: templates/admin/settings/forms/account-menu.php:18
+msgid "Signup or Login"
+msgstr "ثبت نام یا ورود"
+
+#: templates/admin/settings/forms/account-menu.php:22
+msgid "SMS signup or login"
+msgstr "ویژه ثبت نام یا ورود با موبایل"
+
+#: templates/admin/settings/forms/account-menu.php:29
+msgid "logged in user btn type"
+msgstr "نوع دکمه برای کاربر وارد شده"
+
+#: templates/admin/settings/forms/account-menu.php:34
+msgid "Avatar"
+msgstr "تصویر آواتار"
+
+#: templates/admin/settings/forms/account-menu.php:38
+msgid "Icon and text"
+msgstr "آیکن و متن"
+
+#: templates/admin/settings/forms/account-menu.php:45
+msgid "Logged in user btn icon class"
+msgstr "کلاس آیکن دکمه برای کاربر وارد شده"
+
+#: templates/admin/settings/forms/account-menu.php:54
+msgid "Logged in user btn text"
+msgstr "متن دکمه برای کاربر وارد شده"
+
+#: templates/admin/settings/forms/account-menu.php:63
+msgid "Menus"
+msgstr "منوها"
+
+#: templates/admin/settings/forms/add-supporter.php:8
+msgid "responsible username"
+msgstr "نام کاربری پشتیبان"
+
+#: templates/admin/settings/forms/add-supporter.php:13
+#: templates/admin/settings/forms/supporters.php:40
+msgid "responsible for"
+msgstr "مسئول برای بخش"
+
+#: templates/admin/settings/forms/add-supporter.php:28
+msgid "Added"
+msgstr "اضافه شد"
+
+#: templates/admin/settings/forms/dash-boxes.php:9
+msgid "Add new box"
+msgstr "افزودن باکس جدید"
+
+#: templates/admin/settings/forms/dash-boxes.php:114
+msgid "Text"
+msgstr "متن"
+
+#: templates/admin/settings/forms/dash-boxes.php:125
+msgid "Box display"
+msgstr "نام نمایشی باکس"
+
+#: templates/admin/settings/forms/dashboard.php:13
+msgid "User details box display"
+msgstr "نمایش باکس اطلاعات کاربر"
+
+#: templates/admin/settings/forms/dashboard.php:29
+msgid "Date info box display"
+msgstr "نمایش باکس تاریخ"
+
+#: templates/admin/settings/forms/dashboard.php:45
+msgid "Latest tickets display"
+msgstr "نمایش تیکت های اخیر"
+
+#: templates/admin/settings/forms/email.php:12
+msgid "Registration notification email subject"
+msgstr "عنوان ایمیل اطلاع رسانی ثبت نام کاربر"
+
+#: templates/admin/settings/forms/email.php:18
+msgid "Registration notification email text"
+msgstr "متن  ایمیل اطلاع رسانی ثبت نام کاربر"
+
+#: templates/admin/settings/forms/email.php:39
+#: templates/admin/settings/forms/email.php:79
+#: templates/admin/settings/forms/email.php:125
+#: templates/admin/settings/forms/email.php:179
+#: templates/admin/settings/forms/email.php:219
+msgid "Codes that can be used in the text of the email: "
+msgstr "کدهایی که میتوانید در متن ایمیل استفاده کنید: "
+
+#: templates/admin/settings/forms/email.php:52
+msgid "Account activation email subject"
+msgstr "عنوان ایمیل فعالسازی حساب کاربری"
+
+#: templates/admin/settings/forms/email.php:58
+msgid "Account activation email text"
+msgstr "متن  ایمیل فعالسازی حساب کاربری"
+
+#: templates/admin/settings/forms/email.php:94
+msgid "Admin approval email subject"
+msgstr "عنوان ایمیل اطلاع رسانی  فعالسازی توسط مدیر"
+
+#: templates/admin/settings/forms/email.php:103
+msgid "Admin approval email content"
+msgstr "محتوای ایمیل اطلاع رسانی  فعالسازی توسط مدیر"
+
+#: templates/admin/settings/forms/email.php:138
+msgid "Enable sending emails for tickets"
+msgstr "فعالسازی ارسال ایمیل برای تیکت"
+
+#: templates/admin/settings/forms/email.php:151
+msgid "Ticket reply notification email subject"
+msgstr "عنوان ایمیل اطلاع رسانی پاسخ تیکت به کاربر"
+
+#: templates/admin/settings/forms/email.php:158
+msgid "Ticket reply notification email text"
+msgstr "متن ایمیل اطلاع رسانی پاسخ تیکت به کاربر"
+
+#: templates/admin/settings/forms/email.php:189
+msgid "New ticket notification email subject"
+msgstr "عنوان ایمیل اطلاع رسانی تیکت جدید به کاربر"
+
+#: templates/admin/settings/forms/email.php:198
+msgid "new ticket notification email text"
+msgstr "متن ایمیل اطلاع رسانی تیکت جدید به کاربر"
+
+#: templates/admin/settings/forms/general.php:13
+msgid "Disable admin bar for"
+msgstr "مخفی سازی نوار مدیریت وردپرس برای"
+
+#: templates/admin/settings/forms/general.php:29
+msgid "Disable wp admin for"
+msgstr "مخفی سازی ناحیه کاربری وردپرس برای"
+
+#: templates/admin/settings/forms/general.php:43
+msgid "Maximum private message attachment size in kilobytes"
+msgstr "حداکثر حجم ضمیمه پیام شخصی  بر حسب کیلوبایت"
+
+#: templates/admin/settings/forms/general.php:52
+msgid "Delete plugin data during uninstallation"
+msgstr "پاکسازی همه داده ها در صورت حذف کردن افزونه"
+
+#: templates/admin/settings/forms/login.php:12
+msgid "Enable plugin default login"
+msgstr "فعالسازی ورود پیشفرض افزونه"
+
+#: templates/admin/settings/forms/login.php:25
+msgid "Redirect default login to plugin login"
+msgstr "ریدایرکت ورود پیشفرض به ورود افزونه"
+
+#: templates/admin/settings/forms/login.php:39
+#: templates/admin/settings/forms/register.php:55
+msgid "Enable google recaptcha"
+msgstr "فعالسازی گوگل ریکپچا"
+
+#: templates/admin/settings/forms/login.php:57
+#: templates/admin/settings/forms/register.php:73
+msgid "Google recaptcha site key"
+msgstr "توکن site key ریکپچا"
+
+#: templates/admin/settings/forms/login.php:69
+#: templates/admin/settings/forms/register.php:85
+msgid "Google recaptcha secret key"
+msgstr "توکن secret key ریکپچا"
+
+#: templates/admin/settings/forms/login.php:81
+msgid "Enable sms register or login"
+msgstr "فعالسازی ثبت نام یا ورود با موبایل"
+
+#: templates/admin/settings/forms/login.php:95
+msgid "Force user to add and verify phone number."
+msgstr "الزام کاربر به ثبت و تایید شماره همراه."
+
+#: templates/admin/settings/forms/login.php:108
+msgid ""
+"If \"Enable sms login\" option and this option is enabled, users who have "
+"not registered or confirmed their mobile number will be required to register "
+"or confirm their mobile number."
+msgstr ""
+"اگر گزینه \"فعالسازی ورود با موبایل\" و این گزینه فعال باشند، کاربرانی که "
+"شماره همراه خود را ثبت یا تایید نکرده اند، ملزم به ثبت یا تایید شماره همراه "
+"خود میشوند."
+
+#: templates/admin/settings/forms/login.php:115
+msgid "Reset password method"
+msgstr "روش بازیابی رمز عبور"
+
+#: templates/admin/settings/forms/login.php:120
+msgid "Both"
+msgstr "هر دو"
+
+#: templates/admin/settings/forms/login.php:124
+msgid "By email"
+msgstr "توسط ایمیل"
+
+#: templates/admin/settings/forms/login.php:128
+msgid "By mobile"
+msgstr "توسط شماره همراه"
+
+#: templates/admin/settings/forms/pages.php:13
+msgid "Register page"
+msgstr "برگه فرم ثبت نام"
+
+#: templates/admin/settings/forms/pages.php:22
+#: templates/admin/settings/forms/pages.php:50
+#: templates/admin/settings/forms/pages.php:75
+#: templates/admin/settings/forms/pages.php:101
+#: templates/admin/settings/forms/pages.php:129
+#: templates/admin/settings/forms/pages.php:156
+#: templates/admin/settings/forms/pages.php:181
+#: templates/admin/settings/forms/pages.php:206
+#: templates/admin/settings/forms/pages.php:261
+msgid "None"
+msgstr "هیچکدام"
+
+#: templates/admin/settings/forms/pages.php:26
+#: templates/admin/settings/forms/pages.php:56
+#: templates/admin/settings/forms/pages.php:79
+#: templates/admin/settings/forms/pages.php:105
+#: templates/admin/settings/forms/pages.php:133
+#: templates/admin/settings/forms/pages.php:160
+#: templates/admin/settings/forms/pages.php:185
+#: templates/admin/settings/forms/pages.php:210
+#: templates/admin/settings/forms/pages.php:240
+#: templates/admin/settings/forms/pages.php:265
+#: templates/user/parts/header-notice.php:65
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: templates/admin/settings/forms/pages.php:34
+#: templates/admin/settings/forms/pages.php:63
+#: templates/admin/settings/forms/pages.php:87
+#: templates/admin/settings/forms/pages.php:113
+#: templates/admin/settings/forms/pages.php:141
+#: templates/admin/settings/forms/pages.php:168
+#: templates/admin/settings/forms/pages.php:193
+#: templates/admin/settings/forms/pages.php:218
+#: templates/admin/settings/forms/pages.php:248
+#: templates/admin/settings/forms/pages.php:273
+msgid "There is no page."
+msgstr "برگه ای وجود ندارد."
+
+#: templates/admin/settings/forms/pages.php:41
+msgid "After register page"
+msgstr "برگه پس از  ثبت نام"
+
+#: templates/admin/settings/forms/pages.php:69
+msgid "Login page"
+msgstr "برگه ورود"
+
+#: templates/admin/settings/forms/pages.php:94
+msgid "After login page"
+msgstr "برگه بعد از ورود"
+
+#: templates/admin/settings/forms/pages.php:117
+msgid ""
+"This option is related to logging in through the plugin login form and for "
+"non-administrator users."
+msgstr ""
+"این گزینه مربوط به ورود از طریق فرم ورود افزونه و فقط برای کاربران غیر مدیر "
+"می باشد."
+
+#: templates/admin/settings/forms/pages.php:123
+msgid "SMS register/login page"
+msgstr "برگه ورود یا ثبت نام با موبایل"
+
+#: templates/admin/settings/forms/pages.php:148
+msgid "After SMS register/login page"
+msgstr "برگه بعد از ورود یا ثبت نام با موبایل"
+
+#: templates/admin/settings/forms/pages.php:175
+msgid "Lost password page"
+msgstr "برگه فرم فراموشی رمز عبور"
+
+#: templates/admin/settings/forms/pages.php:199
+msgid "Reset password page"
+msgstr "برگه فرم رمز عبور جدید"
+
+#: templates/admin/settings/forms/pages.php:222
+msgid ""
+"Proper selection of this page and login page can be required for the correct "
+"password recovery actions of the plugin."
+msgstr ""
+"انتخاب صحیح این برگه و برگه فرم ورود برای اینکه عملیات بازیابی رمز عبور "
+"افزونه  به درستی انجام شود، ضروری است."
+
+#: templates/admin/settings/forms/pages.php:229
+msgid "After logout page"
+msgstr "برگه پس از خروج"
+
+#: templates/admin/settings/forms/pages.php:236
+msgid "Default"
+msgstr "پیشفرض"
+
+#: templates/admin/settings/forms/pages.php:254
+msgid "Panel page"
+msgstr "برگه ناحیه کاربری"
+
+#: templates/admin/settings/forms/pages.php:277
+msgid ""
+"The page that you have considered as the user panel page of Arvand Panel "
+"plugin."
+msgstr "برگه ای که به عنوان برگه پنل کاربری افزونه اورند پنل در نظر گرفته اید."
+
+#: templates/admin/settings/forms/panel.php:13
+msgid "Fullscreen compatibility"
+msgstr "سازگاری با حالت تمام صفحه"
+
+#: templates/admin/settings/forms/panel.php:26
+msgid ""
+"Enabling this option does not make the screen full screen but compatible "
+"with full screen mode. For example, the height of the panel is adjusted more "
+"precisely."
+msgstr ""
+"فعاسازی این گزینه به معنای تمام صفحه شدن پنل کاربری نیست، بلکه اگر برگه پنل "
+"کاربری در حالت تمام صفحه باشد، با فعال کردن این گزینه، پنل کاربری به روشی "
+"مناسب تر و سازگار با حالت تمام صفحه نمایش داده میشود."
+
+#: templates/admin/settings/forms/panel.php:32
+msgid "Show top panel section"
+msgstr "نمایش قسمت بالای پنل"
+
+#: templates/admin/settings/forms/panel.php:44
+msgid "Panel header logo"
+msgstr "لوگو"
+
+#: templates/admin/settings/forms/panel.php:55
+msgid "Upload"
+msgstr "آپلود"
+
+#: templates/admin/settings/forms/panel.php:68
+msgid "Logo width"
+msgstr "عرض لوگو"
+
+#: templates/admin/settings/forms/panel.php:74
+msgid "Logo height"
+msgstr "ارتفاع لوگو"
+
+#: templates/admin/settings/forms/panel.php:80
+msgid "Enable upload avatar"
+msgstr "فعالسازی آپلود آواتار"
+
+#: templates/admin/settings/forms/panel.php:92
+msgid "Avatar image size in kilobytes"
+msgstr "حداکثر حجم تصویر آواتار بر حسب کیلوبایت"
+
+#: templates/admin/settings/forms/panel.php:98
+msgid "Notifications per page"
+msgstr "تعداد اطلاعیه ها در هر صفحه"
+
+#: templates/admin/settings/forms/panel.php:104
+msgid "Comments per page"
+msgstr "تعداد نظرات در هر صفحه"
+
+#: templates/admin/settings/forms/register.php:13
+msgid "Enable plugin default register"
+msgstr "فعالسازی ثبت نام پیشفرش افزونه"
+
+#: templates/admin/settings/forms/register.php:27
+msgid "Redirect default register"
+msgstr "ریدایرکت ثبت نام پیشفرش"
+
+#: templates/admin/settings/forms/register.php:41
+msgid "Enable password strength"
+msgstr "فعالسازی قدرت سنج رمز عبور"
+
+#: templates/admin/settings/forms/register.php:97
+msgid "Require user to activate account by email"
+msgstr "الزام کاربر به فعالسازی ایمیلی حساب کاربری"
+
+#: templates/admin/settings/forms/register.php:111
+msgid "Password in mobile registration"
+msgstr "الزام به ثبت رمز عبور در ثبت نام با موبایل"
+
+#: templates/admin/settings/forms/register.php:125
+msgid "Enable account approval by admin"
+msgstr "فعالسازی تایید حساب به دست مدیر"
+
+#: templates/admin/settings/forms/register.php:138
+msgid ""
+"By activating this option, registered users can login to their account only "
+"if approved by site administrator. To approve user account, go to the users "
+"menu and the WordPress user editing page."
+msgstr ""
+"با فعالسازی این گزینه، کاربران ثبت نام شده فقط در صورت تایید مدیر سایت می "
+"توانند وارد سایت شوند. جهت تایید حساب کاربر به منوی کاربران و صفحه ویرایش "
+"کاربر وردپرس مراجعه کنید و گزنیه فعالسازی پنل کاربری را تیک بزنید."
+
+#: templates/admin/settings/forms/register.php:145
+msgid "Enable agree to terms"
+msgstr "فعالسازی فیلد موافقت با قوانین"
+
+#: templates/admin/settings/forms/register.php:159
+msgid "require user to agree"
+msgstr "الزام کاربر به موافقت با قوانین"
+
+#: templates/admin/settings/forms/register.php:172
+msgid "\"Agree to terms\" text"
+msgstr "متن موافقت با قوانین"
+
+#: templates/admin/settings/forms/roles.php:12
+msgid "New roles after delete"
+msgstr "نقش جایگزین پس از حذف"
+
+#: templates/admin/settings/forms/roles.php:26
+msgid ""
+"If any role is deleted in the next option (Roles), this role is applied to "
+"users who have had the role deleted."
+msgstr ""
+"اگر هرکدام از نقش ها در پایین حذف شود، این نقش برای کاربرانی که نقش حذف شده "
+"را داشتند اعمال می شود."
+
+#: templates/admin/settings/forms/roles.php:32
+#: templates/admin/settings/index.php:159
+msgid "Roles"
+msgstr "نقش ها"
+
+#: templates/admin/settings/forms/roles.php:60
+msgid "New role name"
+msgstr "نام نقش"
+
+#: templates/admin/settings/forms/roles.php:64
+msgid "eg: first_level"
+msgstr "مثال: first_level"
+
+#: templates/admin/settings/forms/roles.php:67
+#: templates/admin/settings/forms/roles.php:80
+msgid "If you want to add new role this field is required."
+msgstr ""
+"اگر می خواهید نقش کاربری جدید اضاف کنید، وارد کردن این فیلد الزامی است."
+
+#: templates/admin/settings/forms/roles.php:73
+msgid "Role display name"
+msgstr "نام نمایشی نقش"
+
+#: templates/admin/settings/forms/roles.php:77
+msgid "eg: First Level"
+msgstr "مثال: سطح اول"
+
+#: templates/admin/settings/forms/shortcode.php:13
+msgid "Add shortcode in top of sidebar avatar"
+msgstr "اضافه کردن کد کوتاه به بالای آواتار"
+
+#: templates/admin/settings/forms/shortcode.php:35
+msgid "You can add text or shortcodes before user info in top of sidebar."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) بالای آواتار در قسمت بالای "
+"سایدبار اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:42
+msgid "Add shortcode after sidebar avatar"
+msgstr "اضافه کردن کد کوتاه بعد از آواتار"
+
+#: templates/admin/settings/forms/shortcode.php:64
+msgid "You can add text or shortcodes after user info in top of sidebar."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) به بعد از آواتار در قسمت بالای "
+"سایدبار اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:71
+msgid "Add shortcode before sidebar menu"
+msgstr "اضافه کردن کد کوتاه قبل از منو سایدبار"
+
+#: templates/admin/settings/forms/shortcode.php:93
+msgid "You can add text or shortcodes before sidebar menu."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) قبل از منوی سایدبار اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:100
+msgid "Add shortcode after sidebar menu"
+msgstr "اضافه کردن کد کوتاه بعد از منوی سایدبار"
+
+#: templates/admin/settings/forms/shortcode.php:122
+msgid "You can add text or shortcodes after sidebar menu."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) بعد از منوی سایدبار اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:129
+msgid "Add shortcode in panel header"
+msgstr "اضافه کردن کد کوتاه به سربرگ پنل کاربری"
+
+#: templates/admin/settings/forms/shortcode.php:151
+msgid "You can add text or shortcodes in panel header."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) به سربرگ پنل کاربری اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:158
+msgid "Add shortcode after header logo"
+msgstr "اضافه کردن کد کوتاه بعد از لوگو"
+
+#: templates/admin/settings/forms/shortcode.php:180
+msgid "You can add text or shortcodes after header logo."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) بعد از لوگوی هدر پنل کاربری "
+"اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:187
+msgid "Add shortcode in top of dashboard"
+msgstr "اضافه کردن کد کوتاه به بالای داشبورد"
+
+#: templates/admin/settings/forms/shortcode.php:209
+msgid "You can add text or shortcodes in top of dashboard"
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) به بالای داشبورد اضافه کنید"
+
+#: templates/admin/settings/forms/shortcode.php:216
+msgid "Add shortcode before info boxes"
+msgstr "اضافه کردن کد کوتاه قبل  از باکس های اطلاعاتی داشبورد"
+
+#: templates/admin/settings/forms/shortcode.php:238
+msgid "You can add text or shortcodes before dashboard info boxes."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد ) قبل از باکس های اطلاعاتی "
+"داشبورد اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:245
+msgid "Add shortcode after info boxes"
+msgstr "اضافه کردن کد کوتاه بعد از باکس های اطلاعاتی داشبورد"
+
+#: templates/admin/settings/forms/shortcode.php:267
+msgid "You can add text or shortcodes after dashboard info boxes."
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) بعد از باکس های اطلاعاتی "
+"داشبورد اضافه کنید."
+
+#: templates/admin/settings/forms/shortcode.php:274
+msgid "Add shortcode in bottom of dashboard"
+msgstr "اضافه کردن کد کوتاه به پایین داشبورد"
+
+#: templates/admin/settings/forms/shortcode.php:296
+msgid "You can add text or shortcodes in bottom of dashboard"
+msgstr ""
+"می توانید متن یا کد کوتاه (یک یا چند شورتکد) به پایین داشبورد اضافه کنید"
+
+#: templates/admin/settings/forms/sms-providers.php:10
+msgid "سامانه مورد استفاده"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers.php:20
+msgid "Select the sms provider"
+msgstr "انتخاب ارائه دهنده"
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:14
+#: templates/admin/settings/forms/sms-providers/farazsms.php:14
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:14
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:14
+#: templates/admin/settings/forms/sms-providers/raygansms.php:14
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:14
+msgid "Your sms provider username"
+msgstr "نام کاربری شما در سیستم ارائه دهنده"
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:19
+#: templates/admin/settings/forms/sms-providers/farazsms.php:19
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:19
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:19
+#: templates/admin/settings/forms/sms-providers/raygansms.php:19
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:19
+msgid "Your sms provider password"
+msgstr "رمز عبور شما در سیستم ارائه دهنده"
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:24
+#: templates/admin/settings/forms/sms-providers/farazsms.php:24
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:19
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:24
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:24
+#: templates/admin/settings/forms/sms-providers/raygansms.php:24
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:24
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:24
+msgid "From"
+msgstr "از شماره"
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:28
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:28
+msgid "شماره خط خدماتی (برای پیامک ساده)"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:33
+#: templates/admin/settings/forms/sms-providers/farazsms.php:33
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:28
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:33
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:33
+msgid "Pattern code"
+msgstr "کد پترن"
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:37
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق متن الگویی باشد که در پنل "
+"فراپیامک تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:42
+#: templates/admin/settings/forms/sms-providers/farazsms.php:42
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:40
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:42
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:42
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:42
+msgid "مثال متن پیامک پترن"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:46
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:46
+msgid "کاربر گرامی کد تأیید شما: {0} می‌باشد. https://arvandwp.ir"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:48
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. در قسمت \"ابزار ویژه\" سپس \"وب "
+"سرویس خدماتی\" در پنل فراپیامک، متن الگوی خود را بسازید و از متغیر زیر "
+"استفاده کنید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farapayamak.php:51
+#: templates/admin/settings/forms/sms-providers/farazsms.php:50
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:47
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:51
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:50
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:50
+msgid "کد اعتبارسنجی: "
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farazsms.php:28
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:23
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:28
+#: templates/admin/settings/forms/sms-providers/raygansms.php:28
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:28
+msgid "Your sms service number."
+msgstr "شماره خط پنل پیام کوتاه شما."
+
+#: templates/admin/settings/forms/sms-providers/farazsms.php:37
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق پترنی باشد که در پنل فراز اس ام "
+"اس تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farazsms.php:45
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:45
+msgid "تشکر از عضویت در اروند وردپرس، کد شما: %code%"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/farazsms.php:47
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. در قسمت \"ارسال براساس پترن\" پنل "
+"فراز اس ام اس، قالب پترن خود را بسازید و از متغیر زیر استفاده کنید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:14
+#: templates/admin/settings/forms/sms-providers/parsgreen.php:14
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:14
+msgid "API key"
+msgstr "کلید api"
+
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:34
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق پترنی باشد که در پنل کاوه نگار "
+"تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/kavenegar.php:43
+msgid "تشکر از عضویت در اروند وردپرس، کد تایید: token%"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:37
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق متن الگویی باشد که در پنل ملی "
+"پیامک تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/melipayamak.php:48
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. در قسمت \"ابزار ویژه\" سپس \"وب "
+"سرویس خدماتی\" در پنل ملی پیامک، متن الگوی خود را بسازید و از متغیر زیر "
+"استفاده کنید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:37
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق پترنی باشد که در پنل مدیر پیامک "
+"تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/modirpayamak.php:47
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. در قسمت \"ارسال براساس پترن\" پنل "
+"مدیر پیامک، قالب پترن خود را بسازید و از متغیر زیر استفاده کنید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/raygansms.php:33
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:33
+msgid "SMS message"
+msgstr "متن پیام کوتاه"
+
+#: templates/admin/settings/forms/sms-providers/raygansms.php:37
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:37
+msgid "جهت استفاده در پیامک های ورود و ثبت نام."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/raygansms.php:40
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:40
+msgid "کداعتبارسنجی: "
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/raygansms.php:42
+#: templates/admin/settings/forms/sms-providers/webone-sms.php:42
+msgid "نام سایت: "
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:19
+msgid "Secret key"
+msgstr "کلید امنیتی"
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:28
+msgid "Your sms service number"
+msgstr "شماره خط پنل پیام کوتاه شما"
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:33
+msgid "Template id"
+msgstr "شناسه قالب"
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:37
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. طبق شناسه قالبی باشد که در پنل sms."
+"ir تعریف کرده اید."
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:45
+msgid "تشکر از عضویت در اروند وردپرس، کد شما: [code]"
+msgstr ""
+
+#: templates/admin/settings/forms/sms-providers/sms-ir.php:47
+msgid ""
+"جهت ارسال کد اعتبارسنجی ورود و ثبت نام. در منوی برنامه نویسات و قسمت \"قالب "
+"های ماژول ارسال سریع\" پنل sms.ir، قالب خود را بسازید و از متغیر زیر استفاده "
+"کنید."
+msgstr ""
+
+#: templates/admin/settings/forms/styles.php:14
+msgid "Section styles"
+msgstr "استایل های بخش"
+
+#: templates/admin/settings/forms/styles.php:19
+msgid "General Styles"
+msgstr "استایل های عمومی"
+
+#: templates/admin/settings/forms/styles.php:23
+msgid "Sidebar Styles"
+msgstr "استایل های سایدبار"
+
+#: templates/admin/settings/forms/styles.php:27
+msgid "Header Styles"
+msgstr "استایل های هدر"
+
+#: templates/admin/settings/forms/styles.php:31
+msgid "Dashboard Styles"
+msgstr "استایل های  داشبورد"
+
+#: templates/admin/settings/forms/styles.php:39
+msgid "Panel background color"
+msgstr "رنگ پسزمینه پنل"
+
+#: templates/admin/settings/forms/styles.php:48
+#, fuzzy
+#| msgid "Panel page"
+msgid "Panel z-index"
+msgstr "برگه ناحیه کاربری"
+
+#: templates/admin/settings/forms/styles.php:56
+msgid ""
+"This feature works when the \"Fullscreen compatibility\" option is enabled "
+"in \"Panel\" settings."
+msgstr ""
+
+#: templates/admin/settings/forms/styles.php:63
+msgid "Buttons background color"
+msgstr "رنگ پس زمینه دکمه ها"
+
+#: templates/admin/settings/forms/styles.php:72
+msgid "Buttons text color"
+msgstr "رنگ متن دکمه ها"
+
+#: templates/admin/settings/forms/styles.php:81
+msgid "Buttons hover background color"
+msgstr "رنگ پسزمینه دکمه ها  در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:90
+msgid "Buttons hover text color"
+msgstr "رنگ متن دکمه ها در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:101
+msgid "Sidebar background color"
+msgstr "رنگ پسزمینه سایدبار"
+
+#: templates/admin/settings/forms/styles.php:110
+msgid "Top sidebar background color"
+msgstr "رنگ پس زمینه قسمت بالای سایدبار"
+
+#: templates/admin/settings/forms/styles.php:118
+msgid "Top sidebar text color"
+msgstr "رنگ متن قسمت بالای سایدبار"
+
+#: templates/admin/settings/forms/styles.php:124
+msgid "Menus style"
+msgstr "سبک منو"
+
+#: templates/admin/settings/forms/styles.php:129
+msgid "Primary"
+msgstr "سبک اول"
+
+#: templates/admin/settings/forms/styles.php:133
+msgid "سبک دوم (توصیه نمیشود)"
+msgstr ""
+
+#: templates/admin/settings/forms/styles.php:143
+msgid "Menus icon background color"
+msgstr "رنگ پسزمینه آیکن منو"
+
+#: templates/admin/settings/forms/styles.php:154
+msgid "Menu icons color"
+msgstr "رنگ متن آیکن منو"
+
+#: templates/admin/settings/forms/styles.php:165
+msgid "Menus icon background hover color"
+msgstr "رنگ پسزمینه آیکن منو در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:177
+msgid "Menu icons hover color"
+msgstr "رنگ متن آیکن منو در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:188
+msgid "Back button background color"
+msgstr "رنگ پس زمینه دکمه بازگشت"
+
+#: templates/admin/settings/forms/styles.php:195
+msgid "Back button color"
+msgstr "رنگ متن دکمه بازگشت"
+
+#: templates/admin/settings/forms/styles.php:201
+msgid "Menus color"
+msgstr "رنگ منوها"
+
+#: templates/admin/settings/forms/styles.php:208
+msgid "Menus hover background color"
+msgstr "رنگ پسزمینه منو در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:217
+msgid "Menus hover color"
+msgstr "رنگ متن منو در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:225
+msgid "Sidebar notice color"
+msgstr "رنگ نشان اعلان سایدبار"
+
+#: templates/admin/settings/forms/styles.php:234
+msgid "Header background color"
+msgstr "رنگ پسزمینه هدر"
+
+#: templates/admin/settings/forms/styles.php:243
+msgid "Header buttons background color"
+msgstr "رنگ پسزمینه دکمه های هدر"
+
+#: templates/admin/settings/forms/styles.php:252
+msgid "Header buttons text color"
+msgstr "رنگ متن دکمه های هدر"
+
+#: templates/admin/settings/forms/styles.php:261
+msgid "Header buttons hover background color"
+msgstr "رنگ پسزمینه دکمه های هدر در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:272
+msgid "Header buttons hover text color"
+msgstr "رنگ متن دکمه های هدر در حالت هاور"
+
+#: templates/admin/settings/forms/styles.php:285
+msgid "Dashboard user info background color"
+msgstr "رنگ پسزمینه باکس اطلاعات کاربر"
+
+#: templates/admin/settings/forms/styles.php:294
+msgid "Dashboard user info text color"
+msgstr "رنگ متن باکس اطلاعات کاربر"
+
+#: templates/admin/settings/forms/styles.php:304
+msgid "Dashboard date info background color"
+msgstr "رنگ پس زمینه باکس اطلاعات تاریخ"
+
+#: templates/admin/settings/forms/styles.php:313
+msgid "Dashboard date info text color"
+msgstr "رنگ متن باکس اطلاعات تاریخ"
+
+#: templates/admin/settings/forms/ticket-department.php:12
+msgid "Tickets department"
+msgstr "بخش های پشتیبانی"
+
+#: templates/admin/settings/forms/ticket.php:13
+msgid "Tickets status (name and color status)"
+msgstr "افزودن وضعیت تیکت (نام و رنگ)"
+
+#: templates/admin/settings/forms/ticket.php:26
+#: templates/admin/settings/forms/ticket.php:46
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: templates/admin/settings/forms/ticket.php:31
+#: templates/admin/settings/forms/ticket.php:52
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: templates/admin/settings/forms/ticket.php:73
+msgid "Ticket attachment size in kilobytes"
+msgstr "حداکثر حجم ضمیمه تیکت بر حسب کیلوبایت"
+
+#: templates/admin/settings/forms/ticket.php:82
+msgid "Tickets per page"
+msgstr "تعداد تیکت ها در هر صفحه"
+
+#: templates/admin/settings/forms/ticket.php:88
+msgid "Ticket replies per page"
+msgstr "تعداد پاسخ های تیکت در هر صفحه"
+
+#: templates/admin/settings/forms/ticket.php:94
+msgid "Can users close ticket?"
+msgstr "کاربران می توانند تیکت را ببندند؟"
+
+#: templates/admin/settings/forms/ticket.php:106
+msgid "Enable ticket SMS notification"
+msgstr "فعالسازی ارسال پیامک اطلاع رسانی تیکت"
+
+#: templates/admin/settings/forms/ticket.php:119
+msgid "Ticket reply notification sms text"
+msgstr "متن پیامک اطلاع رسانی پاسخ تیکت به کاربر"
+
+#: templates/admin/settings/forms/ticket.php:127
+#: templates/admin/settings/forms/ticket.php:145
+msgid "Codes that can be used in the SMS text: "
+msgstr "کدهایی که میتوانید در متن پیام کوتاه استفاده کنید: "
+
+#: templates/admin/settings/forms/ticket.php:137
+msgid "New ticket notification sms text"
+msgstr "متن پیامک اطلاع رسانی تیکت جدید به کاربر"
+
+#: templates/admin/settings/index.php:45
+#, php-format
+msgid "نسخه %s"
+msgstr ""
+
+#: templates/admin/settings/index.php:55
+msgid "General"
+msgstr "عمومی"
+
+#: templates/admin/settings/index.php:73
+msgid "Account Menu"
+msgstr "منو ناحیه کاربری"
+
+#: templates/admin/settings/index.php:79
+msgid "User Panel"
+msgstr "ناحیه کاربری"
+
+#: templates/admin/settings/index.php:91
+msgid "Dashboard settings"
+msgstr "تنظیمات داشبورد"
+
+#: templates/admin/settings/index.php:96
+msgid "Info boxes"
+msgstr "باکس های اطلاعاتی داشبورد"
+
+#: templates/admin/settings/index.php:108
+msgid "Ticket settings"
+msgstr "تنظیمات تیکت"
+
+#: templates/admin/settings/index.php:113
+msgid "Ticket Department"
+msgstr "بخش های پشتیبانی"
+
+#: templates/admin/settings/index.php:118
+msgid "Add supporter"
+msgstr "اضافه کرد پشتیبان"
+
+#: templates/admin/settings/index.php:123
+msgid "Supporters"
+msgstr "پشتیبان ها"
+
+#: templates/admin/settings/index.php:129
+msgid "SMS providers"
+msgstr "سامانه های پیامکی"
+
+#: templates/admin/settings/index.php:135
+msgid "Pages"
+msgstr "برگه ها"
+
+#: templates/admin/settings/index.php:153
+msgid "Styles"
+msgstr "استایل ها"
+
+#: templates/admin/ticket/new-ticket.php:28
+#: templates/admin/ticket/ticket-list.php:157
+#: templates/user/panel/new-ticket.php:28
+msgid "Department"
+msgstr "بخش پشتیبانی"
+
+#: templates/admin/ticket/new-ticket.php:84
+msgid "Create Ticket"
+msgstr "ایجاد  تیکت"
+
+#: templates/admin/ticket/new-ticket.php:85
+msgid "Created"
+msgstr "ایجاد کنند"
+
+#: templates/admin/ticket/single-ticket.php:50
+msgid "Change status"
+msgstr "تغییر وضعیت"
+
+#: templates/admin/ticket/single-ticket.php:77
+msgid "Change department"
+msgstr "تغییر بخش پشتیبانی"
+
+#: templates/admin/ticket/single-ticket.php:93
+msgid "Are you sure you want to delete this ticket?"
+msgstr "آیا از حذف این تیکت مطمئنید؟"
+
+#: templates/admin/ticket/single-ticket.php:95
+msgid "Delete Ticket"
+msgstr "حذف تیکت"
+
+#: templates/admin/ticket/single-ticket.php:123
+#: templates/user/panel/single-ticket.php:102
+msgid "Low priority"
+msgstr "اولویت کم"
+
+#: templates/admin/ticket/single-ticket.php:125
+#: templates/user/panel/single-ticket.php:104
+msgid "Normal priority"
+msgstr "اولویت متوسط"
+
+#: templates/admin/ticket/single-ticket.php:127
+#: templates/user/panel/single-ticket.php:106
+msgid "High priority"
+msgstr "اولویت بالا"
+
+#: templates/admin/ticket/single-ticket.php:137
+msgid "Has attachment"
+msgstr "ضمیمه دارد"
+
+#: templates/admin/ticket/single-ticket.php:139
+#: templates/user/panel/single-ticket.php:118
+msgid "No attachment"
+msgstr "ضمیمه ندارد"
+
+#: templates/admin/ticket/ticket-list.php:69
+#: templates/user/panel/tickets.php:75
+msgid "Ticket number"
+msgstr "شماره تیکت"
+
+#: templates/admin/ticket/ticket-list.php:71
+#: templates/user/panel/tickets.php:76
+msgid "Ticket title"
+msgstr "عنوان تیکت"
+
+#: templates/admin/ticket/ticket-list.php:75
+#: templates/user/panel/tickets.php:80
+msgid "ُSelect status"
+msgstr "انتخاب وضعیت"
+
+#: templates/admin/ticket/ticket-list.php:104
+#: templates/user/panel/tickets.php:109
+msgid "Creator username"
+msgstr "نام کاربری ایجاد کننده"
+
+#: templates/admin/ticket/ticket-list.php:107
+#: templates/user/panel/tickets.php:113
+msgid "Apply filter"
+msgstr "اعمال فیلتر"
+
+#: templates/admin/ticket/ticket-list.php:145
+#: templates/user/panel/tickets.php:163
+#: templates/user/parts/dash/dash-tickets.php:108
+msgid "All"
+msgstr "همه"
+
+#: templates/admin/ticket/ticket-list.php:153
+msgid "Number"
+msgstr "شماره"
+
+#: templates/admin/ticket/ticket-list.php:155
+msgid "Creator"
+msgstr "ایجاد کنند"
+
+#: templates/admin/ticket/ticket-list.php:156
+msgid "Recipient"
+msgstr "گیرنده"
+
+#: templates/admin/ticket/ticket-list.php:158
+#: templates/user/panel/private-msg.php:31
+#: templates/user/woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "وضعیت"
+
+#: templates/admin/ticket/ticket-list.php:159
+msgid "Modified date"
+msgstr "تاریخ بروزرسانی"
+
+#: templates/admin/ticket/ticket-list.php:245
+#: templates/user/panel/tickets.php:242
+#: templates/user/parts/dash/dash-tickets.php:189
+msgid "There is no ticket."
+msgstr "تیکتی وجود ندارد."
+
+#: templates/admin/ticket/users.php:25
+msgid "Enter a word."
+msgstr "کلمه ای وارد کنید."
+
+#: templates/user/account-menu.php:16
+msgid "Login or Signup"
+msgstr "ثبت نام یا ورود"
+
+#: templates/user/auth/force-add-mobile.php:8
+msgid "Mobile Number eg: 09123456789"
+msgstr "شماره همراه مثال: 09123456789"
+
+#: templates/user/auth/force-add-mobile.php:12
+#: templates/user/panel/mobile.php:17
+msgid "Send verification code"
+msgstr "ارسال کد اعتبارسنجی"
+
+#: templates/user/auth/force-add-mobile.php:22
+#: templates/user/auth/sms-login.php:26 templates/user/auth/sms-register.php:22
+#: templates/user/panel/change-email.php:22 templates/user/panel/mobile.php:26
+msgid "Enter verification code"
+msgstr "کد را وارد کنید"
+
+#: templates/user/auth/force-add-mobile.php:26
+#: templates/user/panel/mobile.php:30
+msgid "Verify and add number"
+msgstr "ثبت و تایید موبایل"
+
+#: templates/user/auth/login-form.php:23
+msgid "Your account has been activated. You can log in now."
+msgstr "حساب کاربری شما با موفقیت فعال شد. اکنون وارد شوید."
+
+#: templates/user/auth/login-form.php:32
+msgid "Invalid Email."
+msgstr "ایمیل معتبر نیست."
+
+#: templates/user/auth/login-form.php:40
+msgid ""
+"Password recovery link has been sent to your email. Please check your email "
+"and click on the link."
+msgstr ""
+"لینک بازیابی رمز عبور به ایمیل شما ارسال شد. ایمیل خود را بررسی و بروی لینک "
+"بازیابی رمز کلیک کنید."
+
+#: templates/user/auth/login-form.php:44
+msgid "Password recovery link has expired."
+msgstr "لینک بازیابی رمز عبور منقضی شده است."
+
+#: templates/user/auth/login-form.php:48
+msgid "log in now."
+msgstr "اکنون وارد شوید."
+
+#: templates/user/auth/login-form.php:57
+msgid "Username, email or mobile number"
+msgstr "نام کاربری، ایمیل یا شماره همراه"
+
+#: templates/user/auth/login-form.php:59
+msgid "Username or email"
+msgstr "نام کاربری یا ایمیل"
+
+#: templates/user/auth/login-form.php:76
+msgid "Remember"
+msgstr "یادآوری"
+
+#: templates/user/auth/login.php:13
+msgid "Login disabled."
+msgstr "ورود غیرفعال می باشد."
+
+#: templates/user/auth/login.php:35 templates/user/parts/form-links.php:21
+msgid "I forgot password"
+msgstr "رمز عبور را فراموش کردم"
+
+#: templates/user/auth/register-form.php:46
+msgid "register"
+msgstr "ثبت نام"
+
+#: templates/user/auth/register.php:17 templates/user/auth/sms-login.php:47
+msgid "Login with username"
+msgstr "ورود با نام کاربری"
+
+#: templates/user/auth/send-activation-link.php:7
+msgid "Enter your email"
+msgstr "ایمیل خود را وارد کنید"
+
+#: templates/user/auth/send-activation-link.php:11
+msgid "Send activation link"
+msgstr "ارسال کد"
+
+#: templates/user/auth/sms-login.php:37 templates/user/auth/sms-register.php:62
+msgid "Change number"
+msgstr "تغییر شماره همراه"
+
+#: templates/user/auth/sms-send.php:10
+msgid "Phone Number"
+msgstr "شماره همراه"
+
+#: templates/user/panel/change-email.php:8
+msgid "New email"
+msgstr "ایمیل  جدید"
+
+#: templates/user/panel/change-email.php:26
+msgid "Verify Email"
+msgstr "تایید ایمیل"
+
+#: templates/user/panel/comments.php:28
+msgid "Approved"
+msgstr "تأیید شده"
+
+#: templates/user/panel/comments.php:30
+msgid "Unapproved"
+msgstr "در انتظار تأیید"
+
+#: templates/user/panel/comments.php:42
+msgid "For: "
+msgstr "برای: "
+
+#: templates/user/panel/comments.php:51 templates/user/panel/single-msg.php:71
+#: templates/user/panel/single-msg.php:147
+#: templates/user/panel/single-ticket.php:159
+#: templates/user/panel/single-ticket.php:223
+#: templates/user/parts/dash/dash-tickets.php:173
+#: templates/user/parts/header-notice.php:86
+#, php-format
+msgid "%s at %s"
+msgstr "%s در %s"
+
+#: templates/user/panel/comments.php:68
+#: templates/user/parts/dash/dash-info-boxes.php:46
+msgid "There is no comment."
+msgstr "دیدگاهی وجود ندارد."
+
+#: templates/user/panel/dash.php:61
+msgid "Registered Date"
+msgstr "تاریخ عضویت"
+
+#: templates/user/panel/dash.php:70
+msgid "Today"
+msgstr "امروز"
+
+#: templates/user/panel/mobile.php:4
+msgid "Below you can Add or change your mobile number."
+msgstr "در پایین می توانید شماره همراه خود را ثبت کنید یا تغییر دهید."
+
+#: templates/user/panel/mobile.php:13
+msgid "Phone number"
+msgstr "شماره همراه"
+
+#: templates/user/panel/new-ticket.php:10
+msgid "Subject"
+msgstr "عنوان"
+
+#: templates/user/panel/new-ticket.php:14
+msgid "Priority"
+msgstr "اولویت"
+
+#: templates/user/panel/new-ticket.php:17
+msgid "Low"
+msgstr "پایین"
+
+#: templates/user/panel/new-ticket.php:18
+msgid "Normal"
+msgstr "متوسط"
+
+#: templates/user/panel/new-ticket.php:19
+msgid "High"
+msgstr "بالا"
+
+#: templates/user/panel/new-ticket.php:40
+#: templates/user/panel/single-msg.php:161
+msgid "Your Message"
+msgstr "پیام شما"
+
+#: templates/user/panel/new-ticket.php:68
+#: templates/user/panel/single-msg.php:189
+#: templates/user/panel/single-ticket.php:325
+#, php-format
+msgid ""
+"Maximum size is %d KB and allowed extensions: jpg - jpeg - png - pdf - zip"
+msgstr "حداکثر حجم %d می باشد. پسوند های مجاز: zip - pdf - png - jpeg - jpg"
+
+#: templates/user/panel/notifications.php:23
+#: templates/user/panel/single-msg.php:16
+#: templates/user/panel/single-msg.php:95
+msgid "New"
+msgstr "جدید"
+
+#: templates/user/panel/notifications.php:57
+msgid "There is no notice."
+msgstr "اطلاعیه ای وجود ندارد."
+
+#: templates/user/panel/private-msg.php:24
+msgid "Sender Avatar"
+msgstr "آواتار فرستنده"
+
+#: templates/user/panel/private-msg.php:30
+#: templates/user/woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/user/panel/private-msg.php:68
+msgid "Read"
+msgstr "خوانده شده"
+
+#: templates/user/panel/private-msg.php:76 templates/user/panel/tickets.php:236
+msgid "View"
+msgstr "نمایش"
+
+#: templates/user/panel/single-msg.php:54
+#: templates/user/panel/single-msg.php:62
+#: templates/user/panel/single-msg.php:130
+#: templates/user/panel/single-msg.php:138
+#: templates/user/panel/single-ticket.php:142
+#: templates/user/panel/single-ticket.php:150
+#: templates/user/panel/single-ticket.php:206
+#: templates/user/panel/single-ticket.php:214
+msgid "Attachment File"
+msgstr "فایل ضمیمه"
+
+#: templates/user/panel/single-ticket.php:18
+msgid "Ticket Closed."
+msgstr "تیکت بسته شد."
+
+#: templates/user/panel/single-ticket.php:24
+msgid "Ticket Solved."
+msgstr "تیکت حل شده."
+
+#: templates/user/panel/single-ticket.php:51
+msgid "Are you sure you want to close this ticket?"
+msgstr "آیا از بستن این تیکت مطمئنید؟"
+
+#: templates/user/panel/single-ticket.php:53
+msgid "Close Ticket"
+msgstr "بستن تیکت"
+
+#: templates/user/panel/single-ticket.php:116
+msgid "With attachment"
+msgstr "ضمیمه دارد"
+
+#: templates/user/panel/single-ticket.php:248
+#: templates/user/panel/single-ticket.php:282
+msgid "Select ticket status"
+msgstr "وضعیت تیکت را انتخاب کنید"
+
+#: templates/user/panel/single-ticket.php:275
+msgid "Select a status for this ticket."
+msgstr "یک وضعیت را برای این تیکت انتخاب کنید."
+
+#: templates/user/panel/single-ticket.php:286
+msgid "I'm waiting for replay."
+msgstr "منتظر پاسخ هستم."
+
+#: templates/user/panel/single-ticket.php:290
+msgid "Ticket solved."
+msgstr "مشکل حل شده."
+
+#: templates/user/panel/single-ticket.php:294
+msgid "Close the ticket."
+msgstr "تیکت بسته شود."
+
+#: templates/user/panel/single-ticket.php:299
+msgid "Select a status for the ticket you created."
+msgstr "یک وضعیت را برای این انتخاب کنید."
+
+#: templates/user/panel/single-ticket.php:330
+msgid "Send Reply"
+msgstr "ارسال پاسخ"
+
+#: templates/user/panel/user-edit.php:31
+#, php-format
+msgid "Maximum size is %d KB. Allowed extensions: jpg, jpeg and png"
+msgstr "حداکثر حجم %d می باشد. پسوند های مجاز: png - jpeg - jpg"
+
+#: templates/user/panel/user-edit.php:73
+#: templates/user/woocommerce/myaccount/my-address.php:70
+msgid "Edit"
+msgstr "ویرایش"
+
+#: templates/user/parts/dash/dash-info-boxes.php:31
+#, php-format
+msgid "%d notice(s) from admin."
+msgstr "%d اطلاعیه از طرف مدیر."
+
+#: templates/user/parts/dash/dash-info-boxes.php:33
+msgid "There is no new notice."
+msgstr "اطلاعیه جدیدی  وجود ندارد."
+
+#: templates/user/parts/dash/dash-info-boxes.php:44
+#, php-format
+msgid "%d comments."
+msgstr "%d دیدگاه ثبت کرده اید."
+
+#: templates/user/parts/dash/dash-info-boxes.php:56
+#, php-format
+msgid "%d messages."
+msgstr "%d پیام."
+
+#: templates/user/parts/dash/dash-tickets.php:14
+#: templates/user/parts/dash/dash-tickets.php:42
+#: templates/user/parts/dash/dash-tickets.php:63
+#: templates/user/parts/dash/dash-tickets.php:80
+#: templates/user/parts/dash/dash-tickets.php:99
+#, php-format
+msgid "%d tickets"
+msgstr "%d تیکت"
+
+#: templates/user/parts/dash/dash-tickets.php:14
+#: templates/user/parts/dash/dash-tickets.php:42
+#: templates/user/parts/dash/dash-tickets.php:63
+#: templates/user/parts/dash/dash-tickets.php:80
+#: templates/user/parts/dash/dash-tickets.php:99
+#, php-format
+msgid "%d ticket"
+msgstr "%d تیکت"
+
+#: templates/user/parts/dash/dash-tickets.php:183
+msgid " Ago"
+msgstr " قبل"
+
+#: templates/user/parts/form-links.php:13
+msgid "Go to login form"
+msgstr "فرم ورود"
+
+#: templates/user/parts/header-notice.php:6
+#: templates/user/parts/panel-header.php:35
+msgid "notifications"
+msgstr "اعلانات"
+
+#: templates/user/parts/header-notice.php:8
+msgid "Hide Notice"
+msgstr "مخفی سازی اعلانات"
+
+#: templates/user/parts/header-notice.php:56
+msgid "Private message to you"
+msgstr "پیام شخصی به شما"
+
+#: templates/user/parts/header-notice.php:73
+msgid "Notification"
+msgstr "پیام مدیریت"
+
+#: templates/user/parts/header-notice.php:96
+msgid "There is no unread notice."
+msgstr "اطلاعیه ای وجود ندارد."
+
+#: templates/user/parts/panel-header.php:19
+msgid "Show Menu"
+msgstr "نمایش منو"
+
+#: templates/user/parts/panel-sidebar.php:12
+msgid "Hide Menu"
+msgstr "مخفی کردن منو"
+
+#: templates/user/woocommerce/myaccount/downloads.php:40
+#, php-format
+msgid "#%d - %s"
+msgstr "سفارش #%d - %s"
+
+#: templates/user/woocommerce/myaccount/downloads.php:81
+#: templates/user/woocommerce/order/order-downloads.php:72
+msgid "&infin;"
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/downloads.php:87
+#: templates/user/woocommerce/order/order-downloads.php:78
+msgid "Never"
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/downloads.php:105
+msgid "No downloads available yet."
+msgstr "دانلودی وجود ندارد."
+
+#: templates/user/woocommerce/myaccount/form-edit-address.php:20
+#: templates/user/woocommerce/myaccount/my-address.php:26
+#: templates/user/woocommerce/myaccount/my-address.php:35
+#: templates/user/woocommerce/order/order-details-customer.php:29
+msgid "Billing address"
+msgstr "آدرس صورت حساب"
+
+#: templates/user/woocommerce/myaccount/form-edit-address.php:20
+#: templates/user/woocommerce/myaccount/my-address.php:27
+#: templates/user/woocommerce/order/order-details-customer.php:47
+msgid "Shipping address"
+msgstr "آدرس حمل و نقل"
+
+#: templates/user/woocommerce/myaccount/form-edit-address.php:44
+msgid "Save address"
+msgstr "ذخیره آدرس"
+
+#: templates/user/woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/my-address.php:76
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "سفارش"
+
+#: templates/user/woocommerce/myaccount/my-orders.php:17
+#: templates/user/woocommerce/order/order-details.php:52
+msgid "Total"
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/my-orders.php:38
+#, fuzzy
+#| msgid "Menu Order"
+msgid "Recent orders"
+msgstr "سفارشات"
+
+#: templates/user/woocommerce/myaccount/my-orders.php:67
+#: templates/user/woocommerce/myaccount/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: templates/user/woocommerce/myaccount/my-orders.php:78
+#: templates/user/woocommerce/myaccount/orders.php:61
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/user/woocommerce/myaccount/my-orders.php:100
+#: templates/user/woocommerce/myaccount/orders.php:102
+#, fuzzy
+msgid "No order has been made yet."
+msgstr "حساب کاربری شما هنوز توسط مدیر تایید نشده."
+
+#: templates/user/woocommerce/myaccount/orders.php:88
+msgid "Previous"
+msgstr "قبلی"
+
+#: templates/user/woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr "بعدی"
+
+#: templates/user/woocommerce/myaccount/orders.php:101
+#, fuzzy
+msgid "Browse products"
+msgstr "سفارشات دانلودی کاربر ووکامرس"
+
+#. translators: 1: order number 2: order date 3: order status
+#: templates/user/woocommerce/myaccount/view-order.php:33
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: templates/user/woocommerce/myaccount/view-order.php:43
+#, fuzzy
+msgid "Order updates"
+msgstr "سفارش"
+
+#: templates/user/woocommerce/myaccount/view-order.php:50
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: templates/user/woocommerce/order/order-again.php:24
+#: templates/user/woocommerce/order/order-again.php:26
+#, fuzzy
+#| msgid "Order"
+msgid "Order again"
+msgstr "سفارش"
+
+#: templates/user/woocommerce/order/order-details-customer.php:32
+#: templates/user/woocommerce/order/order-details-customer.php:50
+msgid "N/A"
+msgstr ""
+
+#: templates/user/woocommerce/order/order-details.php:45
+#, fuzzy
+msgid "Order details"
+msgstr "سفارش"
+
+#: templates/user/woocommerce/order/order-details.php:51
+msgid "Product"
+msgstr ""
+
+#: templates/user/woocommerce/order/order-details.php:94
+msgid "Note:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.zhaket.com/store/web/arvand-wp"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A user account area plugin for wordpress cms."
+msgstr "یک افزونه ناحیه کاربری برای وردپرس."
+
+#. Author of the plugin/theme
+msgid "مسعود مهدیان"
+msgstr ""
+
+#~ msgid "Set as default"
+#~ msgstr "تنظیمات پیشفرض"
+
+#~ msgid "Enable login with google"
+#~ msgstr "فعالسازی ورود با گوگل"
+
+#~ msgid "Google google login client id"
+#~ msgstr "client id ورود با گوگل"
+
+#~ msgid "Enable department"
+#~ msgstr "فعالسازی بخش های پشتیبانی"
+
+#~ msgid "Login with google account"
+#~ msgstr "ورود با گوگل"
+
+#~ msgid "File not found."
+#~ msgstr "فایلی پیدا نشد"
+
+#~ msgid "error in saving."
+#~ msgstr "مشکل در ذخیره سازی فیلد."
+
+#~ msgid "Secondary"
+#~ msgstr "سبک دوم"
+
+#~ msgid "Confirm Pasword"
+#~ msgstr "تأیید رمز عبور"
+
+#~ msgid "add mobile"
+#~ msgstr "ثبت موبایل"
+
+#~ msgid "Option"
+#~ msgstr "گزینه"
+
+#~ msgid "username can not be changed."
+#~ msgstr "نام کاربری قابل تغییر نیست."
+
+#~ msgid "No mobile number"
+#~ msgstr "شماره همراه ثبت نشده"
+
+#~ msgid "Number registered with Arvand Panel"
+#~ msgstr "شماره ثبت شده با اروند پنل"
+
+#~ msgid "Field Info"
+#~ msgstr "توضیحات فیلد"
+
+#~ msgid "Minimum Letter"
+#~ msgstr "حداقل حروف"
+
+#~ msgid "Min Attribute"
+#~ msgstr "ویژگی حداقل مقدار"
+
+#~ msgid "Max Attribute"
+#~ msgstr "ویژگی حداکثر مقدار"
+
+#~ msgid "optional"
+#~ msgstr "اختیاری"
+
+#~ msgid "Show in profile edit form?"
+#~ msgstr "نمایش در ویرایش پروفایل؟"
+
+#~ msgid "Radio Buttons"
+#~ msgstr "دکمه های رادیویی"
+
+#~ msgid "option"
+#~ msgstr "گزینه"
+
+#~ msgid "Display name"
+#~ msgstr "نام نمایشی"
+
+#~ msgid "Firstname must not be empty."
+#~ msgstr "نام نباید خالی باشد."
+
+#~ msgid "Minimum firstname letters must be %d"
+#~ msgstr "حداقل حروف نام باید %d باشد"
+
+#~ msgid "Lastname must not be empty."
+#~ msgstr "نام خانوادگی نباید خالی باشد."
+
+#~ msgid "Minimum lastname letters must be %d"
+#~ msgstr "حداقل حروف نام خانوادگی باید %d باشد"
+
+#~ msgid "Email must not be empty."
+#~ msgstr "ایمیل نباید خالی باشد."
+
+#~ msgid "Email already exists."
+#~ msgstr "ایمیل از قبل موجود است."
+
+#~ msgid "Display name must not be empty."
+#~ msgstr "نام نمایشی نباید خالی باشد."
+
+#~ msgid "Minimum display name letters must be %d"
+#~ msgstr "حداقل حروف نام نمایشی باید %d باشد"
+
+#~ msgid "Website must not be empty."
+#~ msgstr "وب سایت نباید خالی باشد."
+
+#~ msgid "Arvand"
+#~ msgstr "اروند"
+
+#~ msgid "Maximum Letter"
+#~ msgstr "حداکثر حروف"
+
+#~ msgid "There is an error. Please try again."
+#~ msgstr "مشکلی بوجود آمده. لطفاً دوباره تلاش کنید."
+
+#~ msgid ""
+#~ "Are you sure you want to delete the avatar? If removed, gravatar is used."
+#~ msgstr ""
+#~ "آیا از حذف آواتار مطمئن هستید؟ اگر حذف کنید از گراواتار استفاده میشود."
+
+#~ msgid "Reply to: \"%s\""
+#~ msgstr "پاسخ به \"%s\""
+
+#~ msgid "Show banner"
+#~ msgstr "نمایش بنر"
+
+#~ msgid "Upload large screen banner"
+#~ msgstr "آپلود بنر صفحه نمایش های  بزرگ"
+
+#~ msgid "Select a image"
+#~ msgstr "انتخاب تصویر"
+
+#~ msgid "Upload medium screen banner"
+#~ msgstr "آپلود بنر صفحه نمایش های متوسط"
+
+#~ msgid "Upload small screen banner"
+#~ msgstr "آپلود بنر صفحه نمایش های کوچک"
+
+#~ msgid "Large banner position"
+#~ msgstr "مکان بنر صفحه نمایش بزرگ"
+
+#~ msgid "Top header"
+#~ msgstr "بالای هدر پنل"
+
+#~ msgid "Top content"
+#~ msgstr "بالای محتوای اصلی پنل"
+
+#~ msgid "Inside content"
+#~ msgstr "درون محتوای اصلی پنل"
+
+#~ msgid "Medium banner position"
+#~ msgstr "مکان بنر صفحه نمایش متوسط"
+
+#~ msgid "Small banner position"
+#~ msgstr "مکان بنر صفحه نمایش کوچک"
+
+#~ msgid "Banner link"
+#~ msgstr "لینک بنر"
+
+#~ msgid "Banner"
+#~ msgstr "بنر"
+
+#~ msgid "Please make sure the entries are correct."
+#~ msgstr "از صحت ورودی ها مطمئن شوید."
+
+#~ msgid "Verification code has been sent to %s phone number."
+#~ msgstr "کد اعتبارسنجی به شماره %s ارسال شد."
+
+#~ msgid "Invalid email"
+#~ msgstr "ایمیل معتبر نیست"
+
+#~ msgid "Email verification code sent to your email."
+#~ msgstr "کد اعتبارسنجی به ایمیل شما ارسال شد."
+
+#~ msgid "Maximum mobile letters must be %d"
+#~ msgstr "حداکثر حروف شماره همراه باید %d باشد"
+
+#~ msgid "Minimum mobile letters must be %d"
+#~ msgstr "حداقل حروف شماره همراه باید %d باشد"
+
+#~ msgid "Verification code sent again to your mobile number."
+#~ msgstr "کد اعتبارسنجی مجدداً به شماره همراه شما ارسال شد."
+
+#~ msgid "Signup or login with phone number"
+#~ msgstr "ورود یا ثبت نام با شماره همراه"
+
+#~ msgid ""
+#~ "Clicking the send code button will save the email you enter and replace "
+#~ "your previous email. So be sure to enter a valid email."
+#~ msgstr ""
+#~ "با زدن دکمه ارسال کد، ایمیلی که وارد می کنید ذخیره و جایگزین ایمیل قبلی "
+#~ "شما می شود. بنابراین حتماً ایمیل معتبری وارد کنید."
+
+#~ msgid "old password incorrect."
+#~ msgstr "رمز قبلی صحیح نیست."
+
+#~ msgid "Status: "
+#~ msgstr "وضعیت: "
+
+#~ msgid "Priority: "
+#~ msgstr "اولویت: "
+
+#~ msgid "Attachment: "
+#~ msgstr "ضمیمه: "
+
+#~ msgid "Yes"
+#~ msgstr "دارد"
+
+#~ msgid "No"
+#~ msgstr "ندارد"
+
+#~ msgid "Upload Avatar"
+#~ msgstr "آپلود آواتار"
+
+#~ msgid "Delete Avatar"
+#~ msgstr "حذف آواتار"
+
+#~ msgid ""
+#~ "If the avatar is not uploaded, the gravatar is used. Maximum size is %d "
+#~ "KB. Allowed extensions: jpg, jpeg and png"
+#~ msgstr ""
+#~ "اگر تصویر آواتار آپلود نشده باشد، از گراواتار استفاده میشود. حداکثر حجم "
+#~ "تصویر آواتار %d کیلوبایت است. پسوند های مجاز: png - jpg - jpeg"
+
+#~ msgid "Signup with username and password"
+#~ msgstr "ثبت نام با نام کاربری و رمز عبور"
+
+#~ msgid "Fix the following errors:"
+#~ msgstr "خطاهای زیر را برطرف کنید:"
+
+#~ msgid "%s ticket"
+#~ msgid_plural "tickets"
+#~ msgstr[0] "%s تیکت"
+#~ msgstr[1] "تیکت"
+
+#, fuzzy
+#~| msgid "%s ticket(s)"
+#~ msgid "%d ticket(s)"
+#~ msgstr "تیکت"
+
+#~ msgid "tickets"
+#~ msgstr "تیکت ها"
+
+#~ msgid "ticket"
+#~ msgid_plural "tickets"
+#~ msgstr[0] "تیکت"
+#~ msgstr[1] "تیکت ها"
+
+#~ msgid "Supporter added."
+#~ msgstr "پشتیبان اضافه شد."
+
+#~ msgid "New Message"
+#~ msgstr "پیام جدید"
+
+#~ msgid "Date: %s at %s"
+#~ msgstr "تاریخ %s در %s"
+
+#~ msgid "Save boxes"
+#~ msgstr "ذخیره تظیمات باکس ها"
+
+#~ msgid "Reset"
+#~ msgstr "پیشفرض"
+
+#~ msgid ""
+#~ "If you select the \"Redirect default login\" option, users will be "
+#~ "redirected to this page, so make sure you have this page and the plugin "
+#~ "login shortcode in it."
+#~ msgstr ""
+#~ "اگر گزینه \"ریدایرکت ورود پیشفرض به ورود افزونه\" را تیک بزنید، کاربران "
+#~ "به این برگه منتقل خواهند شد. بنابراین از وجود برگه و کد کوتاه فرم ورود در "
+#~ "آن مطمئن شوید."
+
+#~ msgid "Show sidebar links"
+#~ msgstr "نمایش لینک های سایدبار"
+
+#~ msgid ""
+#~ "If you select the \"Redirect default register\" option, users will be "
+#~ "redirected to this page."
+#~ msgstr ""
+#~ "اگر شما گزینه \"ریدایرکت ثبت نام پیشفرض\" را تیک بزنید، کاربران در صورت "
+#~ "وارد کردن ادرس ثبت نام پیشفرض وردپرس، به این برگه منتقل میشوند."
+
+#~ msgid "Department settings access"
+#~ msgstr "دسترسی به تنظمیات دپارتمان"
+
+#~ msgid ""
+#~ "If you check this option, the user will not have access to the department "
+#~ "settings."
+#~ msgstr ""
+#~ "اگر این گزینه را تیک بزنید، کاربر به تنظمات پشتیبانی (افزودن بخش "
+#~ "پشتیبانی، افزودن پشتیبان و ویرایش پشتیبان) دسترسی خواهد داشت."
+
+#~ msgid "Add responsible"
+#~ msgstr "افزودن پشتیبان"
+
+#~ msgid "Supporter"
+#~ msgstr "پشتیبان"
+
+#~ msgid "Responsible for"
+#~ msgstr "مسئول برای بخش"
+
+#~ msgid "Edit responsible"
+#~ msgstr "ویرایش پشتیبان"
+
+#~ msgid "Add Department"
+#~ msgstr "افزودن بخش"
+
+#~ msgid "Add Status"
+#~ msgstr "افزودن وضعیت"
+
+#~ msgid "Settings saved."
+#~ msgstr "تغییرات ذخیره شد."
+
+#~ msgid "Ticket changed to \"%s\" status."
+#~ msgstr "تیکت به وضعیت %s تغییر کرد."
+
+#~ msgid "Ticket Reopened."
+#~ msgstr "تیکت باز شد."
+
+#~ msgid "Creator: "
+#~ msgstr "ایجاد کنند: "
+
+#~ msgid "Reopen Ticket"
+#~ msgstr "باز کردن تیکت"
+
+#~ msgid "Subject: "
+#~ msgstr "عنوان: "
+
+#~ msgid "Menu Order"
+#~ msgstr "اولویت نمایش"
+
+#~ msgid "SMS Settings"
+#~ msgstr "تنظیمات پیام کوتاه"
+
+#~ msgid "Latest tickets"
+#~ msgstr "تیکت های اخیر"
+
+#~ msgid "%d unread items."
+#~ msgstr "%d مورد خوانده نشده."
+
+#~ msgid "There is no new reply."
+#~ msgstr "پاسخ جدیدی وجود ندارد."
+
+#~ msgid "Has been replied"
+#~ msgstr "پاسخ داده شد"
+
+#~ msgid "Masoud Mahdian"
+#~ msgstr "مسعود مهدیان"
+
+#~ msgid "User has not registered with this email."
+#~ msgstr "کاربری با این ایمیل ثبت نام نکرده است."
+
+#~ msgid "Error in sending password recovery email."
+#~ msgstr "مشکل در ارسال ایمیل بازیابی رمز عبور."
+
+#~ msgid "meli payamak"
+#~ msgstr "ملی پیامک"
+
+#~ msgid "farazsms"
+#~ msgstr "فراز اس ام اس"
+
+#~ msgid "parsgreen"
+#~ msgstr "پارس گرین"
+
+#~ msgid "modirpayamak"
+#~ msgstr "مدیر پیامک"
+
+#~ msgid "raygansms"
+#~ msgstr "رایگان اس ام اس"
+
+#~ msgid "Incorrect email."
+#~ msgstr "ایمیل صحیح نیست."
+
+#~ msgid "Sorry, there is a problem logging in."
+#~ msgstr "متأسفانه مشکلی در ورود بوجود آمده."
+
+#~ msgid "Your email is not added or verified. Please enter your email."
+#~ msgstr "ایمیل شما اضافه یا تایید نشده. لطفاً ایمیل خود را وارد کنید."
+
+#~ msgid ""
+#~ "The email you enter will be saved and will replace your previous email."
+#~ msgstr ""
+#~ "ایمیلی که وارد میکنید ذخیره و جایگزین ایمیل قبلی شما خواهد شد. بنابراین "
+#~ "ایمیل معتبری وارد کنید."
+
+#~ msgid "Title: "
+#~ msgstr "عنوان: "
+
+#~ msgid "Reply to your ticket"
+#~ msgstr "پاسخ به تیکت شما"
+
+#~ msgid "New Post"
+#~ msgstr "مطلب جدید"
+
+#~ msgid "Post List"
+#~ msgstr "مطالب"
+
+#~ msgid "Content must not be empty."
+#~ msgstr "محتوا نباید خالی باشد."
+
+#~ msgid "data successfully saved."
+#~ msgstr "اطلاعات با موفقیت تایید شد."
+
+#~ msgid "Post Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Post Excerpt"
+#~ msgstr "خلاصه"
+
+#~ msgid "Image"
+#~ msgstr "تصویر"
+
+#~ msgid "Post Tags"
+#~ msgstr "برچسب ها"
+
+#~ msgid "Separate with a comma"
+#~ msgstr "برچسب ها را با کاما جدا کنید"
+
+#~ msgid "%d reply (or replies)."
+#~ msgstr "%d پاسخ به تیکت(های) شما."
+
+#~ msgid "Disable panel styles"
+#~ msgstr "غیر فعال کردن استایل های ناحیه کاربری"
+
+#~ msgid "Top sidebar avatar border color"
+#~ msgstr "رنگ حاشیه آواتار سایدبار"
+
+#~ msgid "Top sidebar text background color"
+#~ msgstr "رنگ پس زمینه متن قسمت بالای سایدبار"
+
+#~ msgid "Sidebar menu type"
+#~ msgstr "سبک منوهای پنل"
+
+#~ msgid "Type 1"
+#~ msgstr "نوع اول"
+
+#~ msgid "Type 2"
+#~ msgstr "نوع دوم"
+
+#~ msgid "Menus border color"
+#~ msgstr "رنگ حاشیه  منو"
+
+#~ msgid "Dashboard user info link color"
+#~ msgstr "رنگ لینک باکس اطلاعات کاربر"
+
+#~ msgid "Log Out"
+#~ msgstr "خروج از سایت"
+
+#~ msgid "Minimum username name letters must be %d"
+#~ msgstr "حداقل حروف نام کاربری باید %d باشد"
+
+#~ msgid "Old Password"
+#~ msgstr "رمز عبور قبلی"
+
+#~ msgid "Enter your previous password."
+#~ msgstr "رمز عبور قبلی خود را وارد کنید."
+
+#~ msgid "Lost Password"
+#~ msgstr "فراموشی رمز عبور"
+
+#~ msgid "Enable sms login"
+#~ msgstr "فعالسازی ورود با موبایل"
+
+#~ msgid "You have already registered. Go to login form."
+#~ msgstr ""
+#~ "شما قبلا با این شماره ثبت نام کرده اید. لطفاً به فرم ورود مراجعه و وارد "
+#~ "شوید."
+
+#~ msgid "Your phone number verified. Go to login."
+#~ msgstr "شماره همراه شما تایید شد. به فرم ورود مراجعه و وارد شوید."
+
+#~ msgid "There is no user with this mobile number."
+#~ msgstr "کاربری با این شماره ثبت نام نشده."
+
+#~ msgid "Register with mobile number"
+#~ msgstr "ثبت نام با شماره همراه"
+
+#~ msgid ""
+#~ "You have already registered and now you just need to confirm your mobile "
+#~ "number."
+#~ msgstr ""
+#~ "شما قبلا شماره خود را ثبت کرده اید. اکنون باید شماره خود را تایید کنید."
+
+#~ msgid "Password must not be empty"
+#~ msgstr "رمز عبور نباید خالی باشد."
+
+#~ msgid "Sidebar notice badge background color"
+#~ msgstr "رنگ پسزمینه نشان اعلان سایدبار"
+
+#~ msgid "Reopen"
+#~ msgstr "باز کردن"
+
+#~ msgid ""
+#~ "At least %d letters. For more security, use a combination of letters and "
+#~ "numbers. If you do not intend to change, keep it empty."
+#~ msgstr ""
+#~ "حداقل %d حرف. برای امنیت بیشتر ترکیبی از حروف و اعداد باشد. اگر قصد تغییر "
+#~ "ندارید، خالی نگه دارید."
+
+#~ msgid "unread"
+#~ msgstr "خوانده نشده"
+
+#, fuzzy
+#~| msgid "An account activation link was sent to your email."
+#~ msgid "An account activation link sent to your email."
+#~ msgstr "لینک فعالسازی حساب کاربری به ایمیل شما ارسال گردید."
+
+#~ msgid "Required"
+#~ msgstr "الزامی"
+
+#~ msgid "Your mobile number has been added."
+#~ msgstr "شماره همراه شما ثبت و تایید شد."
+
+#~ msgid "Select content type"
+#~ msgstr "انتخاب نوع محتوا"
+
+#~ msgid "%s (Custom Menu)"
+#~ msgstr "%s (منو سفارشی)"
+
+#~ msgid "%d open ticket"
+#~ msgstr "%d تیکت باز"
+
+#~ msgid "sms login verification code text"
+#~ msgstr "متن پیام کوتاه کد اعتبارسنجی"
+
+#~ msgid "sms register verification code text"
+#~ msgstr "متن پیام کوتاه کد اعتبارسنجی"
+
+#, fuzzy
+#~| msgid "Your verification code is:[new_line][verification_code]"
+#~ msgid "Your verification code is: [verification_code]"
+#~ msgstr "کد اعتبار سنجی شما: [new_line][verification_code]"
+
+#, fuzzy
+#~| msgid "Email already exist."
+#~ msgid "Email already exits."
+#~ msgstr "ایمیل از قبل موجود است."
+
+#~ msgid ""
+#~ "You can add a custom menu to display in the user panel menus. You can "
+#~ "also change the display status and title of the default menus."
+#~ msgstr ""
+#~ "شما می توانید منوهای سفارشی اضافه کنید تا در پنل کاربری نمایش داده شود. "
+#~ "همچنین شما می توانید عنوان و وضعیت نمایش منوهای پیشفرض و سفارشی را تغییر "
+#~ "دهید."
+
+#~ msgid ""
+#~ "To display custom menus in the user panel, the menu title and content "
+#~ "should not be empty."
+#~ msgstr ""
+#~ "جهت نمایش منو سفارشی در پنل کاربری، عنوان و محتوای منو نباید خالی باشد."
+
+#~ msgid "Top panel"
+#~ msgstr "بالای پنل کاربری"
+
+#, fuzzy
+#~| msgid "error in deleting %s."
+#~ msgid "error in saving.."
+#~ msgstr "مشکل در حذف %s."
+
+#~ msgid "error in editing checkbox field."
+#~ msgstr "مشکل در ویرایش چک باکس."
+
+#~ msgid "error in creating checkbox field."
+#~ msgstr "مشکل در ایجاد چک باکس."
+
+#~ msgid "error in editing display name."
+#~ msgstr "مشکل در ویرایش نام نمایشی."
+
+#~ msgid "error in creating display name."
+#~ msgstr "مشکل در ایجاد نام نمایشی."
+
+#~ msgid "error in editing drop down field."
+#~ msgstr "مشکل در ویرایش فیلد کرکره ای."
+
+#~ msgid "error in creating drop down field."
+#~ msgstr "مشکل در ایجاد فیلد کرکره ای."
+
+#~ msgid "error in editing firstname."
+#~ msgstr "مشکل در ویرایش نام."
+
+#~ msgid "error in creating firstname."
+#~ msgstr "مشکل در ایجاد نام."
+
+#~ msgid "error in editing lastname."
+#~ msgstr "مشکل در ویرایش نام خانوادگی."
+
+#~ msgid "error in creating lastname."
+#~ msgstr "مشکل در ایجاد نام خاوادگی."
+
+#~ msgid "error in editing text field."
+#~ msgstr "مشکل در ویرایش فیلد متنی."
+
+#~ msgid "error in creating number field."
+#~ msgstr "مشکل در ایجاد فیلد عددی."
+
+#~ msgid "error in editing radio field."
+#~ msgstr "مشکل در ویرایش ایمیل."
+
+#~ msgid "error in creating radio field."
+#~ msgstr "مشکل در ایجاد ایمیل."
+
+#~ msgid "error in creating user email."
+#~ msgstr "مشکل در ایجاد ایمیل."
+
+#~ msgid "error in editing username."
+#~ msgstr "مشکل در ویرایش نام کاربری."
+
+#~ msgid "error in creating username."
+#~ msgstr "مشکل در ایجاد نام کاربری."
+
+#~ msgid "error in editing password."
+#~ msgstr "مشکل در ویرایش رمز عبور."
+
+#~ msgid "error in creating password."
+#~ msgstr "مشکل در ایجاد رمز عبور."
+
+#~ msgid "error in editing website."
+#~ msgstr "مشکل در ویرایش وب سایت."
+
+#~ msgid "error in creating website."
+#~ msgstr "مشکل در ایجاد وب سایت."
+
+#~ msgid "error in deleting text field."
+#~ msgstr "مشکل در حذف فیلد متنی."
+
+#~ msgid "error in deleting radio field."
+#~ msgstr "مشکل در حذف ایمیل."
+
+#~ msgid "error in deleting checkbox field."
+#~ msgstr "مشکل در حذف چک باکس."
+
+#, fuzzy
+#~| msgid "error in deleting drop_down field."
+#~ msgid "error in deleting drop down field."
+#~ msgstr "مشکل در حذف فیلد کرکره ای."
+
+#~ msgid "error in deleting number field."
+#~ msgstr "مشکل در حذف فیلد عددی."
+
+#~ msgid "Incorrect password."
+#~ msgstr "رمز عبور صحیح نیست."
+
+#, fuzzy
+#~| msgid "Display name must not be empty."
+#~ msgid "Role display name must not be empty."
+#~ msgstr "نام نمایشی نباید خالی باشد."
+
+#~ msgid "Open tickets: %d"
+#~ msgstr "تیکت باز: %d"
+
+#~ msgid "Disable register styles"
+#~ msgstr "غیر فعال کردن استایل های فرم ثبت نام"
+
+#~ msgid "Disable login styles"
+#~ msgstr "غیر فعال کردن استایل های فرم ورود"
+
+#~ msgid "By "
+#~ msgstr "توسط "
+
+#~ msgid "Date: "
+#~ msgstr "تاریخ: "
+
+#, fuzzy
+#~| msgid "Settings Changed."
+#~ msgid "Settings changed."
+#~ msgstr "تغییرات ذخیره شد."
+
+#~ msgid "%s at "
+#~ msgstr "%s در %s"
+
+#~ msgid "User Name: "
+#~ msgstr "نام کاربری: "
+
+#~ msgid "Display Name: "
+#~ msgstr "نام نمایشی: "
+
+#~ msgid "Email: "
+#~ msgstr "ایمیل: "
+
+#~ msgid "Date: %s"
+#~ msgstr "تاریخ: %s"
+
+#~ msgid "and minimum letters %d"
+#~ msgstr "و حداقل حروف %d"
+
+#~ msgid "Email cannot be changed."
+#~ msgstr "ایمیل قابل تغییر نیست."
+
+#~ msgid "error in creating text field field."
+#~ msgstr "مشکل در ایجاد فیلد متنی."
+
+#~ msgid "error in deleting firstname."
+#~ msgstr "مشکل در حذف نام."
+
+#~ msgid "error in deleting lastname."
+#~ msgstr "مشکل در حذف نام خاوادگی."
+
+#~ msgid "error in deleting display name."
+#~ msgstr "مشکل در حذف نام نمایشی."
+
+#~ msgid "error in deleting username."
+#~ msgstr "مشکل در حذف نام کاربری."
+
+#~ msgid "error in deleting user email."
+#~ msgstr "مشکل در حذف ایمیل."
+
+#~ msgid "error in deleting password."
+#~ msgstr "مشکل در حذف رمز عبور."
+
+#~ msgid "Go Up"
+#~ msgstr "بالا بردن"
+
+#~ msgid "Go Down"
+#~ msgstr "پایین آوردن"
+
+#~ msgid "Radio meta key"
+#~ msgstr "کلید متای دکمه رادیویی"
+
+#~ msgid "Radio fields"
+#~ msgstr "فیلدهای رادیویی"
+
+#~ msgid "Mas Panel"
+#~ msgstr "مس پنل"

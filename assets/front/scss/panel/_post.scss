@@ -1,0 +1,16 @@
+#wpap-post {
+  background-color: var(--wpap-bg-color-1);
+  padding: 30px;
+  border: 1px solid var(--wpap-border-color-1);
+  border-radius: 15px;
+
+  #wpap-post-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 576px) {
+    padding: 30px 15px;
+  }
+}

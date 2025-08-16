@@ -1,0 +1,28 @@
+#wpap-user-edit {
+  #wpap-pro-pic {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 10px;
+
+    img.avatar {
+      min-width: 60px;
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      border-radius: 15px;
+    }
+
+    #wpap-pro-pic-buttons {
+      display: flex;
+      gap: 8px;
+
+      #wpap-upload-avatar-btn {
+        cursor: pointer;
+      }
+    }
+  }
+}

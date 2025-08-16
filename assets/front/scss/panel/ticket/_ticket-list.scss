@@ -1,0 +1,81 @@
+#wpap-ticket-list {
+  #wpap-actions {
+    background-color: var(--wpap-bg-color-1);
+    padding: 15px;
+    margin: 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 10px;
+
+    input,
+    select {
+      background-color: var(--wpap-bg-color-1);
+      flex-grow: 1;
+      height: 40px;
+      padding: 0 10px;
+      border: 1px solid var(--wpap-border-color-1);
+      border-radius: 10px;
+    }
+
+    @media (max-width: 576px) {
+      input,
+      select,
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  #wpap-ticket-statues-wrap {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    a {
+      background-color: var(--wpap-bg-color-1);
+      padding: 5px 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      text-align: center;
+      font-size: 14px;
+      border-radius: 50px;
+      border: 1px solid var(--wpap-border-color-1);
+
+      &:hover {
+        background-color: var(--wpap-color-1);
+      }
+
+      i {
+        width: 12px;
+        height: 12px;
+        border: 2px solid;
+        border-radius: 100%;
+      }
+    }
+
+    #wpap-open-tickets i {
+      border-color: var(--wpap-color-red);
+    }
+
+    #wpap-closed-tickets i,
+    #wpap-solved-tickets i {
+      border-color: var(--wpap-color-green);
+    }
+
+    #wpap-all-tickets i {
+      border-color: var(--wpap-color-2);
+    }
+  }
+
+  .wpap-table-wrap {
+    margin: 0 0 20px;
+  }
+}
+
+

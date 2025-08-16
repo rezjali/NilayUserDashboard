@@ -1,0 +1,23 @@
+.wpap-info {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  h2 {
+    margin: 0 0 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+
+    td {
+      padding: 15px;
+      border: 1px solid $border-color;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+}

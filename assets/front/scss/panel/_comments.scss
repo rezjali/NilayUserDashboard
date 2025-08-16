@@ -1,0 +1,20 @@
+#wpap-comments {
+  article {
+    header {
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .wpap-card-content {
+      p:first-child {
+        margin-top: 0;
+      }
+
+      .wpap-comment-post {
+        font-size: 14px;
+      }
+    }
+  }
+}

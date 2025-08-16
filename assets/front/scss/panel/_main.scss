@@ -1,0 +1,50 @@
+#wpap-user-panel {
+  @import "classes";
+  @import "sidebar";
+  @import "header";
+  @import "header-notice";
+  @import "content";
+  @import "dashboard/dashboard";
+  @import "user-edit";
+  @import "notifications";
+  @import "comments";
+  @import "ticket/ticket-list";
+  @import "ticket/single-ticket";
+  @import "private-message";
+  @import "post";
+  @import "bookmarked";
+  @import "visited-products";
+  @import "wc/main";
+
+  background-color: var(--wpap-bg-color-2);
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  color: var(--wpap-text-color-1);
+  line-height: 1.5em;
+  overflow: hidden;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  & > div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@for $i from 2 through 100 {
+  @if $i % 2 == 0 {
+    .wpap-mt-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+  }
+}
+
+@for $i from 2 through 100 {
+  @if $i % 2 == 0 {
+    .wpap-mb-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+  }
+}

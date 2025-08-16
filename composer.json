@@ -1,0 +1,50 @@
+{
+  "name": "arvand/arvand-panel",
+  "autoload": {
+    "psr-4": {
+      "Arvand\\ArvandPanel\\": "src/"
+    },
+    "files": [
+      "includes/functions/functions.php",
+      "includes/functions/options.php",
+      "includes/functions/panel.php",
+      "includes/functions/ticket.php",
+      "includes/functions/wallet.php",
+
+      "includes/hooks/assets.php",
+      "includes/hooks/auth.php",
+      "includes/hooks/hooks.php",
+      "includes/hooks/post-types.php",
+      "includes/hooks/shortcodes.php",
+      "includes/hooks/routing.php",
+      "includes/hooks/woocommerce.php",
+      "includes/hooks/wallet.php",
+      "includes/hooks/handlers/handlers.php",
+      "includes/hooks/handlers/auth/auth.php",
+      "includes/hooks/handlers/auth/otp.php",
+      "includes/hooks/handlers/auth/register-fields.php",
+      "includes/hooks/handlers/panel.php",
+
+      "includes/admin/functions.php",
+      "includes/admin/hooks/hooks.php",
+      "includes/admin/hooks/user.php",
+      "includes/admin/hooks/menu-pages.php",
+      "includes/admin/hooks/metaboxes.php",
+      "includes/admin/hooks/assets.php",
+      "includes/admin/hooks/handlers/handlers.php",
+      "includes/admin/hooks/handlers/settings.php",
+      "includes/admin/hooks/handlers/gateway-settings.php",
+      "includes/admin/hooks/handlers/ticket.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Arvand"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-fileinfo": "*",
+    "ext-curl": "*"
+  }
+}

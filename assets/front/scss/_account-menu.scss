@@ -1,0 +1,100 @@
+#wpap-profile-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--wpap-text-color-1) !important;
+
+  #wpap-register-login {
+    background-color: var(--wpap-bg-color-1) !important;
+    padding: 3px 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 1px solid var(--wpap-border-color-1) !important;;
+
+    a {
+      color: inherit !important;
+    }
+  }
+
+  & > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  & > .wpap-unread-count {
+    position: absolute;
+    top: -5px;
+    right: 0;
+  }
+
+  button.wpap-profile-menu-btn {
+    @include btn;
+    background-color: var(--wpap-bg-color-1) !important;
+    font-family: inherit;
+    border: 1px solid var(--wpap-bg-color-1) !important;
+
+    i {
+      font-size: 18px;
+    }
+
+    .wpap-unread-count {
+      margin-right: 5px;
+    }
+  }
+
+  .wpap-unread-count {
+    @include unread-count(var(--wpap-color-red), #fff);
+  }
+
+  #profile-menu-wrap {
+    background-color: var(--wpap-bg-color-1) !important;
+    min-width: 230px;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    display: none;
+    font-size: 14px;
+    border: 1px solid var(--wpap-border-color-1) !important;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(#000, 0.15);
+    overflow: hidden;
+    z-index: 999999999;
+
+    & > a {
+      font-weight: bold;
+    }
+
+    a {
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: inherit !important;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid var(--wpap-border-color-1) !important;
+      }
+
+      &:hover {
+        background-color: var(--wpap-color-1) !important;
+      }
+    }
+
+    i {
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .wpap-unread-count {
+      margin-right: auto;
+    }
+  }
+}

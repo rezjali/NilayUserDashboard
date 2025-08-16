@@ -1,0 +1,214 @@
+#wpap-register-fields {
+  display: flex;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+
+  #wpap-reg-fields-sidebar {
+    min-width: 400px;
+    width: 400px;
+
+    @media (max-width: 1200px) {
+      max-width: unset;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #wpap-buttons-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(6, 1fr);
+      }
+
+      @media (max-width: 992px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      @media (max-width: 576px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      button {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $text-color;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $color-1;
+          color: #fff;
+
+          i {
+            color: #fff;
+          }
+        }
+
+        i {
+          margin-bottom: 10px;
+          font-size: 20px;
+          color: $text-color-2;
+        }
+      }
+    }
+  }
+
+  #wpap-reg-fields-form {
+    width: 100%;
+    margin-right: 20px;
+
+    @media (max-width: 1200px) {
+      margin-right: 0;
+    }
+
+    & > header {
+      display: flex;
+      align-items: center;
+
+      button[form=wpap-reset-field-settings] {
+        margin-right: 10px;
+      }
+    }
+
+    #wpap-fields-wrap {
+      margin-top: 20px;
+    }
+
+    .wpap-field {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      border: 1px solid $border-color;
+      border-radius: 5px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        border-color: darken($border-color, 7%);
+      }
+
+      .wpap-field-preview {
+        width: 100%;
+        padding: 20px;
+        cursor: move;
+
+        header {
+          width: 100%;
+          margin-bottom: 15px;
+          display: flex;
+
+          .wpap-field-title {
+            display: block;
+            color: $text-color;
+            font-weight: bold;
+          }
+
+          span:nth-child(2) {
+            margin-right: 5px;
+            color: $text-color-2;
+          }
+
+          .wpap-field-actions {
+            margin-right: auto;
+            padding-right: 10px;
+            display: flex;
+
+            i {
+              color: $text-color-2;
+              cursor: pointer;
+
+              &:hover {
+                color: $color-1;
+                border-color: $color-1;
+              }
+            }
+
+            .wpap-delete-field {
+              margin-right: 8px;
+            }
+          }
+        }
+
+        input:read-only, select:read-only, textarea:read-only {
+          opacity: 1;
+          border: 1px solid $input-border-color;
+        }
+
+        input:not([type=radio], [type=checkbox]), select, textarea {
+          background-color: #fff;
+          width: 100%;
+          min-width: 60px;
+          max-width: 400px;
+          padding: 0 15px;
+          cursor: move;
+        }
+
+        input:not([type=radio], [type=checkbox]), select {
+          height: 42px;
+        }
+
+        textarea {
+          padding: 10px 20px;
+        }
+
+        .wpap-preview-field-options {
+          margin-bottom: 5px;
+          display: block;
+        }
+
+        p {
+          margin: 5px 0 0;
+          font-size: 13px;
+          color: $text-color-2;
+        }
+      }
+
+      .wpap-option {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+        input {
+          margin: 0 0 0 10px;
+        }
+
+        .wpap-delete-option {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .wpap-field-loading {
+      background-color: #dcdcdc;
+      height: 80px;
+      border-radius: 5px;
+      animation: wpap-field-loading 2s linear infinite;
+
+      @keyframes wpap-field-loading {
+        100%, 0% {
+          opacity: 1
+        }
+
+        50% {
+          opacity: 0
+        }
+      }
+    }
+  }
+}

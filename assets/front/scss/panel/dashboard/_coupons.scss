@@ -1,0 +1,35 @@
+#wpap-dash-coupons {
+  .wpap-dash-coupon {
+    background-color: var(--wpap-bg-color-1);
+    padding: 15px;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 15px;
+
+    & > div {
+      margin-bottom: 10px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      img {
+        min-width: 28px;
+        width: 28px;
+      }
+
+      p.wpap-dash-coupon-desc {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    strong.wpap-dash-coupon-name {
+      background-color: var(--wpap-color-1);
+      padding: 5px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      border-radius: 10px;
+      border: 1px solid var(--wpap-border-color-1);
+      cursor: pointer;
+    }
+  }
+}

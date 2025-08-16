@@ -1,0 +1,71 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin btn {
+    width: auto;
+    min-height: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    i {
+        margin-left: 5px;
+        font-size: 18px !important;
+    }
+}
+
+@mixin circle-btn() {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: $text-color-2;
+    border: 1px solid $input-border-color;
+    border-radius: 30px;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-1;
+        border-color: $color-1;
+    }
+
+    i {
+        font-size: 18px !important;
+    }
+}
+
+@mixin badge($bg-color: transparent, $color: inherit) {
+    background-color: $bg-color;
+    padding: 4px 10px;
+    display: inline-flex;
+    font-size: 13px;
+    border-radius: 5px;
+
+    @if ($color != null) {
+        color: $color;
+    }
+}
+
+@mixin sortable-helper {
+    box-shadow: 0 0 20px rgba(#000, 0.15);
+    transform: scale(1.02);
+    transition: transform 200ms;
+}
+
+@mixin sortable-placeholder {
+    background-color: lighten($color-1, 50%);
+    border: 2px dashed lighten($color-1, 40%);
+    border-radius: 5px;
+}

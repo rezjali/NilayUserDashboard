@@ -1,0 +1,545 @@
+.wpap-btn-1,
+.wpap-btn-2 {
+  min-height: 38px;
+  height: 38px;
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.wpap-btn-1 {
+  background-color: $color-1;
+  color: #ffffff;
+  border: none;
+
+  .wpap-success-btn-text {
+    display: none;
+  }
+}
+
+.wpap-btn-2 {
+  background-color: #ffffff;
+  border: 1px solid $input-border-color;
+
+  &:hover {
+    background-color: lighten($color-1, 50%);
+  }
+}
+
+.wpap-container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 40px auto 0;
+  border: 1px solid $border-color;
+  border-radius: 15px;
+
+  & > header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $border-color;
+
+    a,
+    button {
+      padding: 10px 20px;
+      border: 1px solid $input-border-color;
+      border-radius: 50px;
+      cursor: pointer;
+
+      i {
+        margin-left: 5px;
+      }
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $text-color;
+      box-shadow: none;
+    }
+
+    button {
+      background: none;
+    }
+
+    a:hover,
+    button:not([type="submit"]):hover {
+      background-color: lighten($color-1, 49%);
+    }
+
+    button[type="submit"] {
+      background-color: $color-1;
+      color: #fff;
+      border: none;
+    }
+
+    @media (max-width: 576px) {
+      padding: 20px 15px;
+    }
+  }
+
+  & > div {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+
+    & > strong {
+      margin-bottom: 30px;
+      padding: 0 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      border-bottom: 1px solid $border-color;
+    }
+
+    @media (max-width: 576px) {
+      padding: 40px 15px;
+    }
+  }
+}
+
+.wpap-message {
+  margin-bottom: 30px;
+  padding: 12px 15px;
+  display: flex;
+  border: 1px solid;
+  border-radius: 5px;
+
+  i {
+    margin-left: 8px;
+  }
+}
+
+.wpap-message-error {
+  background-color: lighten($color-error, 46%);
+  border-color: lighten($color-error, 40%);
+  color: $color-error;
+}
+
+.wpap-message-success {
+  background-color: lighten($color-success, 40%);
+  border-color: lighten($color-success, 30%);
+  color: $color-success;
+}
+
+.wpap-fields-group {
+  &:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  strong:first-child {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: $text-color-2;
+    font-size: 15px;
+    display: block;
+  }
+}
+
+.wpap-field-wrap {
+  &:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  & > label:not(.wpap-btn-1, .wpap-btn-2) {
+    margin-bottom: 5px;
+    display: block;
+    color: $text-color-2;
+    font-weight: bold;
+  }
+
+  input:not([type="checkbox"], [type="radio"], [type="color"], .wpap-color-field, .wp-picker-default),
+  select,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    border-color: $input-border-color;
+    border-radius: 5px;
+  }
+
+  input:not([type="checkbox"], [type="submit"], [type="color"], .wpap-color-field, .wp-picker-default),
+  select:not([multiple]) {
+    height: 44px;
+  }
+
+  .wpap-checkbox-wrap {
+    label {
+      display: block;
+      cursor: pointer;
+
+      input {
+        display: none;
+      }
+
+      .wpap-checkbox {
+        min-width: 40px;
+        width: 40px;
+        height: 20px;
+        margin-left: 5px;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50px;
+        border: 2px solid darken(#fff, 26%);
+        box-sizing: border-box;
+
+        &:before {
+          background-color: $text-color;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          top: 3px;
+          right: 3px;
+          border-radius: 100%;
+          content: "";
+        }
+      }
+
+      input:checked ~ .wpap-checkbox {
+        background-color: $color-1;
+        border-color: $color-1;
+
+        &:before {
+          background-color: #fff;
+          right: unset;
+          left: 3px;
+        }
+      }
+    }
+  }
+
+  .description {
+    margin-top: 5px;
+    font-size: 13px;
+    color: $text-color-2;
+  }
+}
+
+.wpap-upload-wrap {
+  border: 1px solid $input-border-color;
+  border-radius: 4px;
+
+  .wpap-upload-preview {
+    background-color: darken(#fff, 8%);
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid $border-color;
+
+    img {
+      max-height: 100px;
+      vertical-align: middle;
+      border-radius: 5px;
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+
+    .wpap-upload-delete-btn {
+      display: none;
+    }
+  }
+}
+
+.wpap-ajax-field {
+  position: relative;
+
+  & > div {
+    background-color: $color-1;
+    width: 100%;
+    margin-top: 5px;
+    position: absolute;
+    color: #fff;
+    display: none;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 999;
+
+    .wpap-loading {
+      margin: 10px auto;
+      display: block;
+    }
+
+    ul {
+      margin: 0;
+    }
+
+    li {
+      margin: 0;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lighten($color-1, 5%);
+      }
+
+      img {
+        border-radius: 100%;
+      }
+    }
+
+    span {
+      padding: 10px;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.wp-picker-input-wrap {
+  width: 255px;
+
+  label {
+    margin-left: 0;
+    display: inline-block;
+  }
+
+  input {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .wpap-color-field {
+    border: 1px solid $input-border-color;
+  }
+}
+
+.wpap-badge {
+  @include badge;
+}
+
+.wpap-badge-info {
+  @include badge($color-1, #fff);
+}
+
+.wpap-badge-warning {
+  @include badge($color-warning, $text-color);
+}
+
+.wpap-badge-error {
+  @include badge($color-error, #fff);
+}
+
+.wpap-badge-success {
+  @include badge($color-success, #fff);
+}
+
+.wpap-list-actions {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+
+  input, select {
+    min-width: 220px;
+    height: 36px;
+    padding: 0 15px;
+    border-color: $border-color;
+    border-radius: 5px;
+
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
+  button {
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}
+
+.wpap-table-wrap {
+  overflow-x: auto;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+
+  table {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+
+    tr {
+      border-bottom: 1px solid $border-color;
+    }
+
+    tr:last-child {
+      border-bottom: none !important;
+    }
+
+    th, td {
+      padding: 20px;
+      border: 0;
+      white-space: nowrap;
+    }
+
+    th {
+      border-bottom: 1px solid $border-color;
+    }
+
+    .wpap-table-row-actions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .wpap-table-row-actions a {
+      @include circle-btn;
+    }
+  }
+}
+
+.wpap-message-card {
+  background-color: lighten($color-1, 48.5%);
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 20px 20px 0 20px;
+
+  &:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  .wpap-message-card-content {
+    font-size: 14px;
+    line-height: 1.8em;
+
+    .wpap-message-card-title {
+      margin-bottom: 5px;
+      display: block;
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.8em;
+    }
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+
+      &.aligncenter {
+        margin: 0 auto;
+        display: block;
+      }
+
+      border-radius: 10px;
+    }
+  }
+
+  footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    img {
+      width: auto;
+      height: 34px;
+      border-radius: 100%;
+    }
+
+    .wpap-message-edit-link {
+      margin-right: auto;
+    }
+  }
+}
+
+.wpap-message-card.wpap-user-reply {
+  align-self: end;
+}
+
+.wpap-popup-form-wrap {
+  background-color: rgba(#000, 0.4);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  z-index: 999999999;
+  cursor: default;
+
+  & > div {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    left: 20px;
+    bottom: 30px;
+  }
+
+  .wpap-popup-form {
+    background-color: #fff;
+    max-height: 750px;
+    padding: 30px;
+    border-radius: 15px;
+    overflow-y: auto;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+
+    input:not([type="checkbox"], [type="radio"], [type="submit"]),
+    select,
+    textarea {
+      width: 100%;
+      max-width: none;
+      margin-top: 5px;
+      border-color: $input-border-color;
+    }
+
+    input:not([type="submit"], [type="checkbox"], [type="radio"]),
+    select:not([multiple]) {
+      height: 40px;
+    }
+
+    .wpap-popup-form-btn-wrap {
+      display: flex;
+      align-items: center;
+
+      input[type="submit"],
+      button {
+        margin: 20px 0 0 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+#wpap-visited-products {
+  #wpap-visited-products-wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+    @media (max-width: 1400px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: none;
+    }
+  }
+}

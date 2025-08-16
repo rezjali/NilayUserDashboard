@@ -1,0 +1,69 @@
+#wpap-dash-boxes-section {
+  #wpap-add-box {
+    margin-bottom: 30px;
+  }
+
+  #wpap-box-wrap {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+
+    .wpap-preview-box {
+      & > div:first-child {
+        background-color: #ffffff;
+        padding: 15px;
+        position: relative;
+        border: 1px solid $input-border-color;
+        border-radius: 15px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.6;
+        }
+
+        h3 {
+          margin: 10px 0 5px;
+        }
+
+        .wpap-box-icon {
+          width: 37px;
+          height: 37px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .wpap-delete-box {
+      background-color: #fff;
+      padding: 5px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      display: none;
+      color: $text-color;
+      border-radius: 100%;
+    }
+
+    .wpap-preview-box:hover .wpap-delete-box {
+      display: block !important;
+    }
+
+    .wpap-box-sortable-placeholder {
+      @include sortable-placeholder;
+      margin: 0 auto;
+      border-radius: 15px;
+    }
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 50% 50%;
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: unset;
+    }
+  }
+}

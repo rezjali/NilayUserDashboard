@@ -1,0 +1,51 @@
+.wpap-msg {
+  @include message;
+  background-color: var(--wpap-bg-color-1);
+  border: var(--wpap-border-color-1);
+}
+
+.wpap-float-msg {
+  @include message;
+  background-color: var(--wpap-color-dark);
+  width: fit-content;
+  margin: auto;
+  position: fixed;
+  top: 30px;
+  right: 10px;
+  left: 10px;
+  z-index: 99999999;
+  color: var(--wpap-text-color-3);
+  border: 1px solid #484848;
+  box-shadow: 0 2px 4px rgba(#000, 0.10);
+  cursor: pointer;
+}
+
+.wpap-info-msg {
+  i:first-child {
+    color: var(--wpap-color-2);
+  }
+}
+
+.wpap-float-msg.wpap-info-msg {
+  i:first-child {
+    color: deepskyblue;
+  }
+}
+
+.wpap-error-msg {
+  i:first-child {
+    color: var(--wpap-error-color);
+  }
+}
+
+.wpap-success-msg {
+  i:first-child {
+    color: var(--wpap-success-color);
+  }
+}
+
+.wpap-warning-msg {
+  i:first-child {
+    color: var(--wpap-warning-color);
+  }
+}

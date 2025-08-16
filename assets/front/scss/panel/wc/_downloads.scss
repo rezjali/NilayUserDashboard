@@ -1,0 +1,45 @@
+.wpap-wc-downloads {
+  .wpap-wc-download-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .wpap-show-downloadable-product-btn {
+      background-color: var(--wpap-bg-color-1);
+      padding: 12px 15px;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      border: 1px solid var(--wpap-border-color-1);
+      border-radius: 10px;
+      cursor: pointer;
+
+      i {
+        margin-right: auto;
+        font-size: 20px;
+      }
+    }
+
+    .wpap-show-downloadable-product-btn-open i {
+      transform: rotate(180deg);
+    }
+
+    .wpap-table-wrap {
+      margin-top: 10px;
+      display: none;
+    }
+  }
+}
+
+#wpap-wc-downloads {
+  .wpap-wc-downloadable-orders {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .wpap-downloadable-order-num {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}

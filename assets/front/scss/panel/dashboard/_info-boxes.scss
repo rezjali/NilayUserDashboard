@@ -1,0 +1,31 @@
+#wpap-dash-info-wrap {
+  .wpap-dash-info-box {
+    background-color: var(--wpap-bg-color-1);
+    padding: 20px;
+    position: relative;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 15px;
+
+    i {
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    h3 {
+      margin: 15px 0 5px;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    & > span,
+    & > div {
+      font-size: 14px;
+      color: var(--wpap-text-color-2);
+    }
+  }
+}

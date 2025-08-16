@@ -1,0 +1,19 @@
+#wpap-new-role-msg {
+  margin-bottom: 10px;
+  display: block;
+  color: $color-success;
+}
+
+#wpap-roles-wrap div {
+  background-color: $color-1;
+  margin: 5px 0 5px 5px;
+  padding: 5px 15px 5px 8px;
+  display: inline-flex;
+  color: #fff;
+  border-radius: 30px;
+
+  i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}

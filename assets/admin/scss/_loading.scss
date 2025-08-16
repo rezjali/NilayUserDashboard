@@ -1,0 +1,27 @@
+.wpap-loading {
+  width: 18px;
+  height: 18px;
+  display: none;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #fff transparent #fff transparent;
+    box-sizing: border-box;
+    animation: wpap-loading 0.6s linear infinite;
+  }
+
+  @keyframes wpap-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

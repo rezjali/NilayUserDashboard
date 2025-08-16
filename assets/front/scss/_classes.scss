@@ -1,0 +1,38 @@
+.wpap-btn-1 {
+  @include btn;
+  background-color: var(--wpap-color-2);
+  color: var(--wpap-text-color-3);
+}
+
+.wpap-loading {
+  width: 22px;
+  height: 22px;
+  margin: auto;
+  display: none;
+
+  &:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    color: var(--wpap-color-1);
+    position: relative;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 50%;
+    border-right-color: transparent;
+    box-sizing: border-box;
+    animation: wpap-loading 0.4s linear infinite;
+  }
+
+  @keyframes wpap-loading {
+    0% {
+      transform: rotate(0); }
+    100% {
+      transform: rotate(360deg); }
+  }
+}
+
+.wpap-section-title {
+  font-size: 18px;
+  font-weight: bold;
+}

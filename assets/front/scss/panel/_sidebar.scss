@@ -1,0 +1,206 @@
+#wpap-sidebar {
+  @include transition(200ms);
+  background-color: var(--wpap-bg-color-1);
+  width: 270px;
+  min-width: 270px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-left: 1px solid var(--wpap-border-color-1);
+
+  @media (max-width: 768px) {
+    right: -100%;
+    width: 100%;
+    min-width: unset;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 999999999;
+  }
+
+  header {
+    height: 80px;
+    min-height: 80px;
+    padding: 0 40px;
+    display: none;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      display: flex;
+    }
+
+    @media (max-width: 576px) {
+      padding: 0 20px;
+    }
+
+    #wpap-hide-sidebar {
+      @include flex-center;
+      width: 38px;
+      min-width: 38px;
+      min-height: 38px;
+      margin-right: auto;
+      display: flex;
+      border: 1px solid var(--wpap-border-color-1);
+      border-radius: 10px;
+
+      &:hover {
+        background-color: var(--wpap-color-1);
+      }
+    }
+  }
+
+  #wpap-top-sidebar {
+    min-height: 80px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+
+    #wpap-logo {
+      margin: auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    @media (max-width: 768px) {
+      display: none !important;
+    }
+  }
+
+  #wpap-sidebar-user-info,
+  #wpap-sidebar-wallet-info {
+    margin: 0 20px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    color: var(--wpap-text-color-1);
+    font-size: 14px;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 10px;
+
+    &:hover {
+      background-color: var(--wpap-color-1);
+    }
+  }
+
+  #wpap-sidebar-user-info {
+    margin-top: 10px;
+  }
+
+  #wpap-sidebar-wallet-info {
+    margin-top: 10px;
+
+    strong {
+      font-size: 13px;
+    }
+  }
+
+  #wpap-nav {
+    margin: 20px 0 auto;
+    padding: 0 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .wpap-menu {
+      & > li:not(:last-child) {
+        margin-bottom: 8px;
+      }
+
+      a {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: var(--wpap-text-color-1);
+        position: relative;
+
+        &:hover,
+        &.wpap-active {
+          background-color: var(--wpap-color-1);
+          color: var(--wpap-color-2);
+          font-weight: bold;
+
+          &:after {
+            background-color: var(--wpap-color-2);
+            width: 4px;
+            height: 22px;
+            position: absolute;
+            left: 0;
+            content: "";
+            border-radius: 10px;
+          }
+        }
+
+        &.wpap-submenu-opened {
+          background-color: var(--wpap-color-1);
+        }
+
+        i {
+          font-size: 20px;
+        }
+
+        i.wpap-notice-icon {
+          margin-right: auto;
+          color: var(--wpap-color-2);
+          font-size: 12px;
+        }
+
+        i.ri-arrow-down-s-line {
+          margin-right: auto;
+          font-size: 16px;
+        }
+
+        &.wpap-open i.ri-arrow-down-s-line {
+          transform: rotate(-180deg);
+        }
+      }
+
+      ul.wpap-submenu {
+        background-color: var(--wpap-color-1);
+        font-size: 14px;
+
+        li a {
+          padding-right: 60px;
+        }
+      }
+    }
+  }
+
+  #wpap-sidebar-bottom-btn-wrapper {
+    margin-top: 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid var(--wpap-border-color-1);
+
+    a {
+      width: 38px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--wpap-text-color-1);
+      border: 1px solid var(--wpap-border-color-1);
+      border-radius: 10px;
+
+      &:hover {
+        background-color: var(--wpap-color-1);
+      }
+    }
+  }
+}
+
+.wpap-show-sidebar {
+  right: 0 !important;
+  opacity: 1 !important;
+}

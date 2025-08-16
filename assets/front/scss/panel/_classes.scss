@@ -1,0 +1,365 @@
+.wpap-table-wrap {
+  background-color: var(--wpap-bg-color-1);
+  font-size: 14px;
+  border: 1px solid var(--wpap-border-color-1);
+  border-radius: 15px;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+
+    thead {
+      text-align: right;
+    }
+
+    th, td {
+      padding: 10px 15px;
+      white-space: nowrap;
+      vertical-align: center;
+      border: none;
+      border-bottom: 1px solid var(--wpap-border-color-1);
+      border-left: none;
+    }
+
+    .wpap-table-row-sender > div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .wpap-table-row-avatar img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 100%;
+    }
+
+    .wpap-table-row-title {
+      a:hover {
+        color: var(--wpap-color-2);
+      }
+
+      h2 {
+        font-size: 14px;
+      }
+    }
+
+    .wpap-table-row-actions > div {
+      display: flex;
+      gap: 5px;
+    }
+
+    tr:last-child td {
+      border: none;
+    }
+  }
+}
+
+.wpap-pagination {
+  margin-top: 20px;
+
+  .page-numbers {
+    background-color: var(--wpap-bg-color-1);
+    min-width: 40px;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 5px;
+  }
+
+  .page-numbers:hover,
+  .page-numbers.current {
+    background-color: var(--wpap-color-1);
+  }
+}
+
+.wpap-list {
+  background-color: var(--wpap-bg-color-1);
+  border: 1px solid var(--wpap-border-color-1);
+  border-radius: 15px;
+  overflow: hidden;
+
+  header {
+    padding: 12px 15px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid var(--wpap-border-color-1);
+
+    h2 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .wpap-list-show-all {
+      margin-right: auto;
+      font-size: 14px;
+
+      &:hover {
+        color: var(--wpap-color-2);
+      }
+    }
+  }
+
+  .wpap-list-item {
+    padding: 12px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid var(--wpap-border-color-1);
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    .wpap-list-item-title {
+      h2 {
+        font-size: 16px;
+      }
+
+      .wpap-list-item-subtitle {
+        color: var(--wpap-text-color-2);
+        font-size: 13px;
+      }
+    }
+
+    time {
+      margin-right: auto;
+      font-size: 13px;
+      color: var(--wpap-text-color-2);
+    }
+
+    .wpap-list-item-view {
+      margin-right: auto;
+    }
+  }
+
+  a.wpap-list-item:hover h2 {
+    color: var(--wpap-color-2);
+  }
+
+  footer {
+    padding: 12px 15px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid var(--wpap-border-color-1);
+  }
+}
+
+.wpap-page {
+  background-color: var(--wpap-bg-color-1);
+  padding: 30px;
+  border: 1px solid var(--wpap-border-color-1);
+  border-radius: 15px;
+
+  header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    time {
+      margin-right: auto;
+      font-size: 14px;
+      color: var(--wpap-text-color-2);
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding: 20px 15px;
+  }
+}
+
+.wpap-post-content {
+  line-height: 2em;
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  img {
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  ul {
+    margin-bottom: 20px;
+    padding-right: 40px;
+    list-style: disc;
+  }
+
+  a {
+    color: var(--wpap-color-2);
+  }
+
+  .aligncenter {
+    margin: auto;
+    clear: both;
+  }
+
+  .alignright {
+    float: right;
+  }
+
+  .alignleft {
+    float: left;
+  }
+}
+
+.wpap-chat-wrap {
+  & > header {
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    & > div {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 15px;
+      font-size: 14px;
+    }
+  }
+
+  .wpap-chat-replies {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .wpap-chat {
+      .wpap-chat-content {
+        background-color: var(--wpap-bg-color-1);
+        max-width: 800px;
+        width: fit-content;
+        padding: 10px 15px;
+        border: 1px solid var(--wpap-border-color-1);
+        border-radius: 15px 15px 0 15px;
+        line-height: 1.8em;
+
+        & > *:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+
+      footer {
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        font-size: 13px;
+
+        .wpap-chat-author {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+          }
+        }
+
+        span,
+        a,
+        time {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .wpap-chat-recipient {
+      align-self: flex-end;
+    }
+  }
+
+  .wpap-chat-reply-form-wrap {
+    margin-top: 50px;
+  }
+}
+
+.wpap-badge {
+  @include badge;
+}
+
+.wpap-badge-error {
+  @include badge;
+  background-color: var(--wpap-error-color);
+  color: #fff;
+}
+
+.wpap-badge-info {
+  @include badge;
+  background-color: var(--wpap-color-2);
+  color: #fff;
+}
+
+.wpap-badge-success {
+  @include badge;
+  background-color: var(--wpap-success-color);
+  color: #fff;
+}
+
+.wpap-badge-warning {
+  @include badge;
+  background-color: var(--wpap-warning-color);
+  color: #fff;
+}
+
+.wpap-product {
+  background-color: var(--wpap-bg-color-1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--wpap-border-color-1);
+
+  .wpap-product-image {
+    img {
+      margin: auto;
+      border-radius: 15px;
+    }
+  }
+
+  footer {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+
+    .wpap-product-price {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      font-size: 14px;
+
+      del {
+        font-weight: normal;
+        font-size: 13px;
+      }
+
+      ins {
+        color: var(--wpap-color-red);
+      }
+    }
+  }
+}

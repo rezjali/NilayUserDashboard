@@ -1,0 +1,31 @@
+#wpap-dash-products {
+  .wpap-dash-products-image {
+    img {
+      min-width: 50px;
+      width: 50px;
+      border-radius: 10px;
+    }
+  }
+
+  .wpap-list-item-title a:hover {
+    color: var(--wpap-color-2);
+  }
+
+  .wpap-dash-products-price {
+    font-size: 14px;
+
+    .woocommerce-Price-amount:not(del .woocommerce-Price-amount) {
+      font-weight: bold;
+    }
+
+    del .woocommerce-Price-amount {
+      color: var(--wpap-text-color-2);
+    }
+  }
+
+  .wpap-list-item-subtitle {
+    a {
+      color: var(--wpap-color-2);
+    }
+  }
+}

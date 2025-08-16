@@ -1,0 +1,126 @@
+#wpap-settings-show-sidebar,
+#wpap-settings-hide-sidebar {
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  margin-bottom: 20px;
+  display: none;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+#wpap-settings-sidebar {
+  background-color: #fff;
+  min-width: 270px;
+  flex-direction: column;
+  border: 1px solid $border-color;
+  border-radius: 15px;
+  overflow: hidden;
+  position: sticky;
+  top: 42px;
+
+  @media (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    z-index: 999999999;
+  }
+
+  @media (min-width: 768px) {
+    display: flex !important;
+  }
+
+  #wpap-brand {
+    padding: 12px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    img {
+      width: 38px;
+      height: 38px;
+      display: block;
+    }
+
+    div {
+      strong {
+        margin-bottom: 3px;
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+
+  #wpap-settings-hide-sidebar {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  #wpap-settings-nav {
+    .wpap-main-menu {
+      margin: 0;
+
+      li {
+        margin: 0;
+
+        &.wpap-open {
+          & > .wpap-submenu {
+            display: block;
+          }
+
+          & > a .wpap-submenu-toggle {
+            transform: rotate(180deg);
+          }
+        }
+
+        a {
+          padding: 14px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          color: $text-color;
+          border-top: 1px solid $border-color;
+          box-shadow: none;
+
+          span:first-child {
+            margin-left: auto;
+          }
+
+          &:hover,
+          &.wpap-active {
+            background-color: lighten($color-1, 50%);
+            color: $color-1;
+          }
+
+          .wpap-submenu-toggle {
+            font-size: 16px;
+            transition: transform 0.15s ease;
+          }
+        }
+
+        .wpap-submenu {
+          background-color: lighten($color-1, 50%);
+          padding: 0;
+          display: none;
+        }
+      }
+    }
+  }
+}

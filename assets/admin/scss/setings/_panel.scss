@@ -1,0 +1,16 @@
+#wpap-panel-section {
+  #wpap-logo-label {
+    align-self: center;
+  }
+
+  #wpap-panel-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #wpap-logo-preview {
+    height: 60px;
+    display: block;
+  }
+}

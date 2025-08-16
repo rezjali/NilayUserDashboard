@@ -1,0 +1,44 @@
+#wpap-ticket-list {
+  #wpap-ticket-status-wrap {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    & > span {
+      background-color: #fff;
+      padding: 10px 15px;
+      text-align: center;
+      border: 1px solid $border-color;
+      border-radius: 10px;
+
+      i {
+        width: 14px;
+        height: 14px;
+        margin-left: 5px;
+        display: inline-block;
+        border-radius: 4px;
+      }
+
+      span:last-child {
+        margin-right: 5px;
+      }
+    }
+
+    #wpap-open-tickets i {
+      background-color: $color-error;
+    }
+
+    #wpap-solved-tickets i {
+      background-color: $color-success;
+    }
+
+    #wpap-closed-tickets i {
+      background-color: $color-success;
+    }
+
+    #wpap-all-tickets i {
+      background-color: $color-info;
+    }
+  }
+}

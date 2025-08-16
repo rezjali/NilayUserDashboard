@@ -1,0 +1,77 @@
+#wpap-wc-orders {
+  #wpap-orders-statuses {
+    background-color: var(--wpap-bg-color-1);
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 15px;
+
+    .wpap-orders-status-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      & > div:first-child {
+        padding: 12px;
+        background-color: var(--wpap-color-green);
+        border-radius: 15px;
+
+        i {
+          color: #ffffff;
+          font-size: 22px;
+        }
+      }
+
+      & > div:last-child {
+        h4 {
+          font-size: 16px;
+          font-weight: normal;
+        }
+
+        span {
+          font-size: 14px;
+          color: var(--wpap-text-color-2);
+        }
+      }
+    }
+  }
+
+  #wpap-orders-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .wpap-list {
+      .wpap-order-item-details {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 14px;
+        font-weight: bold;
+
+        a:hover {
+          color: var(--wpap-color-2);
+        }
+      }
+
+      .wpap-order-item-image {
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 10px;
+        }
+      }
+
+      footer {
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  .woocommerce-pagination {
+    margin-top: 20px;
+  }
+}

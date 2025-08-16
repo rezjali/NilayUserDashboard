@@ -1,0 +1,1415 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Mas User Panel\n"
+"POT-Creation-Date: 2021-06-16 15:48+0430\n"
+"PO-Revision-Date: 2021-06-16 15:48+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mas-user-panel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/pages/form-handler/general.php:4 admin/pages/form-handler/login.php:4
+#: admin/pages/form-handler/panel.php:4
+#: admin/pages/form-handler/register-form-builder.php:8
+#: admin/pages/form-handler/register.php:4 admin/pages/single-ticket.php:63
+#: user/login-form.php:7 user/login-form.php:38 user/login-form.php:45
+#: user/panel-sections/single-ticket.php:31
+#: user/panel-sections/user-edit.php:27 user/register-form-handler.php:8
+msgid "Invalid Request."
+msgstr ""
+
+#: admin/pages/form-handler/general.php:25
+#: admin/pages/form-handler/login.php:27 admin/pages/form-handler/panel.php:21
+#: admin/pages/form-handler/register.php:21 admin/pages/panel-menus.php:110
+#: admin/pages/register-form-builder.php:20
+msgid "Settings Changed."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:33
+msgid "error in editing firstname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:39
+msgid "error in creating firstname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:46
+msgid "error in deleting firstname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:71
+msgid "error in editing lastname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:77
+msgid "error in creating lastname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:84
+msgid "error in deleting lastname."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:109
+msgid "error in editing display name."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:115
+msgid "error in creating display name."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:122
+msgid "error in deleting display name."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:146
+msgid "error in editing username."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:152
+msgid "error in creating username."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:159
+msgid "error in deleting username."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:182
+msgid "error in editing user email."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:188
+msgid "error in creating user email."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:195
+msgid "error in deleting user email."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:220
+msgid "error in editing password."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:226
+msgid "error in creating password."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:233
+msgid "error in deleting password."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:257
+msgid "error in editing website."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:263
+msgid "error in creating website."
+msgstr ""
+
+#: admin/pages/form-handler/register-form-builder.php:270
+msgid "error in deleting website."
+msgstr ""
+
+#: admin/pages/info.php:2
+msgid "Plugin Information"
+msgstr ""
+
+#: admin/pages/info.php:4
+msgid "Plugin Shortcodes"
+msgstr ""
+
+#: admin/pages/info.php:10
+msgid "User Panel Shortcode"
+msgstr ""
+
+#: admin/pages/info.php:18
+msgid "Login Form Shortcode"
+msgstr ""
+
+#: admin/pages/info.php:26
+msgid "Register Form Shortcode"
+msgstr ""
+
+#: admin/pages/info.php:34
+msgid "Lost Password Form Shortcode"
+msgstr ""
+
+#: admin/pages/info.php:42
+msgid "Reset Password Form Shortcode"
+msgstr ""
+
+#: admin/pages/panel-menus.php:99 includes/classes/MUPAdminMenu.php:62
+#: includes/classes/MUPAdminMenu.php:63
+msgid "Panel Menus"
+msgstr ""
+
+#: admin/pages/panel-menus.php:120
+msgid ""
+"You can add a custom menu to display in the user panel menus. You can also "
+"change the display status and title of the default menus."
+msgstr ""
+
+#: admin/pages/panel-menus.php:123
+msgid ""
+"To display custom menus in the user panel, the menu title and content should "
+"not be empty."
+msgstr ""
+
+#: admin/pages/panel-menus.php:128
+msgid "You can use dashicon classes as menu icon in "
+msgstr ""
+
+#: admin/pages/panel-menus.php:132
+msgid "this address "
+msgstr ""
+
+#: admin/pages/panel-menus.php:136
+msgid ""
+"(eg: dashicons dashicons-menu) Also, if your theme uses font awesome icons, "
+"you can use fontawesome css classes (eg: far fa-user)"
+msgstr ""
+
+#: admin/pages/panel-menus.php:148 includes/options.php:73
+msgid "Dashboard"
+msgstr ""
+
+#: admin/pages/panel-menus.php:151 admin/pages/panel-menus.php:172
+#: admin/pages/panel-menus.php:198 admin/pages/panel-menus.php:224
+#: admin/pages/panel-menus.php:250 admin/pages/panel-menus.php:276
+#: admin/pages/panel-menus.php:302 admin/pages/panel-menus.php:326
+#: includes/functions.php:182
+msgid "Menu Order"
+msgstr ""
+
+#: admin/pages/panel-menus.php:156 admin/pages/panel-menus.php:177
+#: admin/pages/panel-menus.php:203 admin/pages/panel-menus.php:229
+#: admin/pages/panel-menus.php:255 admin/pages/panel-menus.php:281
+#: admin/pages/panel-menus.php:307 admin/pages/panel-menus.php:331
+#: includes/functions.php:187
+msgid "Icon Classes"
+msgstr ""
+
+#: admin/pages/panel-menus.php:161 admin/pages/panel-menus.php:187
+#: admin/pages/panel-menus.php:213 admin/pages/panel-menus.php:239
+#: admin/pages/panel-menus.php:265 admin/pages/panel-menus.php:291
+#: admin/pages/panel-menus.php:312 admin/pages/panel-menus.php:365
+#: admin/pages/ticket-list.php:44 includes/functions.php:211
+msgid "Title"
+msgstr ""
+
+#: admin/pages/panel-menus.php:162 admin/pages/panel-menus.php:188
+#: admin/pages/panel-menus.php:214 admin/pages/panel-menus.php:240
+#: admin/pages/panel-menus.php:266 admin/pages/panel-menus.php:292
+#: admin/pages/panel-menus.php:313 admin/pages/panel-menus.php:366
+msgid "Title Menu"
+msgstr ""
+
+#: admin/pages/panel-menus.php:169 includes/options.php:78
+#: user/panel-sections/user-edit.php:239
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/pages/panel-menus.php:183 admin/pages/panel-menus.php:209
+#: admin/pages/panel-menus.php:235 admin/pages/panel-menus.php:261
+#: admin/pages/panel-menus.php:287 admin/pages/panel-menus.php:338
+#: includes/functions.php:193
+msgid "Show in panel"
+msgstr ""
+
+#: admin/pages/panel-menus.php:195 includes/classes/MUPAdminMenu.php:33
+#: includes/classes/MUPAdminMenu.php:34 includes/classes/MUPPostType.php:13
+#: includes/classes/MUPPostType.php:15 includes/classes/MUPPostType.php:22
+#: includes/options.php:83
+msgid "Notifications"
+msgstr ""
+
+#: admin/pages/panel-menus.php:221 includes/options.php:88
+msgid "Comments"
+msgstr ""
+
+#: admin/pages/panel-menus.php:247 includes/classes/MUPPostType.php:65
+#: includes/options.php:93
+msgid "New Ticket"
+msgstr ""
+
+#: admin/pages/panel-menus.php:273 admin/pages/ticket-list.php:37
+#: includes/classes/MUPAdminMenu.php:44 includes/classes/MUPAdminMenu.php:45
+#: includes/classes/MUPPostType.php:59 includes/classes/MUPPostType.php:61
+#: includes/classes/MUPPostType.php:68 includes/options.php:98
+msgid "Tickets"
+msgstr ""
+
+#: admin/pages/panel-menus.php:299 includes/options.php:102
+msgid "Logout"
+msgstr ""
+
+#: admin/pages/panel-menus.php:322 includes/functions.php:178
+msgid "Custom Menu"
+msgstr ""
+
+#: admin/pages/panel-menus.php:342 includes/functions.php:197
+msgid "Hide in panel"
+msgstr ""
+
+#: admin/pages/panel-menus.php:351
+msgid "Select content type"
+msgstr ""
+
+#: admin/pages/panel-menus.php:355 includes/functions.php:205
+msgid "Link to other page"
+msgstr ""
+
+#: admin/pages/panel-menus.php:359 admin/pages/panel-menus.php:369
+#: includes/classes/MUPAdminMenu.php:115 includes/functions.php:206
+#: includes/functions.php:215
+msgid "Shortcode"
+msgstr ""
+
+#: admin/pages/panel-menus.php:373 admin/pages/ticket-list.php:158
+#: includes/register-setting-html-fields.php:24
+#: includes/register-setting-html-fields.php:96
+#: includes/register-setting-html-fields.php:170
+#: includes/register-setting-html-fields.php:430
+msgid "Delete"
+msgstr ""
+
+#: admin/pages/panel-menus.php:383
+msgid "Add New Menu"
+msgstr ""
+
+#: admin/pages/panel-menus.php:384 admin/pages/register-form-builder.php:132
+#: admin/pages/setting-forms/general.php:127
+#: admin/pages/setting-forms/login.php:148
+#: admin/pages/setting-forms/panel.php:121
+#: admin/pages/setting-forms/register.php:176
+msgid "Save Settings"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:4 includes/classes/MUPAdminMenu.php:53
+#: includes/classes/MUPAdminMenu.php:54
+msgid "Register Fields"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:30
+msgid "The three fields of username, email and password are required."
+msgstr ""
+
+#: admin/pages/register-form-builder.php:40 includes/functions.php:10
+#: includes/register-field-settings.php:4 user/panel-sections/user-edit.php:155
+msgid "Firstname"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:46
+#: includes/register-field-settings.php:15
+#: user/panel-sections/user-edit.php:171
+msgid "Lastname"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:52
+#: user/panel-sections/user-edit.php:187
+msgid "Display Name"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:59
+#: includes/register-field-settings.php:37
+#: user/panel-sections/user-edit.php:211
+msgid "Username"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:67 admin/pages/ticket-list.php:52
+#: includes/functions.php:29 includes/register-field-settings.php:47
+#: user/lost-password-form.php:30 user/panel-sections/user-edit.php:203
+msgid "Email"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:75 includes/functions.php:47
+#: includes/register-field-settings.php:56 user/login-form.php:78
+msgid "Password"
+msgstr ""
+
+#: admin/pages/register-form-builder.php:82
+#: includes/register-field-settings.php:67
+#: user/panel-sections/user-edit.php:230
+msgid "Website"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:10
+msgid "Panel page"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:20
+#: admin/pages/setting-forms/general.php:48
+#: admin/pages/setting-forms/register.php:20
+msgid "None"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:24
+#: admin/pages/setting-forms/general.php:52
+#: admin/pages/setting-forms/login.php:24
+#: admin/pages/setting-forms/login.php:68
+#: admin/pages/setting-forms/login.php:102
+#: admin/pages/setting-forms/login.php:133
+#: admin/pages/setting-forms/register.php:24
+msgid "Untitled"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:32
+#: admin/pages/setting-forms/general.php:60
+#: admin/pages/setting-forms/login.php:32
+#: admin/pages/setting-forms/login.php:76
+#: admin/pages/setting-forms/login.php:110
+#: admin/pages/setting-forms/login.php:141
+#: admin/pages/setting-forms/register.php:32
+msgid "There is no page."
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:40
+msgid "Lost password page"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:68
+msgid "Disable admin bar"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:80
+msgid "Disable wp admin for users"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:92
+msgid "Disable panel styles"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:104
+msgid "Disable register styles"
+msgstr ""
+
+#: admin/pages/setting-forms/general.php:116
+msgid "Disable login styles"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:10
+msgid "Login page"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:20
+#: admin/pages/setting-forms/login.php:98
+#: admin/pages/setting-forms/login.php:129
+msgid "Default"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:35
+msgid ""
+"If you select the \"Redirect default login\" option, users will be "
+"redirected to this page, so make sure you have this page and the plugin "
+"login shortcode in it."
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:43
+msgid "\"Redirect default login to plugin login"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:56
+msgid "After login page"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:64
+msgid "Dfault"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:80
+msgid ""
+"This option is related to logging in through the plugin login form and for "
+"non-administrator users."
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:88
+msgid "Reset password page"
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:113
+msgid ""
+"Proper selection of this page and login page can be required for the correct "
+"password recovery actions of the plugin."
+msgstr ""
+
+#: admin/pages/setting-forms/login.php:120
+msgid "After logout page"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:9
+msgid "Show top panel section"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:19
+msgid "Enable upload avatar"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:29
+msgid "Avatar image size in kilobytes"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:39
+msgid "Notifications per page"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:49
+msgid "Comments per page"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:59
+msgid "Tickets per page"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:69
+msgid "Ticket replies per page"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:79
+msgid "Ticket notification email subject"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:89
+msgid "Ticket notification email text"
+msgstr ""
+
+#: admin/pages/setting-forms/panel.php:111
+#: admin/pages/setting-forms/register.php:113
+#: admin/pages/setting-forms/register.php:161
+msgid "Codes that can be used in the text of the email: "
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:10
+msgid "Register page"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:35
+msgid ""
+"If you select the \"Redirect default register\" option, users will be "
+"redirected to this page."
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:43
+msgid "Redirect default register"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:56
+msgid "Enable password strength"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:68
+msgid "Require user to activate account by email"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:79
+msgid "Registration notification email subject"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:89
+msgid "Registration notification email text"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:127
+msgid "Account activation email subject"
+msgstr ""
+
+#: admin/pages/setting-forms/register.php:137
+msgid "Account activation email text"
+msgstr ""
+
+#: admin/pages/settings.php:13 includes/classes/MUPAdminMenu.php:24
+#: includes/classes/MUPAdminMenu.php:25
+msgid "Settings"
+msgstr ""
+
+#: admin/pages/settings.php:30
+msgid "General"
+msgstr ""
+
+#: admin/pages/settings.php:34 user/login-form.php:89
+msgid "Login"
+msgstr ""
+
+#: admin/pages/settings.php:38 user/login-form.php:107
+msgid "Register"
+msgstr ""
+
+#: admin/pages/settings.php:42
+msgid "User Panel"
+msgstr ""
+
+#: admin/pages/single-ticket.php:15 admin/pages/ticket-list.php:9
+msgid "Ticket Closed."
+msgstr ""
+
+#: admin/pages/single-ticket.php:24
+msgid "Ticket Reopened."
+msgstr ""
+
+#: admin/pages/single-ticket.php:39 user/panel-sections/single-ticket.php:14
+msgid "Reply must not be empty."
+msgstr ""
+
+#: admin/pages/single-ticket.php:50
+msgid "Reply sent."
+msgstr ""
+
+#: admin/pages/single-ticket.php:70
+msgid "Creator: "
+msgstr ""
+
+#: admin/pages/single-ticket.php:94
+msgid "Close Ticket"
+msgstr ""
+
+#: admin/pages/single-ticket.php:100
+msgid "Reopen Ticket"
+msgstr ""
+
+#: admin/pages/single-ticket.php:109
+msgid "Delete Ticket"
+msgstr ""
+
+#: admin/pages/single-ticket.php:116 admin/pages/single-ticket.php:188
+#: admin/pages/ticket-list.php:132 user/panel-sections/single-ticket.php:94
+#, php-format
+msgid "Date: %s at %s"
+msgstr ""
+
+#: admin/pages/single-ticket.php:123 user/panel-sections/single-ticket.php:70
+#: user/panel-sections/ticket-list.php:40
+msgid "Priority: "
+msgstr ""
+
+#: admin/pages/single-ticket.php:126 admin/pages/ticket-list.php:110
+#: user/panel-sections/new-ticket.php:64
+#: user/panel-sections/single-ticket.php:75
+#: user/panel-sections/ticket-list.php:45
+msgid "Low"
+msgstr ""
+
+#: admin/pages/single-ticket.php:128 admin/pages/ticket-list.php:112
+#: user/panel-sections/new-ticket.php:65
+#: user/panel-sections/single-ticket.php:77
+#: user/panel-sections/ticket-list.php:47
+msgid "Normal"
+msgstr ""
+
+#: admin/pages/single-ticket.php:130 admin/pages/ticket-list.php:114
+#: user/panel-sections/new-ticket.php:66
+#: user/panel-sections/single-ticket.php:79
+#: user/panel-sections/ticket-list.php:49
+msgid "High"
+msgstr ""
+
+#: admin/pages/single-ticket.php:137 user/panel-sections/single-ticket.php:56
+#: user/panel-sections/ticket-list.php:26
+msgid "Status: "
+msgstr ""
+
+#: admin/pages/single-ticket.php:140 admin/pages/ticket-list.php:125
+#: user/panel-sections/single-ticket.php:61
+#: user/panel-sections/ticket-list.php:31
+msgid "Closed"
+msgstr ""
+
+#: admin/pages/single-ticket.php:142 admin/pages/ticket-list.php:127
+#: user/panel-sections/single-ticket.php:63
+#: user/panel-sections/ticket-list.php:33
+msgid "Open"
+msgstr ""
+
+#: admin/pages/single-ticket.php:161
+msgid "Subject: "
+msgstr ""
+
+#: admin/pages/single-ticket.php:230 user/panel-sections/new-ticket.php:85
+#: user/panel-sections/single-ticket.php:179
+msgid "Your Message"
+msgstr ""
+
+#: admin/pages/single-ticket.php:234 user/panel-sections/single-ticket.php:183
+msgid "Send Reply"
+msgstr ""
+
+#: admin/pages/ticket-list.php:21
+msgid "Ticket Reopened"
+msgstr ""
+
+#: admin/pages/ticket-list.php:48
+msgid "Creator"
+msgstr ""
+
+#: admin/pages/ticket-list.php:56 user/panel-sections/new-ticket.php:61
+msgid "Priority"
+msgstr ""
+
+#: admin/pages/ticket-list.php:60
+msgid "Status"
+msgstr ""
+
+#: admin/pages/ticket-list.php:64
+msgid "Date"
+msgstr ""
+
+#: admin/pages/ticket-list.php:68
+msgid "Actions"
+msgstr ""
+
+#: admin/pages/ticket-list.php:142
+msgid "Close"
+msgstr ""
+
+#: admin/pages/ticket-list.php:148
+msgid "Reopen"
+msgstr ""
+
+#: admin/pages/ticket-list.php:165 user/panel-sections/ticket-list.php:72
+msgid "There is no ticket."
+msgstr ""
+
+#: includes/classes/MUPAdminMenu.php:14 includes/classes/MUPAdminMenu.php:15
+msgid "Mas Panel"
+msgstr ""
+
+#: includes/classes/MUPAdminMenu.php:71 includes/classes/MUPAdminMenu.php:72
+msgid "Plugin Info"
+msgstr ""
+
+#: includes/classes/MUPAdminMenu.php:114
+msgid "eg: https://google.com"
+msgstr ""
+
+#: includes/classes/MUPAuth.php:151
+msgid "Hello!"
+msgstr ""
+
+#: includes/classes/MUPAuth.php:152
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+
+#: includes/classes/MUPAuth.php:153
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: includes/classes/MUPAuth.php:154
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/classes/MUPAuth.php:156
+msgid "Thanks!"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:14 includes/classes/MUPPostType.php:16
+msgid "Notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:17 includes/classes/MUPPostType.php:63
+msgid "Add New"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:18
+msgid "Add Notice New"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:19
+msgid "Notice New"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:20
+msgid "Edit Notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:21
+msgid "Display Notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:23
+msgid "Search Notifications"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:24
+msgid "Parent Notifications:"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:25
+msgid "Not found notice."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:26
+msgid "Not found notice in trash."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:27
+msgid "تصویر Notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:28
+msgid "Adjust notice image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:29
+msgid "Delete notice image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:30
+msgid "Use as notice image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:31
+msgid "Notifications archives"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:32
+msgid "Insert into Notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:33
+msgid "Upload into notice"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:34
+msgid "Filter Notifications list"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:35
+msgid "Notifications list navigation"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:36
+msgid "Notifications List"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:60 includes/classes/MUPPostType.php:62
+msgid "Ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:64
+msgid "Add New Ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:66
+msgid "Edit Ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:67
+msgid "Display Ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:69
+msgid "Search Tickets"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:70
+msgid "Parent Tickets:"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:71
+msgid "Not found ticket."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:72
+msgid "Not found ticket in trash."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:73
+msgid "Ticket Image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:74
+msgid "Adjust ticket image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:75
+msgid "Delete ticket image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:76
+msgid "Use as a ticket image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:77
+msgid "Tickets Archive"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:78
+msgid "insert into ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:79
+msgid "Upload in this ticket"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:80
+msgid "Filter Tickets List"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:81
+msgid "Tickets List Navigation"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:82
+msgid "Tickets list"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:105 includes/classes/MUPPostType.php:106
+#: includes/classes/MUPPostType.php:108
+msgid "register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:107 includes/classes/MUPPostType.php:114
+msgid "register fields"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:109
+msgid "add new"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:110
+msgid "add new register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:111
+msgid "new register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:112
+msgid "edit register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:113
+msgid "display register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:115
+msgid "search register fields"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:116
+msgid "register field parent:"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:117
+msgid "not found register field."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:118
+msgid "not found register field in trash."
+msgstr ""
+
+#: includes/classes/MUPPostType.php:119
+msgid "register field image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:120
+msgid "add register field image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:121
+msgid "remove register field image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:122
+msgid "use as register field image"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:123
+msgid "register field archive"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:124
+msgid "insert into register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:125
+msgid "upload in register field"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:126
+msgid "filter register field list"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:127
+msgid "register field navigation list"
+msgstr ""
+
+#: includes/classes/MUPPostType.php:128
+msgid "register field list"
+msgstr ""
+
+#: includes/classes/MUPShortCode.php:55 includes/classes/MUPShortCode.php:160
+msgid "Log in to your account."
+msgstr ""
+
+#: includes/classes/MUPShortCode.php:82
+msgid "The registration form is not ready."
+msgstr ""
+
+#: includes/classes/MUPShortCode.php:91 includes/classes/MUPShortCode.php:113
+#: includes/classes/MUPShortCode.php:132
+msgid "You are logged in to your account."
+msgstr ""
+
+#: includes/classes/MUPShortCode.php:154
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "Confirm Pasword"
+msgstr ""
+
+#: includes/functions.php:204
+msgid "Content Type"
+msgstr ""
+
+#: includes/functions.php:212
+msgid "Menu Title"
+msgstr ""
+
+#: includes/functions.php:219
+msgid "Delete Menu"
+msgstr ""
+
+#: includes/functions.php:239
+msgid "Image format is not allowed."
+msgstr ""
+
+#: includes/functions.php:241
+#, php-format
+msgid "The maximum avatar image size is %d KB."
+msgstr ""
+
+#: includes/functions.php:259
+msgid "There is a problem uploading avatar."
+msgstr ""
+
+#: includes/options.php:18
+msgid "New user with this email:"
+msgstr ""
+
+#: includes/options.php:20
+msgid "registered on your site."
+msgstr ""
+
+#: includes/options.php:23
+msgid "Click on the account activation link below."
+msgstr ""
+
+#: includes/options.php:30
+msgid "New user registration"
+msgstr ""
+
+#: includes/options.php:33
+msgid "Account Activation"
+msgstr ""
+
+#: includes/options.php:53
+msgid "Your ticket as \"[ticket_title]\" was answered on [site_name]."
+msgstr ""
+
+#: includes/options.php:63 user/panel-sections/new-ticket.php:57
+msgid "Subject"
+msgstr ""
+
+#: includes/register-field-settings.php:26
+msgid "Display name"
+msgstr ""
+
+#: includes/register-field-settings.php:57
+#: user/panel-sections/user-edit.php:226
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:20
+#: includes/register-setting-html-fields.php:92
+#: includes/register-setting-html-fields.php:166
+#: includes/register-setting-html-fields.php:240
+#: includes/register-setting-html-fields.php:302
+#: includes/register-setting-html-fields.php:356
+#: includes/register-setting-html-fields.php:426
+msgid "Options"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:28
+#: includes/register-setting-html-fields.php:100
+#: includes/register-setting-html-fields.php:174
+#: includes/register-setting-html-fields.php:244
+#: includes/register-setting-html-fields.php:306
+#: includes/register-setting-html-fields.php:360
+#: includes/register-setting-html-fields.php:434
+msgid "Go Up"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:32
+#: includes/register-setting-html-fields.php:104
+#: includes/register-setting-html-fields.php:178
+#: includes/register-setting-html-fields.php:248
+#: includes/register-setting-html-fields.php:310
+#: includes/register-setting-html-fields.php:364
+#: includes/register-setting-html-fields.php:438
+msgid "Go Down"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:39
+#: includes/register-setting-html-fields.php:111
+#: includes/register-setting-html-fields.php:185
+#: includes/register-setting-html-fields.php:255
+#: includes/register-setting-html-fields.php:317
+#: includes/register-setting-html-fields.php:371
+#: includes/register-setting-html-fields.php:445
+msgid "Placeholder"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:49
+#: includes/register-setting-html-fields.php:121
+#: includes/register-setting-html-fields.php:195
+#: includes/register-setting-html-fields.php:455
+#: user/panel-sections/user-edit.php:160 user/panel-sections/user-edit.php:176
+#: user/panel-sections/user-edit.php:192 user/panel-sections/user-edit.php:234
+msgid "Required"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:55
+#: includes/register-setting-html-fields.php:127
+#: includes/register-setting-html-fields.php:201
+#: includes/register-setting-html-fields.php:263
+#: includes/register-setting-html-fields.php:395
+msgid "Minimum Letter"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:63
+#: includes/register-setting-html-fields.php:135
+#: includes/register-setting-html-fields.php:209
+#: includes/register-setting-html-fields.php:271
+#: includes/register-setting-html-fields.php:325
+#: includes/register-setting-html-fields.php:387
+#: includes/register-setting-html-fields.php:461
+msgid "Field Info"
+msgstr ""
+
+#: includes/register-setting-html-fields.php:379
+msgid "Confirm password placeholder"
+msgstr ""
+
+#: user/login-form.php:9 user/register-form-handler.php:57
+msgid "Username must not be empty."
+msgstr ""
+
+#: user/login-form.php:11 user/register-form-handler.php:93
+#: user/reset-password-form.php:4
+msgid "Password must not be empty."
+msgstr ""
+
+#: user/login-form.php:13
+msgid "Your account is not active."
+msgstr ""
+
+#: user/login-form.php:15
+msgid "Sorry, there is a problem logging in."
+msgstr ""
+
+#: user/login-form.php:34
+msgid "Your account has been activated. You caد log in now."
+msgstr ""
+
+#: user/login-form.php:51
+msgid ""
+"Password recovery link has been sent to your email. Please check your email "
+"and click on the link."
+msgstr ""
+
+#: user/login-form.php:57 user/reset-password-form.php:24
+msgid "Password recovery link has expired."
+msgstr ""
+
+#: user/login-form.php:63
+msgid "Password changed successfully. You can log in now."
+msgstr ""
+
+#: user/login-form.php:74
+msgid "Username or email"
+msgstr ""
+
+#: user/login-form.php:85
+msgid "Remember"
+msgstr ""
+
+#: user/login-form.php:121
+msgid "I forgot password"
+msgstr ""
+
+#: user/lost-password-form.php:7 user/register-form-handler.php:75
+msgid "Email must not be empty."
+msgstr ""
+
+#: user/lost-password-form.php:11 user/register-form-handler.php:79
+msgid "Invalid Email"
+msgstr ""
+
+#: user/lost-password-form.php:15
+msgid "User has not registered with this email."
+msgstr ""
+
+#: user/lost-password-form.php:25
+msgid ""
+"A password recovery link has been sent to your email. Please check your "
+"email."
+msgstr ""
+
+#: user/lost-password-form.php:34
+msgid "Recovery Password"
+msgstr ""
+
+#: user/panel-sections/comments.php:22
+msgid "Approved"
+msgstr ""
+
+#: user/panel-sections/comments.php:24
+msgid "Unapproved"
+msgstr ""
+
+#: user/panel-sections/comments.php:36
+msgid "For: "
+msgstr ""
+
+#: user/panel-sections/comments.php:43 user/panel-sections/notifications.php:38
+msgid "Date: "
+msgstr ""
+
+#: user/panel-sections/comments.php:60
+msgid "There is no comment."
+msgstr ""
+
+#: user/panel-sections/dashboard.php:15
+msgid "Firstname: "
+msgstr ""
+
+#: user/panel-sections/dashboard.php:22
+msgid "Lastname: "
+msgstr ""
+
+#: user/panel-sections/dashboard.php:28
+msgid "Email: "
+msgstr ""
+
+#: user/panel-sections/dashboard.php:33
+msgid "Registered Date: "
+msgstr ""
+
+#: user/panel-sections/dashboard.php:41
+#, php-format
+msgid "There is %d notice(s) from admin."
+msgstr ""
+
+#: user/panel-sections/dashboard.php:48
+#, php-format
+msgid "There is %d reply (or replies) from admin."
+msgstr ""
+
+#: user/panel-sections/new-ticket.php:7
+msgid "Title must not be empty."
+msgstr ""
+
+#: user/panel-sections/new-ticket.php:11
+msgid "Message must not be empty."
+msgstr ""
+
+#: user/panel-sections/new-ticket.php:27
+msgid "Ticket created. To view the ticket, go to the \"Tickets\" section."
+msgstr ""
+
+#: user/panel-sections/new-ticket.php:37 user/panel-sections/user-edit.php:108
+msgid "Fix the following errors:"
+msgstr ""
+
+#: user/panel-sections/new-ticket.php:89
+msgid "Send Message"
+msgstr ""
+
+#: user/panel-sections/notifications.php:34
+msgid "By "
+msgstr ""
+
+#: user/panel-sections/notifications.php:50
+msgid "There is no notice"
+msgstr ""
+
+#: user/panel-sections/single-ticket.php:27
+msgid "Reply Sent."
+msgstr ""
+
+#: user/panel-sections/single-ticket.php:113
+msgid "Replies"
+msgstr ""
+
+#: user/panel-sections/single-ticket.php:143
+#: user/panel-sections/ticket-list.php:64
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:39 user/register-form-handler.php:15
+msgid "Firstname must not be empty."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:43 user/register-form-handler.php:19
+#, php-format
+msgid "Minimum firstname letters must be %d"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:47 user/register-form-handler.php:29
+msgid "Lastname must not be empty."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:51 user/register-form-handler.php:33
+#, php-format
+msgid "Minimum lastname letters must be %d"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:55 user/register-form-handler.php:43
+msgid "Display name must not be empty."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:59 user/register-form-handler.php:47
+#, php-format
+msgid "Minimum display name letters must be %d"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:64 user/register-form-handler.php:97
+#: user/reset-password-form.php:10
+msgid "Two passwords do not match."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:68 user/register-form-handler.php:101
+#: user/reset-password-form.php:18
+#, php-format
+msgid "Minimum password letters must be %d"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:77 user/register-form-handler.php:111
+msgid "Website must not be empty."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:94
+msgid "There is a problem editing the profile."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:96
+msgid "Changes applied successfully."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:133
+msgid "Upload Avatar"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:140
+msgid ""
+"Are you sure you want to delete the avatar? If removed, gravatar is used."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:141
+msgid "Delete Avatar"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:149
+#, php-format
+msgid ""
+"If the avatar is not uploaded, the gravatar is used. Maximum size is %d KB. "
+"Allowed extensions: jpj, jpeg and png"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:163 user/panel-sections/user-edit.php:179
+#: user/panel-sections/user-edit.php:195
+#, php-format
+msgid "and minimum letters %d"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:206
+msgid "Email cannot be changed."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:214
+msgid "Username cannot be changed."
+msgstr ""
+
+#: user/panel-sections/user-edit.php:219
+msgid "New Password"
+msgstr ""
+
+#: user/panel-sections/user-edit.php:221
+#, php-format
+msgid ""
+"At least %d letters. For more security, use a combination of letters and "
+"numbers. If you do not intend to change, keep it empty."
+msgstr ""
+
+#: user/register-form-handler.php:61
+#, php-format
+msgid "Username display name letters must be %d"
+msgstr ""
+
+#: user/register-form-handler.php:65
+msgid "Username already exist."
+msgstr ""
+
+#: user/register-form-handler.php:83
+msgid "Email already exist."
+msgstr ""
+
+#: user/register-form-handler.php:129
+msgid "There is a problem with registration."
+msgstr ""
+
+#: user/register-form-handler.php:166
+msgid "لینک فعالسازی حساب شما"
+msgstr ""
+
+#: user/register-form-handler.php:171
+msgid ""
+"Registration completed successfully. An account activation link was sent to "
+"your email."
+msgstr ""
+
+#: user/register-form-handler.php:173
+msgid "Registration completed successfully."
+msgstr ""
+
+#: user/register-form.php:61
+msgid "ثبت نام"
+msgstr ""
+
+#: user/register-form.php:70
+msgid "Go to login form"
+msgstr ""
+
+#: user/reset-password-form.php:41
+msgid "Reset Password"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Mas User Panel"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "a frontend user panel for wordpress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Masoud Mahdian"
+msgstr ""

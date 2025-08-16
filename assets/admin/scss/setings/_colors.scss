@@ -1,0 +1,24 @@
+#wpap-colors {
+  .wpap-field-wrap {
+
+    & > div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      i {
+        display: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .clr-field {
+    .wpap-coloris {
+      height: 34px;
+      cursor: pointer;
+    }
+  }
+}
+

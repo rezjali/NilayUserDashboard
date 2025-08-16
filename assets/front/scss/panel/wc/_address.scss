@@ -1,0 +1,39 @@
+#wpap-wc-addresses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .wpap-address {
+    background-color: var(--wpap-bg-color-1);
+    padding: 15px;
+    flex-grow: 1;
+    border: 1px solid var(--wpap-border-color-1);
+    border-radius: 15px;
+
+    header {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      border-bottom: 1px solid var(--wpap-border-color-1);
+
+      h3 {
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      a.edit {
+        color: var(--wpap-color-2);
+        font-size: 14px;
+      }
+    }
+
+    address {
+      line-height: 2em;
+      font-style: normal;
+    }
+  }
+}

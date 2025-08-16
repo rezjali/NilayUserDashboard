@@ -1,0 +1,118 @@
+#wpap-ticket-section {
+  .wpap-ticket-settings-status {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $border-color;
+
+    input[type=text] {
+      width: 50%;
+    }
+
+    .wpap-delete-status {
+      @include circle-btn;
+      margin-right: auto;
+    }
+  }
+
+  .wpap-status-color-input-wrap {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+
+    label {
+      margin: 0 0 0 10px;
+      display: flex;
+      align-items: center;
+
+      input[type=color] {
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        cursor: pointer;
+      }
+
+      input[type=color]::-webkit-color-swatch {
+        border-radius: 100%;
+      }
+
+      input[type=color]::-moz-color-swatch {
+        border-radius: 100%;
+      }
+
+      i {
+        margin-left: 3px;
+        color: $text-color-2;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+#wpap-ticket-dep-section {
+  #wpap-dep-input-wrap > div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $border-color;
+
+    .wpap-delete-department {
+      @include circle-btn;
+      margin-right: 20px;
+    }
+  }
+}
+
+#wpap-supporters-wrap {
+  margin: 0 -5px;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+  @media (max-width: 992px) {
+    grid-template-columns: 50% 50%;
+  }
+
+  @media (max-width: 576px) {
+    display: block
+  }
+}
+
+.wpap-supporter {
+  background-color: lighten($color-1, 49%);
+  margin: 0 5px 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lighten($color-1, 43%);
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color-1, 48%);
+  }
+
+  .wpap-supporter-avatar img {
+    display: block;
+    border-radius: 100%;
+  }
+
+  .wpap-supporter-username {
+    margin-right: 10px;
+  }
+
+  .wpap-delete-supporter {
+    margin-right: auto;
+    color: $text-color;
+    box-shadow: none;
+
+    i {
+      font-size: 18px;
+    }
+
+    .wpap-loading:after {
+      border-color: $color-1 transparent $color-1 transparent;
+    }
+  }
+}

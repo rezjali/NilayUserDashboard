@@ -1,0 +1,96 @@
+.wpap-auth {
+  color: var(--wpap-text-color-1);
+
+  .wpap-form-wrap {
+    max-width: 420px;
+  }
+
+  #wpap-form-buttons {
+    font-size: 14px;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--wpap-text-color-1);
+    }
+  }
+
+  #wpap-form-links {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.8em;
+    border-top: 1px solid var(--wpap-border-color-1);
+
+    a {
+      display: block;
+      color: var(--wpap-text-color-2);
+
+      &:hover {
+        color: var(--wpap-text-color-1);
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #wpap-send-activation-link-form,
+  #wpap-force-add-mobile-form,
+  #wpap-force-verification-form,
+  #wpap-sms-register-form,
+  #wpap-sms-login-form,
+  #wpap-sms-lost-pass-form,
+  #wpap-sms-reset-pass-verify-form {
+    display: none;
+  }
+}
+
+#wpap-register {
+  #wpap-register-form {
+    #wpap-password-strength {
+      display: none;
+    }
+
+    .wpap-pass-bad,
+    .wpap-pass-mismatch,
+    .wpap-pass-short,
+    .wpap-pass-good,
+    .wpap-pass-strong {
+      padding: 5px 20px;
+      border-radius: 5px;
+      display: inline-block !important;
+    }
+
+    .wpap-pass-bad,
+    .wpap-pass-mismatch {
+      background-color: var(--wpap-error-color);
+      color: #fff;
+    }
+
+    .wpap-pass-short {
+      background-color: var(--wpap-error-color);
+      color: #fff;
+    }
+
+    .wpap-pass-good {
+      background-color: var(--wpap-warning-color);
+      color: #fff;
+    }
+
+    .wpap-pass-strong {
+      background-color: var(--wpap-success-color);
+      color: #fff;
+    }
+
+    input[type=submit]:disabled, button[type=submit]:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+}
+
+#wpap-non-logged-in {
+  margin: 50px 0;
+}
